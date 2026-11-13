@@ -1,0 +1,44 @@
+[
+  {
+    "id": "GEN1_01_PAM3",
+    "name": "Polyacrylamide Trimer",
+    "backbone": "Polyacrylamide",
+    "functional_groups": "-C(=O)NH2 (x3)",
+    "smiles": "CC(C(=O)N)CC(C(=O)N)CC(C(=O)N)C"
+  },
+  {
+    "id": "GEN1_02_PVP2",
+    "name": "Polyvinylpyrrolidone Dimer",
+    "backbone": "Polyvinylpyrrolidone",
+    "functional_groups": "Pyrrolidone ring (x2)",
+    "smiles": "CC(N1CCCC1=O)CC(N2CCCC2=O)C"
+  },
+  {
+    "id": "GEN1_03_Triglyme",
+    "name": "Triethylene Glycol Dimethyl Ether",
+    "backbone": "Polyether (-CH2CH2O-)",
+    "functional_groups": "-O- (x4), Methoxy (-OCH3)",
+    "smiles": "COCCOCCOCCOC"
+  },
+  {
+    "id": "GEN1_04_PHEA2",
+    "name": "Poly(2-hydroxyethyl acrylate) Dimer",
+    "backbone": "Polyacrylate-ether hybrid",
+    "functional_groups": "Ester, -OH (x2)",
+    "smiles": "CC(C(=O)OCCO)CC(C(=O)OCCO)C"
+  },
+  {
+    "id": "GEN1_05_PDMA2",
+    "name": "Poly(N,N-dimethylacrylamide) Dimer",
+    "backbone": "Polyacrylamide (tertiary)",
+    "functional_groups": "-C(=O)N(CH3)2 (x2)",
+    "smiles": "CC(C(=O)N(C)C)CC(C(=O)N(C)C)C"
+  },
+  {
+    "id": "GEN1_06_PAN3",
+    "name": "Polyacrylonitrile Trimer",
+    "backbone": "Polyacrylonitrile",
+    "functional_groups": "-CN (x3)",
+    "smiles": "CC(C#N)CC(C#N)CC(C#N)C"
+  }
+]

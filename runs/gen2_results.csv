@@ -1,0 +1,7 @@
+id,name,backbone,functional_groups,smiles,dE_hbond_eV,dE_exchange_eV,dE_ads_eV,composite_score,status
+GEN2_02_AN_AM_AN,Poly(AN-co-AM) Trimer (AN-AM-AN),Poly(acrylonitrile-co-acrylamide),"-CN (x2), -C(=O)NH2 (x1)",CC(C#N)CC(C(=O)N)CC(C#N)C,-0.7966,-1.8287,-0.8797,1.5127,PASS
+GEN2_01_AM_AN_AM,Poly(AM-co-AN) Trimer (AM-AN-AM),Poly(acrylamide-co-acrylonitrile),"-C(=O)NH2 (x2), -CN (x1)",CC(C(=O)N)CC(C#N)CC(C(=O)N)C,-0.817,-0.8243,-0.7304,1.1866,PASS
+GEN2_06_TFAM_AM,Poly(TFEMA-co-AM) Dimer,Fluorinated polyacrylamide copolymer,"-CF3, -C(=O)NH- (x2)",CC(C(=O)NCC(F)(F)F)CC(C(=O)N)C,-0.9912,-1.0851,-0.2332,1.1642,PASS
+GEN2_03_PHEAA2,Poly(N-(2-hydroxyethyl)acrylamide) Dimer,Poly(hydroxyalkylacrylamide),"Amide, -OH (x2)",CC(C(=O)NCCO)CC(C(=O)NCCO)C,-0.8033,-0.2124,-0.0158,0.4567,PASS
+GEN2_04_VP_AM,Poly(VP-co-AM) Trimer,Poly(vinylpyrrolidone-co-acrylamide),"Pyrrolidone ring (x2), -C(=O)NH2 (x1)",CC(N1CCCC1=O)CC(C(=O)N)CC(N2CCCC2=O)C,-0.7262,-1.6741,0.7067,-98.1695,WARN: Valid | Valid | Did not converge (fmax=0.190 eV/A) | Valid
+GEN2_05_CN_DEG,Bis(2-cyanoethyl) Diethylene Glycol Ether,Polyether-nitrile hybrid,"-CN (x2), -O- (x2)",N#CCCOCCOCCC#N,-0.6464,0.4041,-0.6086,-99.2857,WARN: Valid | Valid | Atom overlap (min_dist=0.75 A) | Valid

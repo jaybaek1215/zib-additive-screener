@@ -1,0 +1,44 @@
+[
+  {
+    "id": "GEN2_01_AM_AN_AM",
+    "name": "Poly(AM-co-AN) Trimer (AM-AN-AM)",
+    "backbone": "Poly(acrylamide-co-acrylonitrile)",
+    "functional_groups": "-C(=O)NH2 (x2), -CN (x1)",
+    "smiles": "CC(C(=O)N)CC(C#N)CC(C(=O)N)C"
+  },
+  {
+    "id": "GEN2_02_AN_AM_AN",
+    "name": "Poly(AN-co-AM) Trimer (AN-AM-AN)",
+    "backbone": "Poly(acrylonitrile-co-acrylamide)",
+    "functional_groups": "-CN (x2), -C(=O)NH2 (x1)",
+    "smiles": "CC(C#N)CC(C(=O)N)CC(C#N)C"
+  },
+  {
+    "id": "GEN2_03_PHEAA2",
+    "name": "Poly(N-(2-hydroxyethyl)acrylamide) Dimer",
+    "backbone": "Poly(hydroxyalkylacrylamide)",
+    "functional_groups": "Amide, -OH (x2)",
+    "smiles": "CC(C(=O)NCCO)CC(C(=O)NCCO)C"
+  },
+  {
+    "id": "GEN2_04_VP_AM",
+    "name": "Poly(VP-co-AM) Trimer",
+    "backbone": "Poly(vinylpyrrolidone-co-acrylamide)",
+    "functional_groups": "Pyrrolidone ring (x2), -C(=O)NH2 (x1)",
+    "smiles": "CC(N1CCCC1=O)CC(C(=O)N)CC(N2CCCC2=O)C"
+  },
+  {
+    "id": "GEN2_05_CN_DEG",
+    "name": "Bis(2-cyanoethyl) Diethylene Glycol Ether",
+    "backbone": "Polyether-nitrile hybrid",
+    "functional_groups": "-CN (x2), -O- (x2)",
+    "smiles": "N#CCCOCCOCCC#N"
+  },
+  {
+    "id": "GEN2_06_TFAM_AM",
+    "name": "Poly(TFEMA-co-AM) Dimer",
+    "backbone": "Fluorinated polyacrylamide copolymer",
+    "functional_groups": "-CF3, -C(=O)NH- (x2)",
+    "smiles": "CC(C(=O)NCC(F)(F)F)CC(C(=O)N)C"
+  }
+]
