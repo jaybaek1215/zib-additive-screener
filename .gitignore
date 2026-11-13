@@ -1,0 +1,4 @@
+.venv/
+structures/
+*.pth
+__pycache__/

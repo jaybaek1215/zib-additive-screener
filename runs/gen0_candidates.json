@@ -1,0 +1,30 @@
+[
+  {
+    "id": "GEN0_01_EG",
+    "name": "Ethylene Glycol (Baseline)",
+    "backbone": "Aliphatic C2",
+    "functional_groups": "-OH (x2)",
+    "smiles": "OCCO"
+  },
+  {
+    "id": "GEN0_02_PEG3",
+    "name": "Triethylene Glycol (PEG-trimer)",
+    "backbone": "Polyether (-CH2CH2O-)",
+    "functional_groups": "-OH, -O-",
+    "smiles": "OCCOCCOCCO"
+  },
+  {
+    "id": "GEN0_03_PVA3",
+    "name": "Polyvinyl Alcohol Trimer",
+    "backbone": "Polyvinyl (-CH2CH-)",
+    "functional_groups": "-OH (x3)",
+    "smiles": "CC(O)CC(O)CC(O)C"
+  },
+  {
+    "id": "GEN0_04_PAA3",
+    "name": "Polyacrylic Acid Trimer",
+    "backbone": "Polyacrylate",
+    "functional_groups": "-COOH (x3)",
+    "smiles": "CC(C(=O)O)CC(C(=O)O)CC(C(=O)O)C"
+  }
+]
