@@ -1,0 +1,23 @@
+id,name,backbone,functional_groups,smiles,dE_hbond_eV,dE_exchange_eV,dE_ads_eV,composite_score,status,ex_dist,is_pareto
+LIB_0302_VSA-TFEA-MAN,Oligomer(VSA-TFEA-MAN),Fluorinated + Methacrylonitrile + Sulfonic,"-CF3, -CN/-CH3, -SO3H",CC(C#N)CC(CC(C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-1.1989,-1.5174,-0.7761,1.7781,PASS,0.6174000000000001,True
+LIB_0184_VPA-MAN-AM,Oligomer(VPA-MAN-AM),Acrylamide + Methacrylonitrile + Phosphonate,"-CN/-CH3, -CONH2, -PO3H2",CC(CC(C)(C#N)CCC(N)=O)P(=O)(O)O,-1.0199,-1.0836,-1.1144,1.6153,PASS,0.18359999999999987,True
+LIB_0019_TFEMA-VP-VSA,Oligomer(TFEMA-VP-VSA),Fluorinated-Amide + Heterocycle + Sulfonic,"-CF3/-CONH-, -SO3H, Pyrrolidone",CC(CC(CCS(=O)(=O)O)N1CCCC1=O)C(=O)NCC(F)(F)F,-1.1821,-0.9916,-1.0212,1.5784,PASS,0.09160000000000001,True
+LIB_0048_VPA-VSO-VSA,Oligomer(VPA-VSO-VSA),Phosphonate + Sulfonic + Sulfoxide,"-PO3H2, -S(=O)Me, -SO3H",CC(CC(CCS(=O)(=O)O)S(C)=O)P(=O)(O)O,-1.2253,-2.1542,-1.2436,1.5731,PASS,1.2542,True
+LIB_0194_AA-AMPS-AM,Oligomer(AA-AMPS-AM),Acrylamide + Carboxylic + Sulfonic,"-CONH2, -COOH, -SO3H/-CONH-",CC(CC(CCC(N)=O)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-1.1417,-0.6652,-1.3346,1.5231,PASS,0.2348,True
+LIB_0036_AM-AA-VSA,Oligomer(AM-AA-VSA),Acrylamide + Carboxylic + Sulfonic,"-CONH2, -COOH, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)O)C(N)=O,-0.683,-0.979,-1.2211,1.4712,PASS,0.07899999999999996,True
+LIB_0198_VPA-VSA-VSO,Oligomer(VPA-VSA-VSO),Phosphonate + Sulfonic + Sulfoxide,"-PO3H2, -S(=O)Me, -SO3H",CC(CC(CCS(C)=O)S(=O)(=O)O)P(=O)(O)O,-0.8517,-0.8147,-1.1659,1.4125,PASS,0.08530000000000004,True
+LIB_0100_VPA-HEMA-AN,Oligomer(VPA-HEMA-AN),Ester-OH + Nitrile + Phosphonate,"-CN, -COO-/-OH, -PO3H2",CC(CC(C)(CCC#N)C(=O)OCCO)P(=O)(O)O,-0.5679,-0.8407,-1.3391,1.4011,PASS,0.05930000000000002,True
+LIB_0127_VA-AN-DMA,Oligomer(VA-AN-DMA),Nitrile + Polyvinyl + Tert-Amide,"-CN, -CONMe2, -OH",CC(O)CC(C#N)CCC(=O)N(C)C,-0.8072,-0.9711,-0.931,1.371,PASS,0.07109999999999994,True
+LIB_0246_AM-VP-VP,Oligomer(AM-VP-VP),Acrylamide + Heterocycle,"-CONH2, Pyrrolidone",CC(CC(CCN1CCCC1=O)N1CCCC1=O)C(N)=O,-1.0144,-0.8973,-0.7725,1.3304,PASS,0.0027000000000000357,True
+LIB_0041_VP-AM-AN,Oligomer(VP-AM-AN),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Pyrrolidone",CC(CC(CCC#N)C(N)=O)N1CCCC1=O,-0.9871,-0.8192,-0.816,1.2944,PASS,0.08079999999999998,True
+LIB_0160_VI-VP,Oligomer(VI-VP),Heterocycle,"Imidazole, Pyrrolidone",CC(CCN1CCCC1=O)n1ccnc1,-0.6607,-0.9385,-0.8767,1.2657,PASS,0.03849999999999998,True
+LIB_0388_TFEA-AA-AA,Oligomer(TFEA-AA-AA),Carboxylic + Fluorinated,"-CF3, -COOH",CC(CC(CCC(=O)O)C(=O)O)C(=O)OCC(F)(F)F,-1.2124,-0.7283,-0.6713,1.2576,PASS,0.17170000000000007,True
+LIB_0305_VI-HEMA-AM,Oligomer(VI-HEMA-AM),Acrylamide + Ester-OH + Heterocycle,"-CONH2, -COO-/-OH, Imidazole",CC(CC(C)(CCC(N)=O)C(=O)OCCO)n1ccnc1,-1.039,-0.9814,-0.4856,1.2472,PASS,0.08140000000000003,True
+LIB_0090_VSA-MAN-ACMO,Oligomer(VSA-MAN-ACMO),Heterocycle-Ether + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H, Morpholine",CC(CC(C)(C#N)CCC(=O)N1CCOCC1)S(=O)(=O)O,-0.5874,-0.3609,-1.5182,1.2106,PASS,0.5391,True
+LIB_0001_VP-VPA-EG,Oligomer(VP-VPA-EG),Heterocycle + Phosphonate + Polyether,"-OH/-O-, -PO3H2, Pyrrolidone",CCOC(CC(C)N1CCCC1=O)P(=O)(O)O,-1.2053,-0.828,-0.433,1.1955,PASS,0.07200000000000006,True
+LIB_0119_VSO-VA-VPA,Oligomer(VSO-VA-VPA),Phosphonate + Polyvinyl + Sulfoxide,"-OH, -PO3H2, -S(=O)Me",CC(CC(O)CCP(=O)(O)O)S(C)=O,-1.0611,-0.9502,-0.3886,1.1889,PASS,0.05020000000000002,True
+LIB_0108_VP-AM-VSA,Oligomer(VP-AM-VSA),Acrylamide + Heterocycle + Sulfonic,"-CONH2, -SO3H, Pyrrolidone",CC(CC(CCS(=O)(=O)O)C(N)=O)N1CCCC1=O,-1.1757,-0.8212,-0.4346,1.1803,PASS,0.07879999999999998,True
+LIB_0397_VP-VI-VI,Oligomer(VP-VI-VI),Heterocycle,"Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)n1ccnc1)N1CCCC1=O,-0.6482,-0.9015,-0.6435,1.1219,PASS,0.0014999999999999458,True
+LIB_0131_VPA-TFEMA-AM,Oligomer(VPA-TFEMA-AM),Acrylamide + Fluorinated-Amide + Phosphonate,"-CF3/-CONH-, -CONH2, -PO3H2",CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)P(=O)(O)O,-1.264,-0.6478,-0.3764,1.0825,PASS,0.2522,True
+LIB_0241_AA-SBMA-AN,Oligomer(AA-SBMA-AN),Carboxylic + Nitrile + Zwitterionic,"-CN, -COOH, Zwitterion",CC(CC(C)(CCC#N)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(=O)O,-0.9823,-3.1622,-1.8399,0.8669,PASS,2.2622,True
+LIB_0132_VSO-VPA-VPA,Oligomer(VSO-VPA-VPA),Phosphonate + Sulfoxide,"-PO3H2, -S(=O)Me",CC(CC(CCP(=O)(O)O)P(=O)(O)O)S(C)=O,-1.3441,-2.6862,-0.4717,0.7559,PASS,1.7862,True

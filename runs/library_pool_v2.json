@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "LIB_0001_VP-VPA-EG",
+    "name": "Oligomer(VP-VPA-EG)",
+    "backbone": "Heterocycle + Phosphonate + Polyether",
+    "functional_groups": "-OH/-O-, -PO3H2, Pyrrolidone",
+    "mol_weight": 265.25,
+    "smiles": "CCOC(CC(C)N1CCCC1=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0002_DMA-AM-VI",
+    "name": "Oligomer(DMA-AM-VI)",
+    "backbone": "Acrylamide + Heterocycle + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, Imidazole",
+    "mol_weight": 266.34,
+    "smiles": "CC(CC(CCn1ccnc1)C(N)=O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0003_AM-HEMA-VPA",
+    "name": "Oligomer(AM-HEMA-VPA)",
+    "backbone": "Acrylamide + Ester-OH + Phosphonate",
+    "functional_groups": "-CONH2, -COO-/-OH, -PO3H2",
+    "mol_weight": 311.27,
+    "smiles": "CC(CC(C)(CCP(=O)(O)O)C(=O)OCCO)C(N)=O"
+  },
+  {
+    "id": "LIB_0004_ACMO-AA-VSO",
+    "name": "Oligomer(ACMO-AA-VSO)",
+    "backbone": "Carboxylic + Heterocycle-Ether + Sulfoxide",
+    "functional_groups": "-COOH, -S(=O)Me, Morpholine",
+    "mol_weight": 305.4,
+    "smiles": "CC(CC(CCS(C)=O)C(=O)O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0005_AA-AA-VP",
+    "name": "Oligomer(AA-AA-VP)",
+    "backbone": "Carboxylic + Heterocycle",
+    "functional_groups": "-COOH, Pyrrolidone",
+    "mol_weight": 257.29,
+    "smiles": "CC(CC(CCN1CCCC1=O)C(=O)O)C(=O)O"
+  },
+  {
+    "id": "LIB_0006_HEMA-AM-VP",
+    "name": "Oligomer(HEMA-AM-VP)",
+    "backbone": "Acrylamide + Ester-OH + Heterocycle",
+    "functional_groups": "-CONH2, -COO-/-OH, Pyrrolidone",
+    "mol_weight": 314.38,
+    "smiles": "CC(C)(CC(CCN1CCCC1=O)C(N)=O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0007_VPA-ACMO",
+    "name": "Oligomer(VPA-ACMO)",
+    "backbone": "Heterocycle-Ether + Phosphonate",
+    "functional_groups": "-PO3H2, Morpholine",
+    "mol_weight": 251.22,
+    "smiles": "CC(CCC(=O)N1CCOCC1)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0008_HEMA-DMA-AN",
+    "name": "Oligomer(HEMA-DMA-AN)",
+    "backbone": "Ester-OH + Nitrile + Tert-Amide",
+    "functional_groups": "-CN, -CONMe2, -COO-/-OH",
+    "mol_weight": 284.36,
+    "smiles": "CN(C)C(=O)C(CCC#N)CC(C)(C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0009_HEMA-AN-AM",
+    "name": "Oligomer(HEMA-AN-AM)",
+    "backbone": "Acrylamide + Ester-OH + Nitrile",
+    "functional_groups": "-CN, -CONH2, -COO-/-OH",
+    "mol_weight": 256.3,
+    "smiles": "CC(C)(CC(C#N)CCC(N)=O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0010_AA-TFEMA-VA",
+    "name": "Oligomer(AA-TFEMA-VA)",
+    "backbone": "Carboxylic + Fluorinated-Amide + Polyvinyl",
+    "functional_groups": "-CF3/-CONH-, -COOH, -OH",
+    "mol_weight": 271.23,
+    "smiles": "CC(CC(CCO)C(=O)NCC(F)(F)F)C(=O)O"
+  },
+  {
+    "id": "LIB_0011_VA-VPA-VP",
+    "name": "Oligomer(VA-VPA-VP)",
+    "backbone": "Heterocycle + Phosphonate + Polyvinyl",
+    "functional_groups": "-OH, -PO3H2, Pyrrolidone",
+    "mol_weight": 265.25,
+    "smiles": "CC(O)CC(CCN1CCCC1=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0012_AMPS-VA-VSO",
+    "name": "Oligomer(AMPS-VA-VSO)",
+    "backbone": "Polyvinyl + Sulfonic + Sulfoxide",
+    "functional_groups": "-OH, -S(=O)Me, -SO3H/-CONH-",
+    "mol_weight": 343.47,
+    "smiles": "CC(CC(O)CCS(C)=O)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0013_VPA-VPA-AN",
+    "name": "Oligomer(VPA-VPA-AN)",
+    "backbone": "Nitrile + Phosphonate",
+    "functional_groups": "-CN, -PO3H2",
+    "mol_weight": 271.15,
+    "smiles": "CC(CC(CCC#N)P(=O)(O)O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0014_VSA-AM-AN",
+    "name": "Oligomer(VSA-AM-AN)",
+    "backbone": "Acrylamide + Nitrile + Sulfonic",
+    "functional_groups": "-CN, -CONH2, -SO3H",
+    "mol_weight": 234.28,
+    "smiles": "CC(CC(CCC#N)C(N)=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0015_VA-VSA-VP",
+    "name": "Oligomer(VA-VSA-VP)",
+    "backbone": "Heterocycle + Polyvinyl + Sulfonic",
+    "functional_groups": "-OH, -SO3H, Pyrrolidone",
+    "mol_weight": 265.33,
+    "smiles": "CC(O)CC(CCN1CCCC1=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0016_ACMO-TFEMA-AM",
+    "name": "Oligomer(ACMO-TFEMA-AM)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Heterocycle-Ether",
+    "functional_groups": "-CF3/-CONH-, -CONH2, Morpholine",
+    "mol_weight": 367.37,
+    "smiles": "CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0017_AN-DMA-HEMA",
+    "name": "Oligomer(AN-DMA-HEMA)",
+    "backbone": "Ester-OH + Nitrile + Tert-Amide",
+    "functional_groups": "-CN, -CONMe2, -COO-/-OH",
+    "mol_weight": 284.36,
+    "smiles": "CC(C#N)CC(CC(C)C(=O)OCCO)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0018_ACMO-MAN-HEMA",
+    "name": "Oligomer(ACMO-MAN-HEMA)",
+    "backbone": "Ester-OH + Heterocycle-Ether + Methacrylonitrile",
+    "functional_groups": "-CN/-CH3, -COO-/-OH, Morpholine",
+    "mol_weight": 340.42,
+    "smiles": "CC(CC(C)(C#N)CC(C)C(=O)N1CCOCC1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0019_TFEMA-VP-VSA",
+    "name": "Oligomer(TFEMA-VP-VSA)",
+    "backbone": "Fluorinated-Amide + Heterocycle + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -SO3H, Pyrrolidone",
+    "mol_weight": 374.38,
+    "smiles": "CC(CC(CCS(=O)(=O)O)N1CCCC1=O)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0020_VSO-AA-HEMA",
+    "name": "Oligomer(VSO-AA-HEMA)",
+    "backbone": "Carboxylic + Ester-OH + Sulfoxide",
+    "functional_groups": "-COO-/-OH, -COOH, -S(=O)Me",
+    "mol_weight": 294.37,
+    "smiles": "CC(CC(CC(C)S(C)=O)C(=O)O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0021_AMPS-AA-VSO",
+    "name": "Oligomer(AMPS-AA-VSO)",
+    "backbone": "Carboxylic + Sulfonic + Sulfoxide",
+    "functional_groups": "-COOH, -S(=O)Me, -SO3H/-CONH-",
+    "mol_weight": 371.48,
+    "smiles": "CC(CC(CCS(C)=O)C(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0022_VP-VSA-DMA",
+    "name": "Oligomer(VP-VSA-DMA)",
+    "backbone": "Heterocycle + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -SO3H, Pyrrolidone",
+    "mol_weight": 320.41,
+    "smiles": "CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0023_DMA-TFEMA-VSA",
+    "name": "Oligomer(DMA-TFEMA-VSA)",
+    "backbone": "Fluorinated-Amide + Sulfonic + Tert-Amide",
+    "functional_groups": "-CF3/-CONH-, -CONMe2, -SO3H",
+    "mol_weight": 362.37,
+    "smiles": "CC(CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0024_VPA-VP-VSO",
+    "name": "Oligomer(VPA-VP-VSO)",
+    "backbone": "Heterocycle + Phosphonate + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me, Pyrrolidone",
+    "mol_weight": 311.34,
+    "smiles": "CC(CC(CCS(C)=O)N1CCCC1=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0025_VSA-VI-VPA",
+    "name": "Oligomer(VSA-VI-VPA)",
+    "backbone": "Heterocycle + Phosphonate + Sulfonic",
+    "functional_groups": "-PO3H2, -SO3H, Imidazole",
+    "mol_weight": 312.28,
+    "smiles": "CC(CC(CCP(=O)(O)O)n1ccnc1)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0026_DMA-VSA-AN",
+    "name": "Oligomer(DMA-VSA-AN)",
+    "backbone": "Nitrile + Sulfonic + Tert-Amide",
+    "functional_groups": "-CN, -CONMe2, -SO3H",
+    "mol_weight": 262.33,
+    "smiles": "CC(CC(CCC#N)S(=O)(=O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0027_VSA-VP-VI",
+    "name": "Oligomer(VSA-VP-VI)",
+    "backbone": "Heterocycle + Sulfonic",
+    "functional_groups": "-SO3H, Imidazole, Pyrrolidone",
+    "mol_weight": 315.39,
+    "smiles": "CC(CC(CCn1ccnc1)N1CCCC1=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0028_AM-AM-TFEMA",
+    "name": "Oligomer(AM-AM-TFEMA)",
+    "backbone": "Acrylamide + Fluorinated-Amide",
+    "functional_groups": "-CF3/-CONH-, -CONH2",
+    "mol_weight": 297.28,
+    "smiles": "CC(CC(CCC(=O)NCC(F)(F)F)C(N)=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0029_AM-DMA-VP",
+    "name": "Oligomer(AM-DMA-VP)",
+    "backbone": "Acrylamide + Heterocycle + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, Pyrrolidone",
+    "mol_weight": 283.37,
+    "smiles": "CC(CC(CCN1CCCC1=O)C(=O)N(C)C)C(N)=O"
+  },
+  {
+    "id": "LIB_0030_AMPS-EG-VPA",
+    "name": "Oligomer(AMPS-EG-VPA)",
+    "backbone": "Phosphonate + Polyether + Sulfonic",
+    "functional_groups": "-OH/-O-, -PO3H2, -SO3H/-CONH-",
+    "mol_weight": 361.35,
+    "smiles": "CC(OCCCCP(=O)(O)O)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0031_AM-TFEMA-HEMA",
+    "name": "Oligomer(AM-TFEMA-HEMA)",
+    "backbone": "Acrylamide + Ester-OH + Fluorinated-Amide",
+    "functional_groups": "-CF3/-CONH-, -CONH2, -COO-/-OH",
+    "mol_weight": 356.34,
+    "smiles": "CC(CC(CC(C)C(=O)OCCO)C(=O)NCC(F)(F)F)C(N)=O"
+  },
+  {
+    "id": "LIB_0032_AMPS-TFEMA",
+    "name": "Oligomer(AMPS-TFEMA)",
+    "backbone": "Fluorinated-Amide + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -SO3H/-CONH-",
+    "mol_weight": 362.37,
+    "smiles": "CC(CCC(=O)NCC(F)(F)F)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0033_DMA-AM-MAN",
+    "name": "Oligomer(DMA-AM-MAN)",
+    "backbone": "Acrylamide + Methacrylonitrile + Tert-Amide",
+    "functional_groups": "-CN/-CH3, -CONH2, -CONMe2",
+    "mol_weight": 239.32,
+    "smiles": "CC(C#N)CC(CC(C)C(=O)N(C)C)C(N)=O"
+  },
+  {
+    "id": "LIB_0034_EG-VSO-AMPS",
+    "name": "Oligomer(EG-VSO-AMPS)",
+    "backbone": "Polyether + Sulfonic + Sulfoxide",
+    "functional_groups": "-OH/-O-, -S(=O)Me, -SO3H/-CONH-",
+    "mol_weight": 343.47,
+    "smiles": "CS(=O)C(CCCO)CCC(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0035_HEMA-VI-VSA",
+    "name": "Oligomer(HEMA-VI-VSA)",
+    "backbone": "Ester-OH + Heterocycle + Sulfonic",
+    "functional_groups": "-COO-/-OH, -SO3H, Imidazole",
+    "mol_weight": 334.39,
+    "smiles": "CC(C)(CC(CCS(=O)(=O)O)n1ccnc1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0036_AM-AA-VSA",
+    "name": "Oligomer(AM-AA-VSA)",
+    "backbone": "Acrylamide + Carboxylic + Sulfonic",
+    "functional_groups": "-CONH2, -COOH, -SO3H",
+    "mol_weight": 253.28,
+    "smiles": "CC(CC(CCS(=O)(=O)O)C(=O)O)C(N)=O"
+  },
+  {
+    "id": "LIB_0037_VSO-AM-MAN",
+    "name": "Oligomer(VSO-AM-MAN)",
+    "backbone": "Acrylamide + Methacrylonitrile + Sulfoxide",
+    "functional_groups": "-CN/-CH3, -CONH2, -S(=O)Me",
+    "mol_weight": 230.33,
+    "smiles": "CC(C#N)CC(CC(C)S(C)=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0038_ACMO-AA-VSA",
+    "name": "Oligomer(ACMO-AA-VSA)",
+    "backbone": "Carboxylic + Heterocycle-Ether + Sulfonic",
+    "functional_groups": "-COOH, -SO3H, Morpholine",
+    "mol_weight": 323.37,
+    "smiles": "CC(CC(CCS(=O)(=O)O)C(=O)O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0039_TFEMA-AM-EG",
+    "name": "Oligomer(TFEMA-AM-EG)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Polyether",
+    "functional_groups": "-CF3/-CONH-, -CONH2, -OH/-O-",
+    "mol_weight": 270.25,
+    "smiles": "CCOC(CC(C)C(=O)NCC(F)(F)F)C(N)=O"
+  },
+  {
+    "id": "LIB_0040_ACMO-VI-HEMA",
+    "name": "Oligomer(ACMO-VI-HEMA)",
+    "backbone": "Ester-OH + Heterocycle + Heterocycle-Ether",
+    "functional_groups": "-COO-/-OH, Imidazole, Morpholine",
+    "mol_weight": 367.45,
+    "smiles": "CC(CC(CC(C)C(=O)N1CCOCC1)n1ccnc1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0041_VP-AM-AN",
+    "name": "Oligomer(VP-AM-AN)",
+    "backbone": "Acrylamide + Heterocycle + Nitrile",
+    "functional_groups": "-CN, -CONH2, Pyrrolidone",
+    "mol_weight": 237.3,
+    "smiles": "CC(CC(CCC#N)C(N)=O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0042_EG-AMPS-AA",
+    "name": "Oligomer(EG-AMPS-AA)",
+    "backbone": "Carboxylic + Polyether + Sulfonic",
+    "functional_groups": "-COOH, -OH/-O-, -SO3H/-CONH-",
+    "mol_weight": 325.38,
+    "smiles": "CC(C)(CNC(=O)C(CCCO)CCC(=O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0043_TFEMA-VSA-VA",
+    "name": "Oligomer(TFEMA-VSA-VA)",
+    "backbone": "Fluorinated-Amide + Polyvinyl + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -OH, -SO3H",
+    "mol_weight": 307.29,
+    "smiles": "CC(CC(CCO)S(=O)(=O)O)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0044_AMPS-ACMO",
+    "name": "Oligomer(AMPS-ACMO)",
+    "backbone": "Heterocycle-Ether + Sulfonic",
+    "functional_groups": "-SO3H/-CONH-, Morpholine",
+    "mol_weight": 350.44,
+    "smiles": "CC(CCC(=O)N1CCOCC1)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0045_VPA-VP-VSA",
+    "name": "Oligomer(VPA-VP-VSA)",
+    "backbone": "Heterocycle + Phosphonate + Sulfonic",
+    "functional_groups": "-PO3H2, -SO3H, Pyrrolidone",
+    "mol_weight": 329.31,
+    "smiles": "CC(CC(CCS(=O)(=O)O)N1CCCC1=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0046_AM-VI-HEMA",
+    "name": "Oligomer(AM-VI-HEMA)",
+    "backbone": "Acrylamide + Ester-OH + Heterocycle",
+    "functional_groups": "-CONH2, -COO-/-OH, Imidazole",
+    "mol_weight": 297.36,
+    "smiles": "CC(CC(CC(C)C(=O)OCCO)n1ccnc1)C(N)=O"
+  },
+  {
+    "id": "LIB_0047_VA-DMA-VPA",
+    "name": "Oligomer(VA-DMA-VPA)",
+    "backbone": "Phosphonate + Polyvinyl + Tert-Amide",
+    "functional_groups": "-CONMe2, -OH, -PO3H2",
+    "mol_weight": 253.23,
+    "smiles": "CC(O)CC(CCP(=O)(O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0048_VPA-VSO-VSA",
+    "name": "Oligomer(VPA-VSO-VSA)",
+    "backbone": "Phosphonate + Sulfonic + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me, -SO3H",
+    "mol_weight": 308.31,
+    "smiles": "CC(CC(CCS(=O)(=O)O)S(C)=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0049_AA-AM-DMA",
+    "name": "Oligomer(AA-AM-DMA)",
+    "backbone": "Acrylamide + Carboxylic + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, -COOH",
+    "mol_weight": 244.29,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(N)=O)C(=O)O"
+  },
+  {
+    "id": "LIB_0050_HEMA-AN-HEMA",
+    "name": "Oligomer(HEMA-AN-HEMA)",
+    "backbone": "Ester-OH + Nitrile",
+    "functional_groups": "-CN, -COO-/-OH",
+    "mol_weight": 315.37,
+    "smiles": "CC(CC(C#N)CC(C)(C)C(=O)OCCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0051_VPA-TFEMA-VSA",
+    "name": "Oligomer(VPA-TFEMA-VSA)",
+    "backbone": "Fluorinated-Amide + Phosphonate + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -PO3H2, -SO3H",
+    "mol_weight": 371.27,
+    "smiles": "CC(CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0052_VSA-VPA-VA",
+    "name": "Oligomer(VSA-VPA-VA)",
+    "backbone": "Phosphonate + Polyvinyl + Sulfonic",
+    "functional_groups": "-OH, -PO3H2, -SO3H",
+    "mol_weight": 262.22,
+    "smiles": "CC(CC(CCO)P(=O)(O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0053_DMA-EG-AMPS",
+    "name": "Oligomer(DMA-EG-AMPS)",
+    "backbone": "Polyether + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -OH/-O-, -SO3H/-CONH-",
+    "mol_weight": 352.45,
+    "smiles": "CC(OCCCCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0054_AN-VA-HEMA",
+    "name": "Oligomer(AN-VA-HEMA)",
+    "backbone": "Ester-OH + Nitrile + Polyvinyl",
+    "functional_groups": "-CN, -COO-/-OH, -OH",
+    "mol_weight": 229.28,
+    "smiles": "CC(C#N)CC(O)CC(C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0055_DMA-VSA-VA",
+    "name": "Oligomer(DMA-VSA-VA)",
+    "backbone": "Polyvinyl + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -OH, -SO3H",
+    "mol_weight": 253.32,
+    "smiles": "CC(CC(CCO)S(=O)(=O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0056_VPA-VPA-EG",
+    "name": "Oligomer(VPA-VPA-EG)",
+    "backbone": "Phosphonate + Polyether",
+    "functional_groups": "-OH/-O-, -PO3H2",
+    "mol_weight": 262.13,
+    "smiles": "CCOC(CC(C)P(=O)(O)O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0057_AM-TFEA-ACMO",
+    "name": "Oligomer(AM-TFEA-ACMO)",
+    "backbone": "Acrylamide + Fluorinated + Heterocycle-Ether",
+    "functional_groups": "-CF3, -CONH2, Morpholine",
+    "mol_weight": 368.35,
+    "smiles": "CC(CC(CCC(=O)N1CCOCC1)C(=O)OCC(F)(F)F)C(N)=O"
+  },
+  {
+    "id": "LIB_0058_AMPS-AN-AM",
+    "name": "Oligomer(AMPS-AN-AM)",
+    "backbone": "Acrylamide + Nitrile + Sulfonic",
+    "functional_groups": "-CN, -CONH2, -SO3H/-CONH-",
+    "mol_weight": 333.41,
+    "smiles": "CC(CC(C#N)CCC(N)=O)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0059_AM-AN-VP",
+    "name": "Oligomer(AM-AN-VP)",
+    "backbone": "Acrylamide + Heterocycle + Nitrile",
+    "functional_groups": "-CN, -CONH2, Pyrrolidone",
+    "mol_weight": 237.3,
+    "smiles": "CC(CC(C#N)CCN1CCCC1=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0060_ACMO-VP-AM",
+    "name": "Oligomer(ACMO-VP-AM)",
+    "backbone": "Acrylamide + Heterocycle + Heterocycle-Ether",
+    "functional_groups": "-CONH2, Morpholine, Pyrrolidone",
+    "mol_weight": 325.41,
+    "smiles": "CC(CC(CCC(N)=O)N1CCCC1=O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0061_HEMA-DMA-VA",
+    "name": "Oligomer(HEMA-DMA-VA)",
+    "backbone": "Ester-OH + Polyvinyl + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, -OH",
+    "mol_weight": 275.34,
+    "smiles": "CN(C)C(=O)C(CCO)CC(C)(C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0062_VSA-AA-TFEMA",
+    "name": "Oligomer(VSA-AA-TFEMA)",
+    "backbone": "Carboxylic + Fluorinated-Amide + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -COOH, -SO3H",
+    "mol_weight": 335.3,
+    "smiles": "CC(CC(CCC(=O)NCC(F)(F)F)C(=O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0063_VP-VP-VPA",
+    "name": "Oligomer(VP-VP-VPA)",
+    "backbone": "Heterocycle + Phosphonate",
+    "functional_groups": "-PO3H2, Pyrrolidone",
+    "mol_weight": 332.34,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCCC1=O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0064_EG-AM-VPA",
+    "name": "Oligomer(EG-AM-VPA)",
+    "backbone": "Acrylamide + Phosphonate + Polyether",
+    "functional_groups": "-CONH2, -OH/-O-, -PO3H2",
+    "mol_weight": 225.18,
+    "smiles": "NC(=O)C(CCCO)CCP(=O)(O)O"
+  },
+  {
+    "id": "LIB_0065_TFEMA-VSA-VPA",
+    "name": "Oligomer(TFEMA-VSA-VPA)",
+    "backbone": "Fluorinated-Amide + Phosphonate + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -PO3H2, -SO3H",
+    "mol_weight": 371.27,
+    "smiles": "CC(CC(CCP(=O)(O)O)S(=O)(=O)O)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0066_MAN-VA-HEMA",
+    "name": "Oligomer(MAN-VA-HEMA)",
+    "backbone": "Ester-OH + Methacrylonitrile + Polyvinyl",
+    "functional_groups": "-CN/-CH3, -COO-/-OH, -OH",
+    "mol_weight": 243.3,
+    "smiles": "CC(CC(O)CC(C)(C)C#N)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0067_AM-AA-VP",
+    "name": "Oligomer(AM-AA-VP)",
+    "backbone": "Acrylamide + Carboxylic + Heterocycle",
+    "functional_groups": "-CONH2, -COOH, Pyrrolidone",
+    "mol_weight": 256.3,
+    "smiles": "CC(CC(CCN1CCCC1=O)C(=O)O)C(N)=O"
+  },
+  {
+    "id": "LIB_0068_AA-AA-DMA",
+    "name": "Oligomer(AA-AA-DMA)",
+    "backbone": "Carboxylic + Tert-Amide",
+    "functional_groups": "-CONMe2, -COOH",
+    "mol_weight": 245.28,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(=O)O)C(=O)O"
+  },
+  {
+    "id": "LIB_0069_AA-ACMO-VPA",
+    "name": "Oligomer(AA-ACMO-VPA)",
+    "backbone": "Carboxylic + Heterocycle-Ether + Phosphonate",
+    "functional_groups": "-COOH, -PO3H2, Morpholine",
+    "mol_weight": 323.28,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)N1CCOCC1)C(=O)O"
+  },
+  {
+    "id": "LIB_0070_VI-VSA-VSO",
+    "name": "Oligomer(VI-VSA-VSO)",
+    "backbone": "Heterocycle + Sulfonic + Sulfoxide",
+    "functional_groups": "-S(=O)Me, -SO3H, Imidazole",
+    "mol_weight": 294.4,
+    "smiles": "CC(CC(CCS(C)=O)S(=O)(=O)O)n1ccnc1"
+  },
+  {
+    "id": "LIB_0071_HEMA-HEMA-VA",
+    "name": "Oligomer(HEMA-HEMA-VA)",
+    "backbone": "Ester-OH + Polyvinyl",
+    "functional_groups": "-COO-/-OH, -OH",
+    "mol_weight": 306.36,
+    "smiles": "CC(C)(CC(C)(CCO)C(=O)OCCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0072_VSO-TFEMA-AM",
+    "name": "Oligomer(VSO-TFEMA-AM)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Sulfoxide",
+    "functional_groups": "-CF3/-CONH-, -CONH2, -S(=O)Me",
+    "mol_weight": 316.35,
+    "smiles": "CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)S(C)=O"
+  },
+  {
+    "id": "LIB_0073_AA-AMPS",
+    "name": "Oligomer(AA-AMPS)",
+    "backbone": "Carboxylic + Sulfonic",
+    "functional_groups": "-COOH, -SO3H/-CONH-",
+    "mol_weight": 281.33,
+    "smiles": "CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O"
+  },
+  {
+    "id": "LIB_0074_VP-VSA-AM",
+    "name": "Oligomer(VP-VSA-AM)",
+    "backbone": "Acrylamide + Heterocycle + Sulfonic",
+    "functional_groups": "-CONH2, -SO3H, Pyrrolidone",
+    "mol_weight": 292.36,
+    "smiles": "CC(CC(CCC(N)=O)S(=O)(=O)O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0075_VSA-HEMA-VP",
+    "name": "Oligomer(VSA-HEMA-VP)",
+    "backbone": "Ester-OH + Heterocycle + Sulfonic",
+    "functional_groups": "-COO-/-OH, -SO3H, Pyrrolidone",
+    "mol_weight": 351.42,
+    "smiles": "CC(CC(C)(CCN1CCCC1=O)C(=O)OCCO)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0076_AM-VP-TFEMA",
+    "name": "Oligomer(AM-VP-TFEMA)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Heterocycle",
+    "functional_groups": "-CF3/-CONH-, -CONH2, Pyrrolidone",
+    "mol_weight": 337.34,
+    "smiles": "CC(CC(CCC(=O)NCC(F)(F)F)N1CCCC1=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0077_VP-ACMO-AA",
+    "name": "Oligomer(VP-ACMO-AA)",
+    "backbone": "Carboxylic + Heterocycle + Heterocycle-Ether",
+    "functional_groups": "-COOH, Morpholine, Pyrrolidone",
+    "mol_weight": 326.39,
+    "smiles": "CC(CC(CCC(=O)O)C(=O)N1CCOCC1)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0078_EG-MAN-HEMA",
+    "name": "Oligomer(EG-MAN-HEMA)",
+    "backbone": "Ester-OH + Methacrylonitrile + Polyether",
+    "functional_groups": "-CN/-CH3, -COO-/-OH, -OH/-O-",
+    "mol_weight": 243.3,
+    "smiles": "CC(CC(C)(C#N)CCCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0079_VPA-VPA-VI",
+    "name": "Oligomer(VPA-VPA-VI)",
+    "backbone": "Heterocycle + Phosphonate",
+    "functional_groups": "-PO3H2, Imidazole",
+    "mol_weight": 312.2,
+    "smiles": "CC(CC(CCn1ccnc1)P(=O)(O)O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0080_MAN-ACMO-AM",
+    "name": "Oligomer(MAN-ACMO-AM)",
+    "backbone": "Acrylamide + Heterocycle-Ether + Methacrylonitrile",
+    "functional_groups": "-CN/-CH3, -CONH2, Morpholine",
+    "mol_weight": 281.36,
+    "smiles": "CC(C)(C#N)CC(CCC(N)=O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0081_AN-DMA-VSA",
+    "name": "Oligomer(AN-DMA-VSA)",
+    "backbone": "Nitrile + Sulfonic + Tert-Amide",
+    "functional_groups": "-CN, -CONMe2, -SO3H",
+    "mol_weight": 262.33,
+    "smiles": "CC(C#N)CC(CCS(=O)(=O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0082_VSA-AM-TFEA",
+    "name": "Oligomer(VSA-AM-TFEA)",
+    "backbone": "Acrylamide + Fluorinated + Sulfonic",
+    "functional_groups": "-CF3, -CONH2, -SO3H",
+    "mol_weight": 335.3,
+    "smiles": "CC(CC(CCC(=O)OCC(F)(F)F)C(N)=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0083_ACMO-AM-VSO",
+    "name": "Oligomer(ACMO-AM-VSO)",
+    "backbone": "Acrylamide + Heterocycle-Ether + Sulfoxide",
+    "functional_groups": "-CONH2, -S(=O)Me, Morpholine",
+    "mol_weight": 304.41,
+    "smiles": "CC(CC(CCS(C)=O)C(N)=O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0084_VPA-ACMO-DMA",
+    "name": "Oligomer(VPA-ACMO-DMA)",
+    "backbone": "Heterocycle-Ether + Phosphonate + Tert-Amide",
+    "functional_groups": "-CONMe2, -PO3H2, Morpholine",
+    "mol_weight": 350.35,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(=O)N1CCOCC1)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0085_AN-AM-DMA",
+    "name": "Oligomer(AN-AM-DMA)",
+    "backbone": "Acrylamide + Nitrile + Tert-Amide",
+    "functional_groups": "-CN, -CONH2, -CONMe2",
+    "mol_weight": 225.29,
+    "smiles": "CC(C#N)CC(CCC(=O)N(C)C)C(N)=O"
+  },
+  {
+    "id": "LIB_0086_VI-AA-AM",
+    "name": "Oligomer(VI-AA-AM)",
+    "backbone": "Acrylamide + Carboxylic + Heterocycle",
+    "functional_groups": "-CONH2, -COOH, Imidazole",
+    "mol_weight": 239.28,
+    "smiles": "CC(CC(CCC(N)=O)C(=O)O)n1ccnc1"
+  },
+  {
+    "id": "LIB_0087_AN-ACMO-VSA",
+    "name": "Oligomer(AN-ACMO-VSA)",
+    "backbone": "Heterocycle-Ether + Nitrile + Sulfonic",
+    "functional_groups": "-CN, -SO3H, Morpholine",
+    "mol_weight": 304.37,
+    "smiles": "CC(C#N)CC(CCS(=O)(=O)O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0088_VP-EG-AMPS",
+    "name": "Oligomer(VP-EG-AMPS)",
+    "backbone": "Heterocycle + Polyether + Sulfonic",
+    "functional_groups": "-OH/-O-, -SO3H/-CONH-, Pyrrolidone",
+    "mol_weight": 364.46,
+    "smiles": "CC(OCCCCC(=O)NCC(C)(C)S(=O)(=O)O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0089_DMA-VPA-VSO",
+    "name": "Oligomer(DMA-VPA-VSO)",
+    "backbone": "Phosphonate + Sulfoxide + Tert-Amide",
+    "functional_groups": "-CONMe2, -PO3H2, -S(=O)Me",
+    "mol_weight": 299.33,
+    "smiles": "CC(CC(CCS(C)=O)P(=O)(O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0090_VSA-MAN-ACMO",
+    "name": "Oligomer(VSA-MAN-ACMO)",
+    "backbone": "Heterocycle-Ether + Methacrylonitrile + Sulfonic",
+    "functional_groups": "-CN/-CH3, -SO3H, Morpholine",
+    "mol_weight": 318.39,
+    "smiles": "CC(CC(C)(C#N)CCC(=O)N1CCOCC1)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0091_DMA-AM-DMA",
+    "name": "Oligomer(DMA-AM-DMA)",
+    "backbone": "Acrylamide + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2",
+    "mol_weight": 271.36,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(N)=O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0092_VSA-VSA-DMA",
+    "name": "Oligomer(VSA-VSA-DMA)",
+    "backbone": "Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -SO3H",
+    "mol_weight": 317.39,
+    "smiles": "CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0093_VSA-VSO-VP",
+    "name": "Oligomer(VSA-VSO-VP)",
+    "backbone": "Heterocycle + Sulfonic + Sulfoxide",
+    "functional_groups": "-S(=O)Me, -SO3H, Pyrrolidone",
+    "mol_weight": 311.43,
+    "smiles": "CC(CC(CCN1CCCC1=O)S(C)=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0094_VSO-AN-AMPS",
+    "name": "Oligomer(VSO-AN-AMPS)",
+    "backbone": "Nitrile + Sulfonic + Sulfoxide",
+    "functional_groups": "-CN, -S(=O)Me, -SO3H/-CONH-",
+    "mol_weight": 352.48,
+    "smiles": "CC(CC(C#N)CCC(=O)NCC(C)(C)S(=O)(=O)O)S(C)=O"
+  },
+  {
+    "id": "LIB_0095_AM-VA-ACMO",
+    "name": "Oligomer(AM-VA-ACMO)",
+    "backbone": "Acrylamide + Heterocycle-Ether + Polyvinyl",
+    "functional_groups": "-CONH2, -OH, Morpholine",
+    "mol_weight": 258.32,
+    "smiles": "CC(CC(O)CCC(=O)N1CCOCC1)C(N)=O"
+  },
+  {
+    "id": "LIB_0096_HEMA-ACMO-AA",
+    "name": "Oligomer(HEMA-ACMO-AA)",
+    "backbone": "Carboxylic + Ester-OH + Heterocycle-Ether",
+    "functional_groups": "-COO-/-OH, -COOH, Morpholine",
+    "mol_weight": 345.39,
+    "smiles": "CC(C)(CC(CCC(=O)O)C(=O)N1CCOCC1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0097_HEMA-DMA-AA",
+    "name": "Oligomer(HEMA-DMA-AA)",
+    "backbone": "Carboxylic + Ester-OH + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, -COOH",
+    "mol_weight": 303.36,
+    "smiles": "CN(C)C(=O)C(CCC(=O)O)CC(C)(C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0098_AM-TFEMA-ACMO",
+    "name": "Oligomer(AM-TFEMA-ACMO)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Heterocycle-Ether",
+    "functional_groups": "-CF3/-CONH-, -CONH2, Morpholine",
+    "mol_weight": 367.37,
+    "smiles": "CC(CC(CCC(=O)N1CCOCC1)C(=O)NCC(F)(F)F)C(N)=O"
+  },
+  {
+    "id": "LIB_0099_EG-VA-SBMA",
+    "name": "Oligomer(EG-VA-SBMA)",
+    "backbone": "Polyether + Polyvinyl + Zwitterionic",
+    "functional_groups": "-OH, -OH/-O-, Zwitterion",
+    "mol_weight": 369.48,
+    "smiles": "CC(CC(O)CCCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-]"
+  },
+  {
+    "id": "LIB_0100_VPA-HEMA-AN",
+    "name": "Oligomer(VPA-HEMA-AN)",
+    "backbone": "Ester-OH + Nitrile + Phosphonate",
+    "functional_groups": "-CN, -COO-/-OH, -PO3H2",
+    "mol_weight": 293.26,
+    "smiles": "CC(CC(C)(CCC#N)C(=O)OCCO)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0101_HEMA-DMA-HEMA",
+    "name": "Oligomer(HEMA-DMA-HEMA)",
+    "backbone": "Ester-OH + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH",
+    "mol_weight": 361.44,
+    "smiles": "CC(CC(CC(C)(C)C(=O)OCCO)C(=O)N(C)C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0102_HEMA-HEMA-VSO",
+    "name": "Oligomer(HEMA-HEMA-VSO)",
+    "backbone": "Ester-OH + Sulfoxide",
+    "functional_groups": "-COO-/-OH, -S(=O)Me",
+    "mol_weight": 352.45,
+    "smiles": "CS(=O)CCC(C)(CC(C)(C)C(=O)OCCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0103_HEMA-AA-AN",
+    "name": "Oligomer(HEMA-AA-AN)",
+    "backbone": "Carboxylic + Ester-OH + Nitrile",
+    "functional_groups": "-CN, -COO-/-OH, -COOH",
+    "mol_weight": 257.29,
+    "smiles": "CC(C)(CC(CCC#N)C(=O)O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0104_VSO-VPA-VSO",
+    "name": "Oligomer(VSO-VPA-VSO)",
+    "backbone": "Phosphonate + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me",
+    "mol_weight": 290.34,
+    "smiles": "CC(CC(CCS(C)=O)P(=O)(O)O)S(C)=O"
+  },
+  {
+    "id": "LIB_0105_VI-VA-VSA",
+    "name": "Oligomer(VI-VA-VSA)",
+    "backbone": "Heterocycle + Polyvinyl + Sulfonic",
+    "functional_groups": "-OH, -SO3H, Imidazole",
+    "mol_weight": 248.3,
+    "smiles": "CC(CC(O)CCS(=O)(=O)O)n1ccnc1"
+  },
+  {
+    "id": "LIB_0106_AM-ACMO-VSO",
+    "name": "Oligomer(AM-ACMO-VSO)",
+    "backbone": "Acrylamide + Heterocycle-Ether + Sulfoxide",
+    "functional_groups": "-CONH2, -S(=O)Me, Morpholine",
+    "mol_weight": 304.41,
+    "smiles": "CC(CC(CCS(C)=O)C(=O)N1CCOCC1)C(N)=O"
+  },
+  {
+    "id": "LIB_0107_AMPS-VA-VPA",
+    "name": "Oligomer(AMPS-VA-VPA)",
+    "backbone": "Phosphonate + Polyvinyl + Sulfonic",
+    "functional_groups": "-OH, -PO3H2, -SO3H/-CONH-",
+    "mol_weight": 361.35,
+    "smiles": "CC(CC(O)CCP(=O)(O)O)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0108_HEMA-VA-VP",
+    "name": "Oligomer(HEMA-VA-VP)",
+    "backbone": "Ester-OH + Heterocycle + Polyvinyl",
+    "functional_groups": "-COO-/-OH, -OH, Pyrrolidone",
+    "mol_weight": 287.36,
+    "smiles": "CC(C)(CC(O)CCN1CCCC1=O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0109_HEMA-VA-AA",
+    "name": "Oligomer(HEMA-VA-AA)",
+    "backbone": "Carboxylic + Ester-OH + Polyvinyl",
+    "functional_groups": "-COO-/-OH, -COOH, -OH",
+    "mol_weight": 248.27,
+    "smiles": "CC(C)(CC(O)CCC(=O)O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0110_VSA-ACMO-VP",
+    "name": "Oligomer(VSA-ACMO-VP)",
+    "backbone": "Heterocycle + Heterocycle-Ether + Sulfonic",
+    "functional_groups": "-SO3H, Morpholine, Pyrrolidone",
+    "mol_weight": 362.45,
+    "smiles": "CC(CC(CCN1CCCC1=O)C(=O)N1CCOCC1)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0111_VSA-VP-ACMO",
+    "name": "Oligomer(VSA-VP-ACMO)",
+    "backbone": "Heterocycle + Heterocycle-Ether + Sulfonic",
+    "functional_groups": "-SO3H, Morpholine, Pyrrolidone",
+    "mol_weight": 362.45,
+    "smiles": "CC(CC(CCC(=O)N1CCOCC1)N1CCCC1=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0112_VA-HEMA-VPA",
+    "name": "Oligomer(VA-HEMA-VPA)",
+    "backbone": "Ester-OH + Phosphonate + Polyvinyl",
+    "functional_groups": "-COO-/-OH, -OH, -PO3H2",
+    "mol_weight": 284.25,
+    "smiles": "CC(O)CC(C)(CCP(=O)(O)O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0113_HEMA-VSO-VP",
+    "name": "Oligomer(HEMA-VSO-VP)",
+    "backbone": "Ester-OH + Heterocycle + Sulfoxide",
+    "functional_groups": "-COO-/-OH, -S(=O)Me, Pyrrolidone",
+    "mol_weight": 333.45,
+    "smiles": "CS(=O)C(CCN1CCCC1=O)CC(C)(C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0114_VPA-EG-ACMO",
+    "name": "Oligomer(VPA-EG-ACMO)",
+    "backbone": "Heterocycle-Ether + Phosphonate + Polyether",
+    "functional_groups": "-OH/-O-, -PO3H2, Morpholine",
+    "mol_weight": 295.27,
+    "smiles": "CC(OCCCCC(=O)N1CCOCC1)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0115_AM-HEMA-AN",
+    "name": "Oligomer(AM-HEMA-AN)",
+    "backbone": "Acrylamide + Ester-OH + Nitrile",
+    "functional_groups": "-CN, -CONH2, -COO-/-OH",
+    "mol_weight": 256.3,
+    "smiles": "CC(CC(C)(CCC#N)C(=O)OCCO)C(N)=O"
+  },
+  {
+    "id": "LIB_0116_VP-VSO-VPA",
+    "name": "Oligomer(VP-VSO-VPA)",
+    "backbone": "Heterocycle + Phosphonate + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me, Pyrrolidone",
+    "mol_weight": 311.34,
+    "smiles": "CC(CC(CCP(=O)(O)O)S(C)=O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0117_ACMO-VSA-AA",
+    "name": "Oligomer(ACMO-VSA-AA)",
+    "backbone": "Carboxylic + Heterocycle-Ether + Sulfonic",
+    "functional_groups": "-COOH, -SO3H, Morpholine",
+    "mol_weight": 323.37,
+    "smiles": "CC(CC(CCC(=O)O)S(=O)(=O)O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0118_VPA-ACMO-VA",
+    "name": "Oligomer(VPA-ACMO-VA)",
+    "backbone": "Heterocycle-Ether + Phosphonate + Polyvinyl",
+    "functional_groups": "-OH, -PO3H2, Morpholine",
+    "mol_weight": 295.27,
+    "smiles": "CC(CC(CCO)C(=O)N1CCOCC1)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0119_VSO-VA-VPA",
+    "name": "Oligomer(VSO-VA-VPA)",
+    "backbone": "Phosphonate + Polyvinyl + Sulfoxide",
+    "functional_groups": "-OH, -PO3H2, -S(=O)Me",
+    "mol_weight": 244.25,
+    "smiles": "CC(CC(O)CCP(=O)(O)O)S(C)=O"
+  },
+  {
+    "id": "LIB_0120_VSA-ACMO-VI",
+    "name": "Oligomer(VSA-ACMO-VI)",
+    "backbone": "Heterocycle + Heterocycle-Ether + Sulfonic",
+    "functional_groups": "-SO3H, Imidazole, Morpholine",
+    "mol_weight": 345.42,
+    "smiles": "CC(CC(CCn1ccnc1)C(=O)N1CCOCC1)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0121_VSO-HEMA-VA",
+    "name": "Oligomer(VSO-HEMA-VA)",
+    "backbone": "Ester-OH + Polyvinyl + Sulfoxide",
+    "functional_groups": "-COO-/-OH, -OH, -S(=O)Me",
+    "mol_weight": 266.36,
+    "smiles": "CC(CC(C)(CCO)C(=O)OCCO)S(C)=O"
+  },
+  {
+    "id": "LIB_0122_MAN-VSA-VPA",
+    "name": "Oligomer(MAN-VSA-VPA)",
+    "backbone": "Methacrylonitrile + Phosphonate + Sulfonic",
+    "functional_groups": "-CN/-CH3, -PO3H2, -SO3H",
+    "mol_weight": 285.26,
+    "smiles": "CC(C)(C#N)CC(CCP(=O)(O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0123_VSA-HEMA-DMA",
+    "name": "Oligomer(VSA-HEMA-DMA)",
+    "backbone": "Ester-OH + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, -SO3H",
+    "mol_weight": 339.41,
+    "smiles": "CC(CC(C)(CCC(=O)N(C)C)C(=O)OCCO)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0124_VSO-VPA-VSA",
+    "name": "Oligomer(VSO-VPA-VSA)",
+    "backbone": "Phosphonate + Sulfonic + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me, -SO3H",
+    "mol_weight": 308.31,
+    "smiles": "CC(CC(CCS(=O)(=O)O)P(=O)(O)O)S(C)=O"
+  },
+  {
+    "id": "LIB_0125_EG-AMPS-VP",
+    "name": "Oligomer(EG-AMPS-VP)",
+    "backbone": "Heterocycle + Polyether + Sulfonic",
+    "functional_groups": "-OH/-O-, -SO3H/-CONH-, Pyrrolidone",
+    "mol_weight": 364.46,
+    "smiles": "CC(C)(CNC(=O)C(CCCO)CCN1CCCC1=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0126_AM-VP-AN",
+    "name": "Oligomer(AM-VP-AN)",
+    "backbone": "Acrylamide + Heterocycle + Nitrile",
+    "functional_groups": "-CN, -CONH2, Pyrrolidone",
+    "mol_weight": 237.3,
+    "smiles": "CC(CC(CCC#N)N1CCCC1=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0127_VPA-HEMA-AM",
+    "name": "Oligomer(VPA-HEMA-AM)",
+    "backbone": "Acrylamide + Ester-OH + Phosphonate",
+    "functional_groups": "-CONH2, -COO-/-OH, -PO3H2",
+    "mol_weight": 311.27,
+    "smiles": "CC(CC(C)(CCC(N)=O)C(=O)OCCO)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0128_HEMA-VSO-DMA",
+    "name": "Oligomer(HEMA-VSO-DMA)",
+    "backbone": "Ester-OH + Sulfoxide + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, -S(=O)Me",
+    "mol_weight": 321.44,
+    "smiles": "CN(C)C(=O)CCC(CC(C)(C)C(=O)OCCO)S(C)=O"
+  },
+  {
+    "id": "LIB_0129_AA-VP-AM",
+    "name": "Oligomer(AA-VP-AM)",
+    "backbone": "Acrylamide + Carboxylic + Heterocycle",
+    "functional_groups": "-CONH2, -COOH, Pyrrolidone",
+    "mol_weight": 256.3,
+    "smiles": "CC(CC(CCC(N)=O)N1CCCC1=O)C(=O)O"
+  },
+  {
+    "id": "LIB_0130_VPA-VSA-MAN",
+    "name": "Oligomer(VPA-VSA-MAN)",
+    "backbone": "Methacrylonitrile + Phosphonate + Sulfonic",
+    "functional_groups": "-CN/-CH3, -PO3H2, -SO3H",
+    "mol_weight": 285.26,
+    "smiles": "CC(C#N)CC(CC(C)P(=O)(O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0131_VPA-TFEMA-AM",
+    "name": "Oligomer(VPA-TFEMA-AM)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Phosphonate",
+    "functional_groups": "-CF3/-CONH-, -CONH2, -PO3H2",
+    "mol_weight": 334.23,
+    "smiles": "CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0132_VSO-VPA-VPA",
+    "name": "Oligomer(VSO-VPA-VPA)",
+    "backbone": "Phosphonate + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me",
+    "mol_weight": 308.23,
+    "smiles": "CC(CC(CCP(=O)(O)O)P(=O)(O)O)S(C)=O"
+  },
+  {
+    "id": "LIB_0133_EG-AA-AMPS",
+    "name": "Oligomer(EG-AA-AMPS)",
+    "backbone": "Carboxylic + Polyether + Sulfonic",
+    "functional_groups": "-COOH, -OH/-O-, -SO3H/-CONH-",
+    "mol_weight": 325.38,
+    "smiles": "CC(C)(CNC(=O)CCC(CCCO)C(=O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0134_EG-HEMA-VP",
+    "name": "Oligomer(EG-HEMA-VP)",
+    "backbone": "Ester-OH + Heterocycle + Polyether",
+    "functional_groups": "-COO-/-OH, -OH/-O-, Pyrrolidone",
+    "mol_weight": 287.36,
+    "smiles": "CC(CCCO)(CCN1CCCC1=O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0135_VI-VA-HEMA",
+    "name": "Oligomer(VI-VA-HEMA)",
+    "backbone": "Ester-OH + Heterocycle + Polyvinyl",
+    "functional_groups": "-COO-/-OH, -OH, Imidazole",
+    "mol_weight": 270.33,
+    "smiles": "CC(CC(O)CC(C)n1ccnc1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0136_HEMA-VP-AM",
+    "name": "Oligomer(HEMA-VP-AM)",
+    "backbone": "Acrylamide + Ester-OH + Heterocycle",
+    "functional_groups": "-CONH2, -COO-/-OH, Pyrrolidone",
+    "mol_weight": 314.38,
+    "smiles": "CC(C)(CC(CCC(N)=O)N1CCCC1=O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0137_HEMA-ACMO-MAN",
+    "name": "Oligomer(HEMA-ACMO-MAN)",
+    "backbone": "Ester-OH + Heterocycle-Ether + Methacrylonitrile",
+    "functional_groups": "-CN/-CH3, -COO-/-OH, Morpholine",
+    "mol_weight": 340.42,
+    "smiles": "CC(C#N)CC(CC(C)(C)C(=O)OCCO)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0138_ACMO-AM-TFEA",
+    "name": "Oligomer(ACMO-AM-TFEA)",
+    "backbone": "Acrylamide + Fluorinated + Heterocycle-Ether",
+    "functional_groups": "-CF3, -CONH2, Morpholine",
+    "mol_weight": 368.35,
+    "smiles": "CC(CC(CCC(=O)OCC(F)(F)F)C(N)=O)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0139_AN-AM-VI",
+    "name": "Oligomer(AN-AM-VI)",
+    "backbone": "Acrylamide + Heterocycle + Nitrile",
+    "functional_groups": "-CN, -CONH2, Imidazole",
+    "mol_weight": 220.28,
+    "smiles": "CC(C#N)CC(CCn1ccnc1)C(N)=O"
+  },
+  {
+    "id": "LIB_0140_HEMA-VA-VA",
+    "name": "Oligomer(HEMA-VA-VA)",
+    "backbone": "Ester-OH + Polyvinyl",
+    "functional_groups": "-COO-/-OH, -OH",
+    "mol_weight": 220.26,
+    "smiles": "CC(C)(CC(O)CCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0141_AM-VSO-DMA",
+    "name": "Oligomer(AM-VSO-DMA)",
+    "backbone": "Acrylamide + Sulfoxide + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, -S(=O)Me",
+    "mol_weight": 262.38,
+    "smiles": "CC(CC(CCC(=O)N(C)C)S(C)=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0142_EG-VSO-HEMA",
+    "name": "Oligomer(EG-VSO-HEMA)",
+    "backbone": "Ester-OH + Polyether + Sulfoxide",
+    "functional_groups": "-COO-/-OH, -OH/-O-, -S(=O)Me",
+    "mol_weight": 266.36,
+    "smiles": "CC(CC(CCCO)S(C)=O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0143_TFEMA-AM-VPA",
+    "name": "Oligomer(TFEMA-AM-VPA)",
+    "backbone": "Acrylamide + Fluorinated-Amide + Phosphonate",
+    "functional_groups": "-CF3/-CONH-, -CONH2, -PO3H2",
+    "mol_weight": 334.23,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(N)=O)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0144_VSO-VSA-AA",
+    "name": "Oligomer(VSO-VSA-AA)",
+    "backbone": "Carboxylic + Sulfonic + Sulfoxide",
+    "functional_groups": "-COOH, -S(=O)Me, -SO3H",
+    "mol_weight": 272.34,
+    "smiles": "CC(CC(CCC(=O)O)S(=O)(=O)O)S(C)=O"
+  },
+  {
+    "id": "LIB_0145_VSA-DMA-VPA",
+    "name": "Oligomer(VSA-DMA-VPA)",
+    "backbone": "Phosphonate + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -PO3H2, -SO3H",
+    "mol_weight": 317.3,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)N(C)C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0146_AMPS-AN-VSA",
+    "name": "Oligomer(AMPS-AN-VSA)",
+    "backbone": "Nitrile + Sulfonic",
+    "functional_groups": "-CN, -SO3H, -SO3H/-CONH-",
+    "mol_weight": 370.45,
+    "smiles": "CC(CC(C#N)CCS(=O)(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0147_VI-ACMO-VPA",
+    "name": "Oligomer(VI-ACMO-VPA)",
+    "backbone": "Heterocycle + Heterocycle-Ether + Phosphonate",
+    "functional_groups": "-PO3H2, Imidazole, Morpholine",
+    "mol_weight": 345.34,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)N1CCOCC1)n1ccnc1"
+  },
+  {
+    "id": "LIB_0148_VP-AM-DMA",
+    "name": "Oligomer(VP-AM-DMA)",
+    "backbone": "Acrylamide + Heterocycle + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, Pyrrolidone",
+    "mol_weight": 283.37,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(N)=O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0149_VP-HEMA-DMA",
+    "name": "Oligomer(VP-HEMA-DMA)",
+    "backbone": "Ester-OH + Heterocycle + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, Pyrrolidone",
+    "mol_weight": 342.44,
+    "smiles": "CC(CC(C)(CCC(=O)N(C)C)C(=O)OCCO)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0150_VI-VSA-VPA",
+    "name": "Oligomer(VI-VSA-VPA)",
+    "backbone": "Heterocycle + Phosphonate + Sulfonic",
+    "functional_groups": "-PO3H2, -SO3H, Imidazole",
+    "mol_weight": 312.28,
+    "smiles": "CC(CC(CCP(=O)(O)O)S(=O)(=O)O)n1ccnc1"
+  },
+  {
+    "id": "LIB_0151_VSA-AM-DMA",
+    "name": "Oligomer(VSA-AM-DMA)",
+    "backbone": "Acrylamide + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, -SO3H",
+    "mol_weight": 280.35,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(N)=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0152_VA-VPA-VSO",
+    "name": "Oligomer(VA-VPA-VSO)",
+    "backbone": "Phosphonate + Polyvinyl + Sulfoxide",
+    "functional_groups": "-OH, -PO3H2, -S(=O)Me",
+    "mol_weight": 244.25,
+    "smiles": "CC(O)CC(CCS(C)=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0153_VSA-TFEA-VPA",
+    "name": "Oligomer(VSA-TFEA-VPA)",
+    "backbone": "Fluorinated + Phosphonate + Sulfonic",
+    "functional_groups": "-CF3, -PO3H2, -SO3H",
+    "mol_weight": 372.25,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)OCC(F)(F)F)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0154_AA-VI-VSA",
+    "name": "Oligomer(AA-VI-VSA)",
+    "backbone": "Carboxylic + Heterocycle + Sulfonic",
+    "functional_groups": "-COOH, -SO3H, Imidazole",
+    "mol_weight": 276.31,
+    "smiles": "CC(CC(CCS(=O)(=O)O)n1ccnc1)C(=O)O"
+  },
+  {
+    "id": "LIB_0155_EG-TFEMA-AA",
+    "name": "Oligomer(EG-TFEMA-AA)",
+    "backbone": "Carboxylic + Fluorinated-Amide + Polyether",
+    "functional_groups": "-CF3/-CONH-, -COOH, -OH/-O-",
+    "mol_weight": 271.23,
+    "smiles": "O=C(O)CCC(CCCO)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0156_AA-AA-VSA",
+    "name": "Oligomer(AA-AA-VSA)",
+    "backbone": "Carboxylic + Sulfonic",
+    "functional_groups": "-COOH, -SO3H",
+    "mol_weight": 254.26,
+    "smiles": "CC(CC(CCS(=O)(=O)O)C(=O)O)C(=O)O"
+  },
+  {
+    "id": "LIB_0157_VPA-DMA-DMA",
+    "name": "Oligomer(VPA-DMA-DMA)",
+    "backbone": "Phosphonate + Tert-Amide",
+    "functional_groups": "-CONMe2, -PO3H2",
+    "mol_weight": 308.32,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(=O)N(C)C)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0158_HEMA-EG-ACMO",
+    "name": "Oligomer(HEMA-EG-ACMO)",
+    "backbone": "Ester-OH + Heterocycle-Ether + Polyether",
+    "functional_groups": "-COO-/-OH, -OH/-O-, Morpholine",
+    "mol_weight": 317.38,
+    "smiles": "CC(C)(OCCCCC(=O)N1CCOCC1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0159_TFEA-AM-VPA",
+    "name": "Oligomer(TFEA-AM-VPA)",
+    "backbone": "Acrylamide + Fluorinated + Phosphonate",
+    "functional_groups": "-CF3, -CONH2, -PO3H2",
+    "mol_weight": 335.22,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(N)=O)C(=O)OCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0160_VPA-EG-HEMA",
+    "name": "Oligomer(VPA-EG-HEMA)",
+    "backbone": "Ester-OH + Phosphonate + Polyether",
+    "functional_groups": "-COO-/-OH, -OH/-O-, -PO3H2",
+    "mol_weight": 284.25,
+    "smiles": "CC(CCCOC(C)P(=O)(O)O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0161_AN-VSA-AM",
+    "name": "Oligomer(AN-VSA-AM)",
+    "backbone": "Acrylamide + Nitrile + Sulfonic",
+    "functional_groups": "-CN, -CONH2, -SO3H",
+    "mol_weight": 234.28,
+    "smiles": "CC(C#N)CC(CCC(N)=O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0162_VA-TFEMA-VSA",
+    "name": "Oligomer(VA-TFEMA-VSA)",
+    "backbone": "Fluorinated-Amide + Polyvinyl + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -OH, -SO3H",
+    "mol_weight": 307.29,
+    "smiles": "CC(O)CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0163_VSA-TFEMA-EG",
+    "name": "Oligomer(VSA-TFEMA-EG)",
+    "backbone": "Fluorinated-Amide + Polyether + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -OH/-O-, -SO3H",
+    "mol_weight": 307.29,
+    "smiles": "CCOC(CC(C)S(=O)(=O)O)C(=O)NCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0164_VPA-VSA-AN",
+    "name": "Oligomer(VPA-VSA-AN)",
+    "backbone": "Nitrile + Phosphonate + Sulfonic",
+    "functional_groups": "-CN, -PO3H2, -SO3H",
+    "mol_weight": 271.23,
+    "smiles": "CC(CC(CCC#N)S(=O)(=O)O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0165_MAN-ACMO-HEMA",
+    "name": "Oligomer(MAN-ACMO-HEMA)",
+    "backbone": "Ester-OH + Heterocycle-Ether + Methacrylonitrile",
+    "functional_groups": "-CN/-CH3, -COO-/-OH, Morpholine",
+    "mol_weight": 340.42,
+    "smiles": "CC(CC(CC(C)(C)C#N)C(=O)N1CCOCC1)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0166_VSA-AA-AA",
+    "name": "Oligomer(VSA-AA-AA)",
+    "backbone": "Carboxylic + Sulfonic",
+    "functional_groups": "-COOH, -SO3H",
+    "mol_weight": 254.26,
+    "smiles": "CC(CC(CCC(=O)O)C(=O)O)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0167_MAN-AA-VSA",
+    "name": "Oligomer(MAN-AA-VSA)",
+    "backbone": "Carboxylic + Methacrylonitrile + Sulfonic",
+    "functional_groups": "-CN/-CH3, -COOH, -SO3H",
+    "mol_weight": 249.29,
+    "smiles": "CC(C)(C#N)CC(CCS(=O)(=O)O)C(=O)O"
+  },
+  {
+    "id": "LIB_0168_VPA-AN-ACMO",
+    "name": "Oligomer(VPA-AN-ACMO)",
+    "backbone": "Heterocycle-Ether + Nitrile + Phosphonate",
+    "functional_groups": "-CN, -PO3H2, Morpholine",
+    "mol_weight": 304.28,
+    "smiles": "CC(CC(C#N)CCC(=O)N1CCOCC1)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0169_AN-DMA-AMPS",
+    "name": "Oligomer(AN-DMA-AMPS)",
+    "backbone": "Nitrile + Sulfonic + Tert-Amide",
+    "functional_groups": "-CN, -CONMe2, -SO3H/-CONH-",
+    "mol_weight": 361.46,
+    "smiles": "CC(C#N)CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0170_VSA-HEMA-VSO",
+    "name": "Oligomer(VSA-HEMA-VSO)",
+    "backbone": "Ester-OH + Sulfonic + Sulfoxide",
+    "functional_groups": "-COO-/-OH, -S(=O)Me, -SO3H",
+    "mol_weight": 330.42,
+    "smiles": "CC(CC(C)(CCS(C)=O)C(=O)OCCO)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0171_AN-VPA-HEMA",
+    "name": "Oligomer(AN-VPA-HEMA)",
+    "backbone": "Ester-OH + Nitrile + Phosphonate",
+    "functional_groups": "-CN, -COO-/-OH, -PO3H2",
+    "mol_weight": 293.26,
+    "smiles": "CC(C#N)CC(CC(C)C(=O)OCCO)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0172_AMPS-EG-EG",
+    "name": "Oligomer(AMPS-EG-EG)",
+    "backbone": "Polyether + Sulfonic",
+    "functional_groups": "-OH/-O-, -SO3H/-CONH-",
+    "mol_weight": 297.37,
+    "smiles": "CCOCCOC(C)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0173_AMPS-VA-AN",
+    "name": "Oligomer(AMPS-VA-AN)",
+    "backbone": "Nitrile + Polyvinyl + Sulfonic",
+    "functional_groups": "-CN, -OH, -SO3H/-CONH-",
+    "mol_weight": 306.38,
+    "smiles": "CC(CC(O)CCC#N)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0174_VSO-DMA-VPA",
+    "name": "Oligomer(VSO-DMA-VPA)",
+    "backbone": "Phosphonate + Sulfoxide + Tert-Amide",
+    "functional_groups": "-CONMe2, -PO3H2, -S(=O)Me",
+    "mol_weight": 299.33,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)N(C)C)S(C)=O"
+  },
+  {
+    "id": "LIB_0175_VI-VA-AMPS",
+    "name": "Oligomer(VI-VA-AMPS)",
+    "backbone": "Heterocycle + Polyvinyl + Sulfonic",
+    "functional_groups": "-OH, -SO3H/-CONH-, Imidazole",
+    "mol_weight": 347.44,
+    "smiles": "CC(CC(O)CCC(=O)NCC(C)(C)S(=O)(=O)O)n1ccnc1"
+  },
+  {
+    "id": "LIB_0176_HEMA-DMA-VSA",
+    "name": "Oligomer(HEMA-DMA-VSA)",
+    "backbone": "Ester-OH + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, -SO3H",
+    "mol_weight": 339.41,
+    "smiles": "CN(C)C(=O)C(CCS(=O)(=O)O)CC(C)(C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0177_AA-TFEMA-VSA",
+    "name": "Oligomer(AA-TFEMA-VSA)",
+    "backbone": "Carboxylic + Fluorinated-Amide + Sulfonic",
+    "functional_groups": "-CF3/-CONH-, -COOH, -SO3H",
+    "mol_weight": 335.3,
+    "smiles": "CC(CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F)C(=O)O"
+  },
+  {
+    "id": "LIB_0178_AA-VP-ACMO",
+    "name": "Oligomer(AA-VP-ACMO)",
+    "backbone": "Carboxylic + Heterocycle + Heterocycle-Ether",
+    "functional_groups": "-COOH, Morpholine, Pyrrolidone",
+    "mol_weight": 326.39,
+    "smiles": "CC(CC(CCC(=O)N1CCOCC1)N1CCCC1=O)C(=O)O"
+  },
+  {
+    "id": "LIB_0179_TFEA-AM-AM",
+    "name": "Oligomer(TFEA-AM-AM)",
+    "backbone": "Acrylamide + Fluorinated",
+    "functional_groups": "-CF3, -CONH2",
+    "mol_weight": 298.26,
+    "smiles": "CC(CC(CCC(N)=O)C(N)=O)C(=O)OCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0180_TFEA-VA-AM",
+    "name": "Oligomer(TFEA-VA-AM)",
+    "backbone": "Acrylamide + Fluorinated + Polyvinyl",
+    "functional_groups": "-CF3, -CONH2, -OH",
+    "mol_weight": 271.23,
+    "smiles": "CC(CC(O)CCC(N)=O)C(=O)OCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0181_VSO-VP-VPA",
+    "name": "Oligomer(VSO-VP-VPA)",
+    "backbone": "Heterocycle + Phosphonate + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me, Pyrrolidone",
+    "mol_weight": 311.34,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCCC1=O)S(C)=O"
+  },
+  {
+    "id": "LIB_0182_ACMO-HEMA-DMA",
+    "name": "Oligomer(ACMO-HEMA-DMA)",
+    "backbone": "Ester-OH + Heterocycle-Ether + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, Morpholine",
+    "mol_weight": 372.46,
+    "smiles": "CC(CC(C)(CCC(=O)N(C)C)C(=O)OCCO)C(=O)N1CCOCC1"
+  },
+  {
+    "id": "LIB_0183_VI-VPA-HEMA",
+    "name": "Oligomer(VI-VPA-HEMA)",
+    "backbone": "Ester-OH + Heterocycle + Phosphonate",
+    "functional_groups": "-COO-/-OH, -PO3H2, Imidazole",
+    "mol_weight": 334.31,
+    "smiles": "CC(CC(CC(C)n1ccnc1)P(=O)(O)O)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0184_VPA-MAN-AM",
+    "name": "Oligomer(VPA-MAN-AM)",
+    "backbone": "Acrylamide + Methacrylonitrile + Phosphonate",
+    "functional_groups": "-CN/-CH3, -CONH2, -PO3H2",
+    "mol_weight": 248.22,
+    "smiles": "CC(CC(C)(C#N)CCC(N)=O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0185_VA-TFEA-VSA",
+    "name": "Oligomer(VA-TFEA-VSA)",
+    "backbone": "Fluorinated + Polyvinyl + Sulfonic",
+    "functional_groups": "-CF3, -OH, -SO3H",
+    "mol_weight": 308.27,
+    "smiles": "CC(O)CC(CCS(=O)(=O)O)C(=O)OCC(F)(F)F"
+  },
+  {
+    "id": "LIB_0186_VP-VPA-AA",
+    "name": "Oligomer(VP-VPA-AA)",
+    "backbone": "Carboxylic + Heterocycle + Phosphonate",
+    "functional_groups": "-COOH, -PO3H2, Pyrrolidone",
+    "mol_weight": 293.26,
+    "smiles": "CC(CC(CCC(=O)O)P(=O)(O)O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0187_AM-DMA-VPA",
+    "name": "Oligomer(AM-DMA-VPA)",
+    "backbone": "Acrylamide + Phosphonate + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, -PO3H2",
+    "mol_weight": 280.26,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)N(C)C)C(N)=O"
+  },
+  {
+    "id": "LIB_0188_DMA-VPA-AA",
+    "name": "Oligomer(DMA-VPA-AA)",
+    "backbone": "Carboxylic + Phosphonate + Tert-Amide",
+    "functional_groups": "-CONMe2, -COOH, -PO3H2",
+    "mol_weight": 281.25,
+    "smiles": "CC(CC(CCC(=O)O)P(=O)(O)O)C(=O)N(C)C"
+  },
+  {
+    "id": "LIB_0189_AA-ACMO-DMA",
+    "name": "Oligomer(AA-ACMO-DMA)",
+    "backbone": "Carboxylic + Heterocycle-Ether + Tert-Amide",
+    "functional_groups": "-CONMe2, -COOH, Morpholine",
+    "mol_weight": 314.38,
+    "smiles": "CC(CC(CCC(=O)N(C)C)C(=O)N1CCOCC1)C(=O)O"
+  },
+  {
+    "id": "LIB_0190_VSA-DMA-HEMA",
+    "name": "Oligomer(VSA-DMA-HEMA)",
+    "backbone": "Ester-OH + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -COO-/-OH, -SO3H",
+    "mol_weight": 339.41,
+    "smiles": "CC(CC(CC(C)S(=O)(=O)O)C(=O)N(C)C)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0191_AM-VI-DMA",
+    "name": "Oligomer(AM-VI-DMA)",
+    "backbone": "Acrylamide + Heterocycle + Tert-Amide",
+    "functional_groups": "-CONH2, -CONMe2, Imidazole",
+    "mol_weight": 266.35,
+    "smiles": "CC(CC(CCC(=O)N(C)C)n1ccnc1)C(N)=O"
+  },
+  {
+    "id": "LIB_0192_VP-VPA-DMA",
+    "name": "Oligomer(VP-VPA-DMA)",
+    "backbone": "Heterocycle + Phosphonate + Tert-Amide",
+    "functional_groups": "-CONMe2, -PO3H2, Pyrrolidone",
+    "mol_weight": 320.33,
+    "smiles": "CC(CC(CCC(=O)N(C)C)P(=O)(O)O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0193_HEMA-HEMA-VP",
+    "name": "Oligomer(HEMA-HEMA-VP)",
+    "backbone": "Ester-OH + Heterocycle",
+    "functional_groups": "-COO-/-OH, Pyrrolidone",
+    "mol_weight": 373.45,
+    "smiles": "CC(C)(CC(C)(CCN1CCCC1=O)C(=O)OCCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0194_VP-HEMA-HEMA",
+    "name": "Oligomer(VP-HEMA-HEMA)",
+    "backbone": "Ester-OH + Heterocycle",
+    "functional_groups": "-COO-/-OH, Pyrrolidone",
+    "mol_weight": 373.45,
+    "smiles": "CC(CC(C)(CC(C)N1CCCC1=O)C(=O)OCCO)C(=O)OCCO"
+  },
+  {
+    "id": "LIB_0195_AM-VSO-VSA",
+    "name": "Oligomer(AM-VSO-VSA)",
+    "backbone": "Acrylamide + Sulfonic + Sulfoxide",
+    "functional_groups": "-CONH2, -S(=O)Me, -SO3H",
+    "mol_weight": 271.36,
+    "smiles": "CC(CC(CCS(=O)(=O)O)S(C)=O)C(N)=O"
+  },
+  {
+    "id": "LIB_0196_AMPS-EG-DMA",
+    "name": "Oligomer(AMPS-EG-DMA)",
+    "backbone": "Polyether + Sulfonic + Tert-Amide",
+    "functional_groups": "-CONMe2, -OH/-O-, -SO3H/-CONH-",
+    "mol_weight": 352.45,
+    "smiles": "CC(OCCCCC(=O)N(C)C)C(=O)NCC(C)(C)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0197_MAN-VSA-ACMO",
+    "name": "Oligomer(MAN-VSA-ACMO)",
+    "backbone": "Heterocycle-Ether + Methacrylonitrile + Sulfonic",
+    "functional_groups": "-CN/-CH3, -SO3H, Morpholine",
+    "mol_weight": 318.39,
+    "smiles": "CC(C)(C#N)CC(CCC(=O)N1CCOCC1)S(=O)(=O)O"
+  },
+  {
+    "id": "LIB_0198_VPA-VSA-VSO",
+    "name": "Oligomer(VPA-VSA-VSO)",
+    "backbone": "Phosphonate + Sulfonic + Sulfoxide",
+    "functional_groups": "-PO3H2, -S(=O)Me, -SO3H",
+    "mol_weight": 308.31,
+    "smiles": "CC(CC(CCS(C)=O)S(=O)(=O)O)P(=O)(O)O"
+  },
+  {
+    "id": "LIB_0199_VP-VPA-VP",
+    "name": "Oligomer(VP-VPA-VP)",
+    "backbone": "Heterocycle + Phosphonate",
+    "functional_groups": "-PO3H2, Pyrrolidone",
+    "mol_weight": 332.34,
+    "smiles": "CC(CC(CCN1CCCC1=O)P(=O)(O)O)N1CCCC1=O"
+  },
+  {
+    "id": "LIB_0200_AMPS-VA-VI",
+    "name": "Oligomer(AMPS-VA-VI)",
+    "backbone": "Heterocycle + Polyvinyl + Sulfonic",
+    "functional_groups": "-OH, -SO3H/-CONH-, Imidazole",
+    "mol_weight": 347.44,
+    "smiles": "CC(CC(O)CCn1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O"
+  }
+]

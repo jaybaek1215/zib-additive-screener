@@ -1,4 +1,16 @@
 import os
+os.environ["MPLCONFIGDIR"] = "/tmp/matplotlib"
+os.environ["HOME"] = "/tmp"
+_m_dir = "/tmp/.local/mattersim/pretrained_models"
+os.makedirs(_m_dir, exist_ok=True)
+_src = os.path.abspath("MatterSim-v1.0.0-5M.pth")
+_dst = os.path.join(_m_dir, "mattersim-v1.0.0-5M.pth")
+if os.path.exists(_src) and not os.path.exists(_dst):
+    try:
+        os.symlink(_src, _dst)
+    except OSError:
+        pass
+
 import json
 import argparse
 import numpy as np

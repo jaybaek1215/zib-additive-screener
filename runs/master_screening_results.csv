@@ -1,0 +1,601 @@
+id,name,backbone,functional_groups,smiles,dE_hbond_eV,dE_exchange_eV,dE_ads_eV,composite_score,status
+LIB_0302_VSA-TFEA-MAN,Oligomer(VSA-TFEA-MAN),Fluorinated + Methacrylonitrile + Sulfonic,"-CF3, -CN/-CH3, -SO3H",CC(C#N)CC(CC(C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-1.1989,-1.5174,-0.7761,1.7781,PASS
+LIB_0293_TFEA-VSA-VSA,Oligomer(TFEA-VSA-VSA),Fluorinated + Sulfonic,"-CF3, -SO3H",CC(CC(CCS(=O)(=O)O)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.8423,-1.4715,-0.8863,1.663,PASS
+LIB_0184_VPA-MAN-AM,Oligomer(VPA-MAN-AM),Acrylamide + Methacrylonitrile + Phosphonate,"-CN/-CH3, -CONH2, -PO3H2",CC(CC(C)(C#N)CCC(N)=O)P(=O)(O)O,-1.0199,-1.0836,-1.1144,1.6153,PASS
+LIB_0019_TFEMA-VP-VSA,Oligomer(TFEMA-VP-VSA),Fluorinated-Amide + Heterocycle + Sulfonic,"-CF3/-CONH-, -SO3H, Pyrrolidone",CC(CC(CCS(=O)(=O)O)N1CCCC1=O)C(=O)NCC(F)(F)F,-1.1821,-0.9916,-1.0212,1.5784,PASS
+LIB_0072_VSO-TFEMA-AM,Oligomer(VSO-TFEMA-AM),Acrylamide + Fluorinated-Amide + Sulfoxide,"-CF3/-CONH-, -CONH2, -S(=O)Me",CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)S(C)=O,-0.8565,-1.1318,-1.1132,1.5783,PASS
+LIB_0243_VSA-TFEA-AN,Oligomer(VSA-TFEA-AN),Fluorinated + Nitrile + Sulfonic,"-CF3, -CN, -SO3H",CC(CC(CCC#N)C(=O)OCC(F)(F)F)S(=O)(=O)O,-0.8747,-1.4895,-0.6661,1.5766,PASS
+LIB_0048_VPA-VSO-VSA,Oligomer(VPA-VSO-VSA),Phosphonate + Sulfonic + Sulfoxide,"-PO3H2, -S(=O)Me, -SO3H",CC(CC(CCS(=O)(=O)O)S(C)=O)P(=O)(O)O,-1.2253,-2.1542,-1.2436,1.5731,PASS
+LIB_0399_AM-SBMA-MAN,Oligomer(AM-SBMA-MAN),Acrylamide + Methacrylonitrile + Zwitterionic,"-CN/-CH3, -CONH2, Zwitterion",CC(C#N)CC(C)(CC(C)C(N)=O)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.6429,-1.2155,-1.1611,1.567,PASS
+LIB_0011_VA-VPA-VP,Oligomer(VA-VPA-VP),Heterocycle + Phosphonate + Polyvinyl,"-OH, -PO3H2, Pyrrolidone",CC(O)CC(CCN1CCCC1=O)P(=O)(O)O,-0.7032,-1.6005,-0.6349,1.5583,PASS
+LIB_0376_AM-VA-MAN,Oligomer(AM-VA-MAN),Acrylamide + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -CONH2, -OH",CC(C#N)CC(O)CC(C)C(N)=O,-0.797,-1.2802,-0.9397,1.5568,PASS
+LIB_0194_AA-AMPS-AM,Oligomer(AA-AMPS-AM),Acrylamide + Carboxylic + Sulfonic,"-CONH2, -COOH, -SO3H/-CONH-",CC(CC(CCC(N)=O)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-1.1417,-0.6652,-1.3346,1.5231,PASS
+LIB_0129_AA-VP-AM,Oligomer(AA-VP-AM),Acrylamide + Carboxylic + Heterocycle,"-CONH2, -COOH, Pyrrolidone",CC(CC(CCC(N)=O)N1CCCC1=O)C(=O)O,-1.049,-1.0444,-0.8921,1.4923,PASS
+LIB_0227_MAN-HEMA-MAN,Oligomer(MAN-HEMA-MAN),Ester-OH + Methacrylonitrile,"-CN/-CH3, -COO-/-OH",CC(C#N)CC(C)(CC(C)(C)C#N)C(=O)OCCO,-0.7035,-1.4348,-0.6705,1.4776,PASS
+LIB_0365_VI-VP-MAN,Oligomer(VI-VP-MAN),Heterocycle + Methacrylonitrile,"-CN/-CH3, Imidazole, Pyrrolidone",CC(C#N)CC(CC(C)n1ccnc1)N1CCCC1=O,-0.6537,-1.7912,-0.8482,1.4735,PASS
+LIB_0036_AM-AA-VSA,Oligomer(AM-AA-VSA),Acrylamide + Carboxylic + Sulfonic,"-CONH2, -COOH, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)O)C(N)=O,-0.683,-0.979,-1.2211,1.4712,PASS
+LIB_0154_AA-VI-VSA,Oligomer(AA-VI-VSA),Carboxylic + Heterocycle + Sulfonic,"-COOH, -SO3H, Imidazole",CC(CC(CCS(=O)(=O)O)n1ccnc1)C(=O)O,-1.1603,-1.1684,-0.5893,1.4598,PASS
+LIB_0029_AM-DMA-VP,Oligomer(AM-DMA-VP),Acrylamide + Heterocycle + Tert-Amide,"-CONH2, -CONMe2, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)N(C)C)C(N)=O,-1.0508,-1.1382,-0.6992,1.4528,PASS
+LIB_0088_AM-MAN-AA,Oligomer(AM-MAN-AA),Acrylamide + Carboxylic + Methacrylonitrile,"-CN/-CH3, -CONH2, -COOH",CC(CC(C)(C#N)CCC(=O)O)C(N)=O,-0.7126,-1.374,-0.6509,1.4349,PASS
+LIB_0050_HEMA-AN-HEMA,Oligomer(HEMA-AN-HEMA),Ester-OH + Nitrile,"-CN, -COO-/-OH",CC(CC(C#N)CC(C)(C)C(=O)OCCO)C(=O)OCCO,-0.6547,-1.2025,-0.8998,1.4333,PASS
+LIB_0197_VP-AN-MAN,Oligomer(VP-AN-MAN),Heterocycle + Methacrylonitrile + Nitrile,"-CN, -CN/-CH3, Pyrrolidone",CC(C#N)CC(C#N)CC(C)N1CCCC1=O,-0.6531,-1.8685,-0.8946,1.4269,PASS
+LIB_0098_VSA-AA-AM,Oligomer(VSA-AA-AM),Acrylamide + Carboxylic + Sulfonic,"-CONH2, -COOH, -SO3H",CC(CC(CCC(N)=O)C(=O)O)S(=O)(=O)O,-1.0143,-1.0375,-0.7727,1.4146,PASS
+LIB_0198_VPA-VSA-VSO,Oligomer(VPA-VSA-VSO),Phosphonate + Sulfonic + Sulfoxide,"-PO3H2, -S(=O)Me, -SO3H",CC(CC(CCS(C)=O)S(=O)(=O)O)P(=O)(O)O,-0.8517,-0.8147,-1.1659,1.4125,PASS
+LIB_0018_AMPS-EG-MAN,Oligomer(AMPS-EG-MAN),Methacrylonitrile + Polyether + Sulfonic,"-CN/-CH3, -OH/-O-, -SO3H/-CONH-",CC(C#N)CCCOC(C)C(=O)NCC(C)(C)S(=O)(=O)O,-1.2228,-1.4039,-0.1435,1.4032,PASS
+LIB_0105_VI-VA-VSA,Oligomer(VI-VA-VSA),Heterocycle + Polyvinyl + Sulfonic,"-OH, -SO3H, Imidazole",CC(CC(O)CCS(=O)(=O)O)n1ccnc1,-0.6454,-1.1675,-0.885,1.4011,PASS
+LIB_0100_VPA-HEMA-AN,Oligomer(VPA-HEMA-AN),Ester-OH + Nitrile + Phosphonate,"-CN, -COO-/-OH, -PO3H2",CC(CC(C)(CCC#N)C(=O)OCCO)P(=O)(O)O,-0.5679,-0.8407,-1.3391,1.4011,PASS
+LIB_0226_VI-AA-DMA,Oligomer(VI-AA-DMA),Carboxylic + Heterocycle + Tert-Amide,"-CONMe2, -COOH, Imidazole",CC(CC(CCC(=O)N(C)C)C(=O)O)n1ccnc1,-0.6703,-1.3491,-0.646,1.4006,PASS
+LIB_0361_VSA-DMA-AM,Oligomer(VSA-DMA-AM),Acrylamide + Sulfonic + Tert-Amide,"-CONH2, -CONMe2, -SO3H",CC(CC(CCC(N)=O)C(=O)N(C)C)S(=O)(=O)O,-1.2096,-2.2856,-1.141,1.3973,PASS
+LIB_0142_MAN-VP-VSA,Oligomer(MAN-VP-VSA),Heterocycle + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H, Pyrrolidone",CC(C)(C#N)CC(CCS(=O)(=O)O)N1CCCC1=O,-0.6763,-1.1242,-0.8884,1.3892,PASS
+LIB_0313_DMA-TFEA-DMA,Oligomer(DMA-TFEA-DMA),Fluorinated + Tert-Amide,"-CF3, -CONMe2",CC(CC(CCC(=O)N(C)C)C(=O)OCC(F)(F)F)C(=O)N(C)C,-0.6643,-1.6704,-0.4532,1.3889,PASS
+LIB_0190_AA-VSA-VI,Oligomer(AA-VSA-VI),Carboxylic + Heterocycle + Sulfonic,"-COOH, -SO3H, Imidazole",CC(CC(CCn1ccnc1)S(=O)(=O)O)C(=O)O,-0.475,-1.644,-0.5417,1.3812,PASS
+LIB_0166_VSA-AA-AA,Oligomer(VSA-AA-AA),Carboxylic + Sulfonic,"-COOH, -SO3H",CC(CC(CCC(=O)O)C(=O)O)S(=O)(=O)O,-0.8464,-1.4628,-0.329,1.3807,PASS
+LIB_0007_TFEA-EG-AM,Oligomer(TFEA-EG-AM),Acrylamide + Fluorinated + Polyether,"-CF3, -CONH2, -OH/-O-",CC(OCCCCC(N)=O)C(=O)OCC(F)(F)F,-0.8122,-1.3067,-0.5261,1.3719,PASS
+LIB_0127_VA-AN-DMA,Oligomer(VA-AN-DMA),Nitrile + Polyvinyl + Tert-Amide,"-CN, -CONMe2, -OH",CC(O)CC(C#N)CCC(=O)N(C)C,-0.8072,-0.9711,-0.931,1.371,PASS
+LIB_0033_DMA-TFEA-VSA,Oligomer(DMA-TFEA-VSA),Fluorinated + Sulfonic + Tert-Amide,"-CF3, -CONMe2, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)OCC(F)(F)F)C(=O)N(C)C,-0.6504,-1.2027,-0.7728,1.3682,PASS
+LIB_0023_VSA-VP-AA,Oligomer(VSA-VP-AA),Carboxylic + Heterocycle + Sulfonic,"-COOH, -SO3H, Pyrrolidone",CC(CC(CCC(=O)O)N1CCCC1=O)S(=O)(=O)O,-1.1589,-0.6967,-0.9466,1.3549,PASS
+LIB_0145_VSA-DMA-VPA,Oligomer(VSA-DMA-VPA),Phosphonate + Sulfonic + Tert-Amide,"-CONMe2, -PO3H2, -SO3H",CC(CC(CCP(=O)(O)O)C(=O)N(C)C)S(=O)(=O)O,-0.7473,-1.3672,-0.4673,1.3529,PASS
+LIB_0077_VP-ACMO-AA,Oligomer(VP-ACMO-AA),Carboxylic + Heterocycle + Heterocycle-Ether,"-COOH, Morpholine, Pyrrolidone",CC(CC(CCC(=O)O)C(=O)N1CCOCC1)N1CCCC1=O,-0.8321,-1.6562,-0.2174,1.351,PASS
+LIB_0087_VP-AN-AM,Oligomer(VP-AN-AM),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Pyrrolidone",CC(CC(C#N)CCC(N)=O)N1CCCC1=O,-0.9743,-1.2123,-0.4367,1.3354,PASS
+LIB_0342_EG-TFEA-VP,Oligomer(EG-TFEA-VP),Fluorinated + Heterocycle + Polyether,"-CF3, -OH/-O-, Pyrrolidone",O=C(OCC(F)(F)F)C(CCCO)CCN1CCCC1=O,-0.6934,-1.1905,-0.6847,1.334,PASS
+LIB_0177_AA-TFEMA-VSA,Oligomer(AA-TFEMA-VSA),Carboxylic + Fluorinated-Amide + Sulfonic,"-CF3/-CONH-, -COOH, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F)C(=O)O,-0.9981,-0.733,-0.9868,1.3325,PASS
+LIB_0076_VP-AN,Oligomer(VP-AN),Heterocycle + Nitrile,"-CN, Pyrrolidone",CC(CCC#N)N1CCCC1=O,-0.7071,-2.0479,-0.9844,1.3319,PASS
+LIB_0371_AMPS-VSA-DMA,Oligomer(AMPS-VSA-DMA),Sulfonic + Tert-Amide,"-CONMe2, -SO3H, -SO3H/-CONH-",CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5668,-1.5215,-0.3828,1.331,PASS
+LIB_0246_AM-VP-VP,Oligomer(AM-VP-VP),Acrylamide + Heterocycle,"-CONH2, Pyrrolidone",CC(CC(CCN1CCCC1=O)N1CCCC1=O)C(N)=O,-1.0144,-0.8973,-0.7725,1.3304,PASS
+LIB_0027_AA-DMA-VSA,Oligomer(AA-DMA-VSA),Carboxylic + Sulfonic + Tert-Amide,"-CONMe2, -COOH, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)N(C)C)C(=O)O,-0.6785,-2.0819,-1.0563,1.3258,PASS
+LIB_0350_VP-VP-VI,Oligomer(VP-VP-VI),Heterocycle,"Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)N1CCCC1=O)N1CCCC1=O,-0.7818,-1.053,-0.758,1.3235,PASS
+LIB_0023_DMA-TFEMA-VSA,Oligomer(DMA-TFEMA-VSA),Fluorinated-Amide + Sulfonic + Tert-Amide,"-CF3/-CONH-, -CONMe2, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F)C(=O)N(C)C,-0.6306,-1.1952,-0.7044,1.3216,PASS
+LIB_0055_AN-VI-VA,Oligomer(AN-VI-VA),Heterocycle + Nitrile + Polyvinyl,"-CN, -OH, Imidazole",CC(C#N)CC(CCO)n1ccnc1,-0.6355,-1.3057,-0.5642,1.3197,PASS
+LIB_0123_AMPS-DMA-MAN,Oligomer(AMPS-DMA-MAN),Methacrylonitrile + Sulfonic + Tert-Amide,"-CN/-CH3, -CONMe2, -SO3H/-CONH-",CC(C#N)CC(CC(C)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C,-0.7281,-1.4652,-0.2936,1.3172,PASS
+LIB_0055_DMA-VSA-VA,Oligomer(DMA-VSA-VA),Polyvinyl + Sulfonic + Tert-Amide,"-CONMe2, -OH, -SO3H",CC(CC(CCO)S(=O)(=O)O)C(=O)N(C)C,-0.619,-1.4924,-0.3355,1.3108,PASS
+LIB_0096_AN-AN-AA,Oligomer(AN-AN-AA),Carboxylic + Nitrile,"-CN, -COOH",CC(C#N)CC(C#N)CCC(=O)O,-1.1384,-0.7169,-0.8473,1.3091,PASS
+LIB_0161_AA-TFEA-VI,Oligomer(AA-TFEA-VI),Carboxylic + Fluorinated + Heterocycle,"-CF3, -COOH, Imidazole",CC(CC(CCn1ccnc1)C(=O)OCC(F)(F)F)C(=O)O,-1.1669,-0.6514,-0.9022,1.3087,PASS
+LIB_0095_VSA-VSA-VSA,Oligomer(VSA-VSA-VSA),Sulfonic,-SO3H,CC(CC(CCS(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O,-0.6392,-1.6502,-0.2736,1.3073,PASS
+LIB_0126_AM-VP-AN,Oligomer(AM-VP-AN),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Pyrrolidone",CC(CC(CCC#N)N1CCCC1=O)C(N)=O,-0.8575,-1.0345,-0.6872,1.3073,PASS
+LIB_0161_AN-VSA-AM,Oligomer(AN-VSA-AM),Acrylamide + Nitrile + Sulfonic,"-CN, -CONH2, -SO3H",CC(C#N)CC(CCC(N)=O)S(=O)(=O)O,-0.4329,-1.4333,-0.5439,1.3051,PASS
+LIB_0096_HEMA-ACMO-AA,Oligomer(HEMA-ACMO-AA),Carboxylic + Ester-OH + Heterocycle-Ether,"-COO-/-OH, -COOH, Morpholine",CC(C)(CC(CCC(=O)O)C(=O)N1CCOCC1)C(=O)OCCO,-0.6817,-0.9846,-0.879,1.3029,PASS
+LIB_0119_AM-HEMA-VP,Oligomer(AM-HEMA-VP),Acrylamide + Ester-OH + Heterocycle,"-CONH2, -COO-/-OH, Pyrrolidone",CC(CC(C)(CCN1CCCC1=O)C(=O)OCCO)C(N)=O,-0.9959,-1.2112,-0.3459,1.298,PASS
+LIB_0041_VP-AM-AN,Oligomer(VP-AM-AN),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Pyrrolidone",CC(CC(CCC#N)C(N)=O)N1CCCC1=O,-0.9871,-0.8192,-0.816,1.2944,PASS
+LIB_0385_AM-MAN-DMA,Oligomer(AM-MAN-DMA),Acrylamide + Methacrylonitrile + Tert-Amide,"-CN/-CH3, -CONH2, -CONMe2",CC(CC(C)(C#N)CCC(=O)N(C)C)C(N)=O,-1.0019,-0.9792,-0.6003,1.2884,PASS
+LIB_0359_VSA-EG-VSA,Oligomer(VSA-EG-VSA),Polyether + Sulfonic,"-OH/-O-, -SO3H",CC(OCCCCS(=O)(=O)O)S(=O)(=O)O,-0.6067,-1.2865,-0.546,1.2876,PASS
+LIB_0153_AM-VI-AM,Oligomer(AM-VI-AM),Acrylamide + Heterocycle,"-CONH2, Imidazole",CC(CC(CCC(N)=O)n1ccnc1)C(N)=O,-0.6638,-1.377,-0.3915,1.2875,PASS
+LIB_0012_DMA-AN-VP,Oligomer(DMA-AN-VP),Heterocycle + Nitrile + Tert-Amide,"-CN, -CONMe2, Pyrrolidone",CC(CC(C#N)CCN1CCCC1=O)C(=O)N(C)C,-0.6514,-1.0801,-0.7488,1.283,PASS
+LIB_0027_VSA-VP-VI,Oligomer(VSA-VP-VI),Heterocycle + Sulfonic,"-SO3H, Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)N1CCCC1=O)S(=O)(=O)O,-0.56,-1.4849,-0.3283,1.2791,PASS
+LIB_0353_VA-VSA-TFEA,Oligomer(VA-VSA-TFEA),Fluorinated + Polyvinyl + Sulfonic,"-CF3, -OH, -SO3H",CC(O)CC(CCC(=O)OCC(F)(F)F)S(=O)(=O)O,-0.5348,-1.5448,-0.2674,1.2745,PASS
+LIB_0393_AM-AMPS-AM,Oligomer(AM-AMPS-AM),Acrylamide + Sulfonic,"-CONH2, -SO3H/-CONH-",CC(CC(CCC(N)=O)C(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O,-0.8418,-1.0538,-0.6048,1.2714,PASS
+LIB_0075_VA-TFEA-EG,Oligomer(VA-TFEA-EG),Fluorinated + Polyether + Polyvinyl,"-CF3, -OH, -OH/-O-",CCOC(CC(C)O)C(=O)OCC(F)(F)F,-0.549,-1.3967,-0.4262,1.2707,PASS
+LIB_0141_AM-VSO-DMA,Oligomer(AM-VSO-DMA),Acrylamide + Sulfoxide + Tert-Amide,"-CONH2, -CONMe2, -S(=O)Me",CC(CC(CCC(=O)N(C)C)S(C)=O)C(N)=O,-0.6772,-1.2833,-0.4528,1.2672,PASS
+LIB_0028_AM-AM-TFEMA,Oligomer(AM-AM-TFEMA),Acrylamide + Fluorinated-Amide,"-CF3/-CONH-, -CONH2",CC(CC(CCC(=O)NCC(F)(F)F)C(N)=O)C(N)=O,-1.009,-0.9654,-0.5681,1.2669,PASS
+LIB_0160_VI-VP,Oligomer(VI-VP),Heterocycle,"Imidazole, Pyrrolidone",CC(CCN1CCCC1=O)n1ccnc1,-0.6607,-0.9385,-0.8767,1.2657,PASS
+LIB_0124_VSO-VPA-VSA,Oligomer(VSO-VPA-VSA),Phosphonate + Sulfonic + Sulfoxide,"-PO3H2, -S(=O)Me, -SO3H",CC(CC(CCS(=O)(=O)O)P(=O)(O)O)S(C)=O,-0.6192,-1.4116,-0.3398,1.2646,PASS
+LIB_0164_VSA-VI-EG,Oligomer(VSA-VI-EG),Heterocycle + Polyether + Sulfonic,"-OH/-O-, -SO3H, Imidazole",CCOC(CC(C)S(=O)(=O)O)n1ccnc1,-0.5643,-1.1998,-0.6288,1.26,PASS
+LIB_0221_DMA-VSA-TFEA,Oligomer(DMA-VSA-TFEA),Fluorinated + Sulfonic + Tert-Amide,"-CF3, -CONMe2, -SO3H",CC(CC(CCC(=O)OCC(F)(F)F)S(=O)(=O)O)C(=O)N(C)C,-0.5927,-1.2853,-0.5033,1.2599,PASS
+LIB_0388_TFEA-AA-AA,Oligomer(TFEA-AA-AA),Carboxylic + Fluorinated,"-CF3, -COOH",CC(CC(CCC(=O)O)C(=O)O)C(=O)OCC(F)(F)F,-1.2124,-0.7283,-0.6713,1.2576,PASS
+LIB_0014_VSA-AM-AN,Oligomer(VSA-AM-AN),Acrylamide + Nitrile + Sulfonic,"-CN, -CONH2, -SO3H",CC(CC(CCC#N)C(N)=O)S(=O)(=O)O,-0.5722,-1.1393,-0.6785,1.2517,PASS
+LIB_0305_VI-HEMA-AM,Oligomer(VI-HEMA-AM),Acrylamide + Ester-OH + Heterocycle,"-CONH2, -COO-/-OH, Imidazole",CC(CC(C)(CCC(N)=O)C(=O)OCCO)n1ccnc1,-1.039,-0.9814,-0.4856,1.2472,PASS
+LIB_0102_DMA-AM-AN,Oligomer(DMA-AM-AN),Acrylamide + Nitrile + Tert-Amide,"-CN, -CONH2, -CONMe2",CC(CC(CCC#N)C(N)=O)C(=O)N(C)C,-0.9856,-1.8861,-0.2958,1.2446,PASS
+LIB_0085_AN-AM-DMA,Oligomer(AN-AM-DMA),Acrylamide + Nitrile + Tert-Amide,"-CN, -CONH2, -CONMe2",CC(C#N)CC(CCC(=O)N(C)C)C(N)=O,-0.7957,-0.9858,-0.6672,1.2434,PASS
+LIB_0079_VPA-VPA-VI,Oligomer(VPA-VPA-VI),Heterocycle + Phosphonate,"-PO3H2, Imidazole",CC(CC(CCn1ccnc1)P(=O)(O)O)P(=O)(O)O,-0.6538,-1.1356,-0.5944,1.2401,PASS
+LIB_0106_VA-VI-MAN,Oligomer(VA-VI-MAN),Heterocycle + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -OH, Imidazole",CC(O)CC(CC(C)C#N)n1ccnc1,-0.7319,-0.9512,-0.7512,1.2391,PASS
+LIB_0120_VSA-AN-TFEA,Oligomer(VSA-AN-TFEA),Fluorinated + Nitrile + Sulfonic,"-CF3, -CN, -SO3H",CC(CC(C#N)CCC(=O)OCC(F)(F)F)S(=O)(=O)O,-0.5492,-1.5886,-0.1275,1.2366,PASS
+LIB_0070_VI-VSA-VSO,Oligomer(VI-VSA-VSO),Heterocycle + Sulfonic + Sulfoxide,"-S(=O)Me, -SO3H, Imidazole",CC(CC(CCS(C)=O)S(=O)(=O)O)n1ccnc1,-0.7378,-1.2066,-0.4337,1.2359,PASS
+LIB_0176_HEMA-DMA-VSA,Oligomer(HEMA-DMA-VSA),Ester-OH + Sulfonic + Tert-Amide,"-CONMe2, -COO-/-OH, -SO3H",CN(C)C(=O)C(CCS(=O)(=O)O)CC(C)(C)C(=O)OCCO,-0.5611,-1.2616,-0.5027,1.2328,PASS
+LIB_0094_AM-AA-DMA,Oligomer(AM-AA-DMA),Acrylamide + Carboxylic + Tert-Amide,"-CONH2, -CONMe2, -COOH",CC(CC(CCC(=O)N(C)C)C(=O)O)C(N)=O,-1.0257,-1.0905,-0.3166,1.2229,PASS
+LIB_0037_VSO-AM-MAN,Oligomer(VSO-AM-MAN),Acrylamide + Methacrylonitrile + Sulfoxide,"-CN/-CH3, -CONH2, -S(=O)Me",CC(C#N)CC(CC(C)S(C)=O)C(N)=O,-0.6713,-1.1089,-0.5743,1.221,PASS
+LIB_0153_VSA-TFEA-VPA,Oligomer(VSA-TFEA-VPA),Fluorinated + Phosphonate + Sulfonic,"-CF3, -PO3H2, -SO3H",CC(CC(CCP(=O)(O)O)C(=O)OCC(F)(F)F)S(=O)(=O)O,-0.9078,-2.4098,-1.2445,1.2165,PASS
+LIB_0381_VP-AMPS-MAN,Oligomer(VP-AMPS-MAN),Heterocycle + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H/-CONH-, Pyrrolidone",CC(C#N)CC(CC(C)N1CCCC1=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.7141,-1.6433,-0.0163,1.2148,PASS
+LIB_0090_VSA-MAN-ACMO,Oligomer(VSA-MAN-ACMO),Heterocycle-Ether + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H, Morpholine",CC(CC(C)(C#N)CCC(=O)N1CCOCC1)S(=O)(=O)O,-0.5874,-0.3609,-1.5182,1.2106,PASS
+LIB_0158_MAN-AM-AM,Oligomer(MAN-AM-AM),Acrylamide + Methacrylonitrile,"-CN/-CH3, -CONH2",CC(C)(C#N)CC(CCC(N)=O)C(N)=O,-1.0168,-1.0717,-0.3167,1.2081,PASS
+LIB_0165_VI-AM-VP,Oligomer(VI-AM-VP),Acrylamide + Heterocycle,"-CONH2, Imidazole, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(N)=O)n1ccnc1,-0.669,-0.9816,-0.703,1.208,PASS
+LIB_0068_AM-EG-TFEA,Oligomer(AM-EG-TFEA),Acrylamide + Fluorinated + Polyether,"-CF3, -CONH2, -OH/-O-",CC(OCCCCC(=O)OCC(F)(F)F)C(N)=O,-1.0362,-1.0401,-0.3317,1.2044,PASS
+LIB_0320_MAN-EG-AM,Oligomer(MAN-EG-AM),Acrylamide + Methacrylonitrile + Polyether,"-CN/-CH3, -CONH2, -OH/-O-",CC(C)(C#N)OCCCCC(N)=O,-0.804,-1.0029,-0.5497,1.1982,PASS
+LIB_0001_VP-VPA-EG,Oligomer(VP-VPA-EG),Heterocycle + Phosphonate + Polyether,"-OH/-O-, -PO3H2, Pyrrolidone",CCOC(CC(C)N1CCCC1=O)P(=O)(O)O,-1.2053,-0.828,-0.433,1.1955,PASS
+LIB_0328_TFEA-VSA-AA,Oligomer(TFEA-VSA-AA),Carboxylic + Fluorinated + Sulfonic,"-CF3, -COOH, -SO3H",CC(CC(CCC(=O)O)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.6407,-0.6822,-1.0582,1.1947,PASS
+LIB_0232_AM-MAN-VP,Oligomer(AM-MAN-VP),Acrylamide + Heterocycle + Methacrylonitrile,"-CN/-CH3, -CONH2, Pyrrolidone",CC(CC(C)(C#N)CCN1CCCC1=O)C(N)=O,-0.9861,-1.0127,-0.3802,1.1922,PASS
+LIB_0127_VPA-HEMA-AM,Oligomer(VPA-HEMA-AM),Acrylamide + Ester-OH + Phosphonate,"-CONH2, -COO-/-OH, -PO3H2",CC(CC(C)(CCC(N)=O)C(=O)OCCO)P(=O)(O)O,-0.8293,-1.0232,-0.4877,1.1895,PASS
+LIB_0119_VSO-VA-VPA,Oligomer(VSO-VA-VPA),Phosphonate + Polyvinyl + Sulfoxide,"-OH, -PO3H2, -S(=O)Me",CC(CC(O)CCP(=O)(O)O)S(C)=O,-1.0611,-0.9502,-0.3886,1.1889,PASS
+LIB_0048_AM-DMA-VSA,Oligomer(AM-DMA-VSA),Acrylamide + Sulfonic + Tert-Amide,"-CONH2, -CONMe2, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)N(C)C)C(N)=O,-0.6631,-1.2283,-0.3682,1.1863,PASS
+LIB_0308_MAN-VP,Oligomer(MAN-VP),Heterocycle + Methacrylonitrile,"-CN/-CH3, Pyrrolidone",CC(C)(C#N)CCN1CCCC1=O,-0.7097,-1.0203,-0.5705,1.1813,PASS
+LIB_0108_VP-AM-VSA,Oligomer(VP-AM-VSA),Acrylamide + Heterocycle + Sulfonic,"-CONH2, -SO3H, Pyrrolidone",CC(CC(CCS(=O)(=O)O)C(N)=O)N1CCCC1=O,-1.1757,-0.8212,-0.4346,1.1803,PASS
+LIB_0118_VP-EG-AM,Oligomer(VP-EG-AM),Acrylamide + Heterocycle + Polyether,"-CONH2, -OH/-O-, Pyrrolidone",CC(OCCCCC(N)=O)N1CCCC1=O,-1.015,-1.0269,-0.3125,1.1784,PASS
+LIB_0344_HEMA-HEMA-HEMA,Oligomer(HEMA-HEMA-HEMA),Ester-OH,-COO-/-OH,CC(CC(C)(CC(C)(C)C(=O)OCCO)C(=O)OCCO)C(=O)OCCO,-0.8505,-0.4354,-1.1474,1.1752,PASS
+LIB_0026_DMA-VSA-AN,Oligomer(DMA-VSA-AN),Nitrile + Sulfonic + Tert-Amide,"-CN, -CONMe2, -SO3H",CC(CC(CCC#N)S(=O)(=O)O)C(=O)N(C)C,-0.5021,-1.4923,-0.1488,1.1706,PASS
+LIB_0211_AM-VP,Oligomer(AM-VP),Acrylamide + Heterocycle,"-CONH2, Pyrrolidone",CC(CCN1CCCC1=O)C(N)=O,-0.6525,-1.0872,-0.513,1.1698,PASS
+LIB_0323_VA-EG-VP,Oligomer(VA-EG-VP),Heterocycle + Polyether + Polyvinyl,"-OH, -OH/-O-, Pyrrolidone",CC(O)OCCCCN1CCCC1=O,-0.7996,-1.1118,-0.362,1.1679,PASS
+LIB_0155_AM-AN-VI,Oligomer(AM-AN-VI),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Imidazole",CC(CC(C#N)CCn1ccnc1)C(N)=O,-1.0104,-1.0549,-0.2575,1.1659,PASS
+LIB_0192_AM-VSA-MAN,Oligomer(AM-VSA-MAN),Acrylamide + Methacrylonitrile + Sulfonic,"-CN/-CH3, -CONH2, -SO3H",CC(C#N)CC(CC(C)C(N)=O)S(=O)(=O)O,-0.6884,-1.0258,-0.5424,1.162,PASS
+LIB_0132_VI-TFEA-HEMA,Oligomer(VI-TFEA-HEMA),Ester-OH + Fluorinated + Heterocycle,"-CF3, -COO-/-OH, Imidazole",CC(CC(CC(C)n1ccnc1)C(=O)OCC(F)(F)F)C(=O)OCCO,-0.8225,-0.4632,-1.104,1.1589,PASS
+LIB_0093_TFEA-VA-VP,Oligomer(TFEA-VA-VP),Fluorinated + Heterocycle + Polyvinyl,"-CF3, -OH, Pyrrolidone",CC(CC(O)CCN1CCCC1=O)C(=O)OCC(F)(F)F,-0.6614,-1.0177,-0.5618,1.1561,PASS
+LIB_0204_DMA-VSA-AM,Oligomer(DMA-VSA-AM),Acrylamide + Sulfonic + Tert-Amide,"-CONH2, -CONMe2, -SO3H",CC(CC(CCC(N)=O)S(=O)(=O)O)C(=O)N(C)C,-0.6558,-1.3392,-0.1692,1.1505,PASS
+LIB_0062_VSA-AA-TFEMA,Oligomer(VSA-AA-TFEMA),Carboxylic + Fluorinated-Amide + Sulfonic,"-CF3/-CONH-, -COOH, -SO3H",CC(CC(CCC(=O)NCC(F)(F)F)C(=O)O)S(=O)(=O)O,-1.1352,-0.5696,-0.6998,1.1457,PASS
+LIB_0022_VSA-VP-VA,Oligomer(VSA-VP-VA),Heterocycle + Polyvinyl + Sulfonic,"-OH, -SO3H, Pyrrolidone",CC(CC(CCO)N1CCCC1=O)S(=O)(=O)O,-0.5886,-1.8702,-0.3821,1.1433,PASS
+LIB_0093_VSA-VSO-VP,Oligomer(VSA-VSO-VP),Heterocycle + Sulfonic + Sulfoxide,"-S(=O)Me, -SO3H, Pyrrolidone",CC(CC(CCN1CCCC1=O)S(C)=O)S(=O)(=O)O,-0.6388,-1.0781,-0.482,1.1433,PASS
+LIB_0109_AM-VA-VI,Oligomer(AM-VA-VI),Acrylamide + Heterocycle + Polyvinyl,"-CONH2, -OH, Imidazole",CC(CC(O)CCn1ccnc1)C(N)=O,-0.9515,-0.772,-0.5958,1.1417,PASS
+LIB_0250_AA-AM-VA,Oligomer(AA-AM-VA),Acrylamide + Carboxylic + Polyvinyl,"-CONH2, -COOH, -OH",CC(CC(CCO)C(N)=O)C(=O)O,-1.1906,-0.6926,-0.4973,1.1405,PASS
+LIB_0152_TFEA-MAN-AM,Oligomer(TFEA-MAN-AM),Acrylamide + Fluorinated + Methacrylonitrile,"-CF3, -CN/-CH3, -CONH2",CC(CC(C)(C#N)CCC(N)=O)C(=O)OCC(F)(F)F,-0.7727,-1.2843,-0.1207,1.14,PASS
+LIB_0067_AM-AA-VP,Oligomer(AM-AA-VP),Acrylamide + Carboxylic + Heterocycle,"-CONH2, -COOH, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)O)C(N)=O,-0.9502,-0.9888,-0.3332,1.14,PASS
+LIB_0079_VI-AN-VP,Oligomer(VI-AN-VP),Heterocycle + Nitrile,"-CN, Imidazole, Pyrrolidone",CC(CC(C#N)CCN1CCCC1=O)n1ccnc1,-0.7207,-1.056,-0.4348,1.1393,PASS
+LIB_0280_AN-MAN-VP,Oligomer(AN-MAN-VP),Heterocycle + Methacrylonitrile + Nitrile,"-CN, -CN/-CH3, Pyrrolidone",CC(C#N)CC(C)(C#N)CCN1CCCC1=O,-0.6989,-1.0376,-0.4707,1.1374,PASS
+LIB_0276_TFEA-AM-AM,Oligomer(TFEA-AM-AM),Acrylamide + Fluorinated,"-CF3, -CONH2",CC(CC(CCC(N)=O)C(N)=O)C(=O)OCC(F)(F)F,-0.5865,-0.9777,-0.6295,1.136,PASS
+LIB_0033_DMA-AM-MAN,Oligomer(DMA-AM-MAN),Acrylamide + Methacrylonitrile + Tert-Amide,"-CN/-CH3, -CONH2, -CONMe2",CC(C#N)CC(CC(C)C(=O)N(C)C)C(N)=O,-0.7612,-0.846,-0.6341,1.1291,PASS
+LIB_0179_TFEA-AM-AM,Oligomer(TFEA-AM-AM),Acrylamide + Fluorinated,"-CF3, -CONH2",CC(CC(CCC(N)=O)C(N)=O)C(=O)OCC(F)(F)F,-0.587,-0.9596,-0.6295,1.1253,PASS
+LIB_0004_HEMA-AM-HEMA,Oligomer(HEMA-AM-HEMA),Acrylamide + Ester-OH,"-CONH2, -COO-/-OH",CC(CC(CC(C)(C)C(=O)OCCO)C(N)=O)C(=O)OCCO,-0.8911,-0.5213,-0.9071,1.1228,PASS
+LIB_0397_VP-VI-VI,Oligomer(VP-VI-VI),Heterocycle,"Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)n1ccnc1)N1CCCC1=O,-0.6482,-0.9015,-0.6435,1.1219,PASS
+LIB_0212_VSA-AMPS-AN,Oligomer(VSA-AMPS-AN),Nitrile + Sulfonic,"-CN, -SO3H, -SO3H/-CONH-",CC(CC(CCC#N)C(=O)NCC(C)(C)S(=O)(=O)O)S(=O)(=O)O,-0.8734,-2.4163,-1.0891,1.1192,PASS
+LIB_0025_VSA-VI-VPA,Oligomer(VSA-VI-VPA),Heterocycle + Phosphonate + Sulfonic,"-PO3H2, -SO3H, Imidazole",CC(CC(CCP(=O)(O)O)n1ccnc1)S(=O)(=O)O,-0.9167,-0.2932,-1.1442,1.1147,PASS
+LIB_0163_MAN-TFEA-AN,Oligomer(MAN-TFEA-AN),Fluorinated + Methacrylonitrile + Nitrile,"-CF3, -CN, -CN/-CH3",CC(C)(C#N)CC(CCC#N)C(=O)OCC(F)(F)F,-0.5791,-1.9603,-0.4932,1.114,PASS
+LIB_0373_TFEA-DMA,Oligomer(TFEA-DMA),Fluorinated + Tert-Amide,"-CF3, -CONMe2",CC(CCC(=O)N(C)C)C(=O)OCC(F)(F)F,-0.5757,-0.9886,-0.5768,1.1119,PASS
+LIB_0115_AM-HEMA-AN,Oligomer(AM-HEMA-AN),Acrylamide + Ester-OH + Nitrile,"-CN, -CONH2, -COO-/-OH",CC(CC(C)(CCC#N)C(=O)OCCO)C(N)=O,-0.7917,-0.3168,-1.1905,1.102,PASS
+LIB_0104_VSO-VPA-VSO,Oligomer(VSO-VPA-VSO),Phosphonate + Sulfoxide,"-PO3H2, -S(=O)Me",CC(CC(CCS(C)=O)P(=O)(O)O)S(C)=O,-0.5936,-1.2016,-0.2829,1.0999,PASS
+LIB_0390_VA-MAN-AA,Oligomer(VA-MAN-AA),Carboxylic + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -COOH, -OH",CC(O)CC(C)(C#N)CCC(=O)O,-0.8979,-0.7855,-0.5304,1.0956,PASS
+LIB_0020_DMA-AM-EG,Oligomer(DMA-AM-EG),Acrylamide + Polyether + Tert-Amide,"-CONH2, -CONMe2, -OH/-O-",CCOC(CC(C)C(=O)N(C)C)C(N)=O,-0.6936,-0.9155,-0.5323,1.0929,PASS
+LIB_0156_MAN-AN-VP,Oligomer(MAN-AN-VP),Heterocycle + Methacrylonitrile + Nitrile,"-CN, -CN/-CH3, Pyrrolidone",CC(C)(C#N)CC(C#N)CCN1CCCC1=O,-0.6891,-1.0419,-0.3677,1.0846,PASS
+LIB_0306_TFEA-TFEA-EG,Oligomer(TFEA-TFEA-EG),Fluorinated + Polyether,"-CF3, -OH/-O-",CCOC(CC(C)C(=O)OCC(F)(F)F)C(=O)OCC(F)(F)F,-0.6854,-1.111,-0.2872,1.0844,PASS
+LIB_0105_AN-VSA-VI,Oligomer(AN-VSA-VI),Heterocycle + Nitrile + Sulfonic,"-CN, -SO3H, Imidazole",CC(C#N)CC(CCn1ccnc1)S(=O)(=O)O,-0.5451,-1.8838,-0.3212,1.0832,PASS
+LIB_0131_VPA-TFEMA-AM,Oligomer(VPA-TFEMA-AM),Acrylamide + Fluorinated-Amide + Phosphonate,"-CF3/-CONH-, -CONH2, -PO3H2",CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)P(=O)(O)O,-1.264,-0.6478,-0.3764,1.0825,PASS
+LIB_0202_MAN-AN-DMA,Oligomer(MAN-AN-DMA),Methacrylonitrile + Nitrile + Tert-Amide,"-CN, -CN/-CH3, -CONMe2",CN(C)C(=O)CCC(C#N)CC(C)(C)C#N,-0.677,-0.9267,-0.5047,1.0791,PASS
+LIB_0248_AM-EG-HEMA,Oligomer(AM-EG-HEMA),Acrylamide + Ester-OH + Polyether,"-CONH2, -COO-/-OH, -OH/-O-",CC(CCCOC(C)C(N)=O)C(=O)OCCO,-0.6462,-1.0836,-0.3392,1.0782,PASS
+LIB_0074_VI-AMPS-VI,Oligomer(VI-AMPS-VI),Heterocycle + Sulfonic,"-SO3H/-CONH-, Imidazole",CC(CC(CCn1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O)n1ccnc1,-0.538,-2.2836,-1.0335,1.0767,PASS
+LIB_0034_MAN-VP-AN,Oligomer(MAN-VP-AN),Heterocycle + Methacrylonitrile + Nitrile,"-CN, -CN/-CH3, Pyrrolidone",CC(C)(C#N)CC(CCC#N)N1CCCC1=O,-0.6593,-0.9391,-0.4955,1.0749,PASS
+LIB_0086_VI-AA-AM,Oligomer(VI-AA-AM),Acrylamide + Carboxylic + Heterocycle,"-CONH2, -COOH, Imidazole",CC(CC(CCC(N)=O)C(=O)O)n1ccnc1,-0.9417,-0.6279,-0.6271,1.067,PASS
+LIB_0346_TFEA-MAN-VP,Oligomer(TFEA-MAN-VP),Fluorinated + Heterocycle + Methacrylonitrile,"-CF3, -CN/-CH3, Pyrrolidone",CC(CC(C)(C#N)CCN1CCCC1=O)C(=O)OCC(F)(F)F,-0.5731,-1.206,-0.2275,1.0666,PASS
+LIB_0235_AMPS-VP-AN,Oligomer(AMPS-VP-AN),Heterocycle + Nitrile + Sulfonic,"-CN, -SO3H/-CONH-, Pyrrolidone",CC(CC(CCC#N)N1CCCC1=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5369,-1.3619,-0.0666,1.0652,PASS
+LIB_0337_AA-DMA-TFEA,Oligomer(AA-DMA-TFEA),Carboxylic + Fluorinated + Tert-Amide,"-CF3, -CONMe2, -COOH",CC(CC(CCC(=O)OCC(F)(F)F)C(=O)N(C)C)C(=O)O,-0.5345,-1.2518,-0.199,1.0643,PASS
+LIB_0009_HEMA-HEMA-VSA,Oligomer(HEMA-HEMA-VSA),Ester-OH + Sulfonic,"-COO-/-OH, -SO3H",CC(C)(CC(C)(CCS(=O)(=O)O)C(=O)OCCO)C(=O)OCCO,-0.825,-0.4626,-0.9064,1.0607,PASS
+LIB_0110_DMA-VP-AN,Oligomer(DMA-VP-AN),Heterocycle + Nitrile + Tert-Amide,"-CN, -CONMe2, Pyrrolidone",CC(CC(CCC#N)N1CCCC1=O)C(=O)N(C)C,-0.6952,-0.9729,-0.3933,1.0584,PASS
+LIB_0042_EG-AMPS-AA,Oligomer(EG-AMPS-AA),Carboxylic + Polyether + Sulfonic,"-COOH, -OH/-O-, -SO3H/-CONH-",CC(C)(CNC(=O)C(CCCO)CCC(=O)O)S(=O)(=O)O,-0.893,-0.3897,-0.9335,1.0578,PASS
+LIB_0136_AMPS-VA-AA,Oligomer(AMPS-VA-AA),Carboxylic + Polyvinyl + Sulfonic,"-COOH, -OH, -SO3H/-CONH-",CC(CC(O)CCC(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.8862,-0.7372,-0.5209,1.0572,PASS
+LIB_0234_VP-VI,Oligomer(VP-VI),Heterocycle,"Imidazole, Pyrrolidone",CC(CCn1ccnc1)N1CCCC1=O,-0.6883,-0.8897,-0.477,1.0477,PASS
+LIB_0059_AM-AN-VP,Oligomer(AM-AN-VP),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Pyrrolidone",CC(CC(C#N)CCN1CCCC1=O)C(N)=O,-0.8003,-0.9393,-0.3208,1.0441,PASS
+LIB_0223_TFEA-AA-VP,Oligomer(TFEA-AA-VP),Carboxylic + Fluorinated + Heterocycle,"-CF3, -COOH, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)O)C(=O)OCC(F)(F)F,-0.6312,-1.0231,-0.3365,1.0346,PASS
+LIB_0383_DMA-AA-DMA,Oligomer(DMA-AA-DMA),Carboxylic + Tert-Amide,"-CONMe2, -COOH",CC(CC(CCC(=O)N(C)C)C(=O)O)C(=O)N(C)C,-0.7204,-1.4267,0.2221,1.0331,PASS
+LIB_0340_AMPS-AA-VA,Oligomer(AMPS-AA-VA),Carboxylic + Polyvinyl + Sulfonic,"-COOH, -OH, -SO3H/-CONH-",CC(CC(CCO)C(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.87,-0.4696,-0.8065,1.033,PASS
+LIB_0002_VSA-AA-VA,Oligomer(VSA-AA-VA),Carboxylic + Polyvinyl + Sulfonic,"-COOH, -OH, -SO3H",CC(CC(CCO)C(=O)O)S(=O)(=O)O,-0.6722,-0.9565,-0.3628,1.0242,PASS
+LIB_0191_AM-VI-DMA,Oligomer(AM-VI-DMA),Acrylamide + Heterocycle + Tert-Amide,"-CONH2, -CONMe2, Imidazole",CC(CC(CCC(=O)N(C)C)n1ccnc1)C(N)=O,-0.7326,-0.9159,-0.3574,1.0213,PASS
+LIB_0139_TFEA-AM-VP,Oligomer(TFEA-AM-VP),Acrylamide + Fluorinated + Heterocycle,"-CF3, -CONH2, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(N)=O)C(=O)OCC(F)(F)F,-0.7048,-1.044,-0.2255,1.021,PASS
+LIB_0163_VSA-TFEMA-EG,Oligomer(VSA-TFEMA-EG),Fluorinated-Amide + Polyether + Sulfonic,"-CF3/-CONH-, -OH/-O-, -SO3H",CCOC(CC(C)S(=O)(=O)O)C(=O)NCC(F)(F)F,-0.577,-1.9718,-0.3267,1.0196,PASS
+LIB_0327_AMPS-HEMA-AM,Oligomer(AMPS-HEMA-AM),Acrylamide + Ester-OH + Sulfonic,"-CONH2, -COO-/-OH, -SO3H/-CONH-",CC(CC(C)(CCC(N)=O)C(=O)OCCO)C(=O)NCC(C)(C)S(=O)(=O)O,-0.7918,-0.2921,-1.0494,1.0167,PASS
+LIB_0300_AN-VP-AN,Oligomer(AN-VP-AN),Heterocycle + Nitrile,"-CN, Pyrrolidone",CC(C#N)CC(CCC#N)N1CCCC1=O,-0.6039,-0.8612,-0.5138,1.0152,PASS
+LIB_0200_VI-AM-MAN,Oligomer(VI-AM-MAN),Acrylamide + Heterocycle + Methacrylonitrile,"-CN/-CH3, -CONH2, Imidazole",CC(C#N)CC(CC(C)n1ccnc1)C(N)=O,-0.9708,-1.0229,-0.0228,1.0134,PASS
+LIB_0345_AA-AMPS-VSA,Oligomer(AA-AMPS-VSA),Carboxylic + Sulfonic,"-COOH, -SO3H, -SO3H/-CONH-",CC(CC(CCS(=O)(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-0.8982,-0.5308,-0.6692,1.0124,PASS
+LIB_0253_DMA-VSA-EG,Oligomer(DMA-VSA-EG),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H",CCOC(CC(C)C(=O)N(C)C)S(=O)(=O)O,-0.5384,-2.0205,-0.4211,1.0074,PASS
+LIB_0157_VPA-DMA-DMA,Oligomer(VPA-DMA-DMA),Phosphonate + Tert-Amide,"-CONMe2, -PO3H2",CC(CC(CCC(=O)N(C)C)C(=O)N(C)C)P(=O)(O)O,-0.5377,-0.9249,-0.4707,1.0054,PASS
+LIB_0216_VA-TFEA-VA,Oligomer(VA-TFEA-VA),Fluorinated + Polyvinyl,"-CF3, -OH",CC(O)CC(CCO)C(=O)OCC(F)(F)F,-0.736,-0.9158,-0.32,1.0038,PASS
+LIB_0229_AN-AM-VI,Oligomer(AN-AM-VI),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Imidazole",CC(C#N)CC(CCn1ccnc1)C(N)=O,-0.854,-0.882,-0.2606,1.0011,PASS
+LIB_0139_AN-AM-VI,Oligomer(AN-AM-VI),Acrylamide + Heterocycle + Nitrile,"-CN, -CONH2, Imidazole",CC(C#N)CC(CCn1ccnc1)C(N)=O,-0.853,-0.882,-0.2606,1.0007,PASS
+LIB_0130_VPA-VSA-MAN,Oligomer(VPA-VSA-MAN),Methacrylonitrile + Phosphonate + Sulfonic,"-CN/-CH3, -PO3H2, -SO3H",CC(C#N)CC(CC(C)P(=O)(O)O)S(=O)(=O)O,-0.8664,-0.8454,-0.2826,0.9952,PASS
+LIB_0387_TFEA-VSA-AN,Oligomer(TFEA-VSA-AN),Fluorinated + Nitrile + Sulfonic,"-CF3, -CN, -SO3H",CC(CC(CCC#N)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.5233,-1.9476,-0.2743,0.9936,PASS
+LIB_0133_AA-MAN-AA,Oligomer(AA-MAN-AA),Carboxylic + Methacrylonitrile,"-CN/-CH3, -COOH",CC(CC(C)(C#N)CCC(=O)O)C(=O)O,-0.5985,-0.6671,-0.7022,0.9907,PASS
+LIB_0057_DMA-VA-EG,Oligomer(DMA-VA-EG),Polyether + Polyvinyl + Tert-Amide,"-CONMe2, -OH, -OH/-O-",CCOC(O)CC(C)C(=O)N(C)C,-0.6595,-1.2205,0.0118,0.9902,PASS
+LIB_0008_HEMA-DMA-AN,Oligomer(HEMA-DMA-AN),Ester-OH + Nitrile + Tert-Amide,"-CN, -CONMe2, -COO-/-OH",CN(C)C(=O)C(CCC#N)CC(C)(C)C(=O)OCCO,-0.6474,-1.0425,-0.1908,0.9799,PASS
+LIB_0118_VPA-ACMO-VA,Oligomer(VPA-ACMO-VA),Heterocycle-Ether + Phosphonate + Polyvinyl,"-OH, -PO3H2, Morpholine",CC(CC(CCO)C(=O)N1CCOCC1)P(=O)(O)O,-0.7995,-0.2982,-0.9562,0.9769,PASS
+LIB_0304_VSA-HEMA-VSA,Oligomer(VSA-HEMA-VSA),Ester-OH + Sulfonic,"-COO-/-OH, -SO3H",CC(CC(C)(CCS(=O)(=O)O)C(=O)OCCO)S(=O)(=O)O,-0.7296,-0.2237,-1.1002,0.9761,PASS
+LIB_0219_TFEA-VSA-DMA,Oligomer(TFEA-VSA-DMA),Fluorinated + Sulfonic + Tert-Amide,"-CF3, -CONMe2, -SO3H",CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.5164,-1.2364,-0.055,0.9759,PASS
+LIB_0009_HEMA-AN-AM,Oligomer(HEMA-AN-AM),Acrylamide + Ester-OH + Nitrile,"-CN, -CONH2, -COO-/-OH",CC(C)(CC(C#N)CCC(N)=O)C(=O)OCCO,-0.7487,-0.3968,-0.8747,0.9749,PASS
+LIB_0182_TFEA-VP-VI,Oligomer(TFEA-VP-VI),Fluorinated + Heterocycle,"-CF3, Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)N1CCCC1=O)C(=O)OCC(F)(F)F,-0.5855,-0.9487,-0.3396,0.9732,PASS
+LIB_0151_VSA-AM-DMA,Oligomer(VSA-AM-DMA),Acrylamide + Sulfonic + Tert-Amide,"-CONH2, -CONMe2, -SO3H",CC(CC(CCC(=O)N(C)C)C(N)=O)S(=O)(=O)O,-0.8247,-2.3512,-0.7114,0.9695,PASS
+LIB_0117_MAN-VI-VI,Oligomer(MAN-VI-VI),Heterocycle + Methacrylonitrile,"-CN/-CH3, Imidazole",CC(C)(C#N)CC(CCn1ccnc1)n1ccnc1,-0.5255,-0.9583,-0.358,0.9642,PASS
+LIB_0198_AN-MAN,Oligomer(AN-MAN),Methacrylonitrile + Nitrile,"-CN, -CN/-CH3",CC(C#N)CC(C)C#N,-0.5579,-0.9045,-0.3908,0.9612,PASS
+LIB_0188_DMA-VPA-AA,Oligomer(DMA-VPA-AA),Carboxylic + Phosphonate + Tert-Amide,"-CONMe2, -COOH, -PO3H2",CC(CC(CCC(=O)O)P(=O)(O)O)C(=O)N(C)C,-0.5102,-0.9921,-0.316,0.9573,PASS
+LIB_0046_AM-VI-HEMA,Oligomer(AM-VI-HEMA),Acrylamide + Ester-OH + Heterocycle,"-CONH2, -COO-/-OH, Imidazole",CC(CC(CC(C)C(=O)OCCO)n1ccnc1)C(N)=O,-0.9221,-0.8179,-0.1939,0.9565,PASS
+LIB_0273_AM-TFEA-AA,Oligomer(AM-TFEA-AA),Acrylamide + Carboxylic + Fluorinated,"-CF3, -CONH2, -COOH",CC(CC(CCC(=O)O)C(=O)OCC(F)(F)F)C(N)=O,-0.8813,-0.3387,-0.8006,0.956,PASS
+LIB_0317_TFEA-DMA-AN,Oligomer(TFEA-DMA-AN),Fluorinated + Nitrile + Tert-Amide,"-CF3, -CN, -CONMe2",CC(CC(CCC#N)C(=O)N(C)C)C(=O)OCC(F)(F)F,-0.6709,-0.9108,-0.2681,0.9489,PASS
+LIB_0134_AA-VI-HEMA,Oligomer(AA-VI-HEMA),Carboxylic + Ester-OH + Heterocycle,"-COO-/-OH, -COOH, Imidazole",CC(CC(CC(C)C(=O)OCCO)n1ccnc1)C(=O)O,-0.8987,-0.569,-0.4947,0.9483,PASS
+LIB_0382_VP-VI-AN,Oligomer(VP-VI-AN),Heterocycle + Nitrile,"-CN, Imidazole, Pyrrolidone",CC(CC(CCC#N)n1ccnc1)N1CCCC1=O,-0.7177,-0.9716,-0.1559,0.948,PASS
+LIB_0256_AA-EG-MAN,Oligomer(AA-EG-MAN),Carboxylic + Methacrylonitrile + Polyether,"-CN/-CH3, -COOH, -OH/-O-",CC(C#N)CCCOC(C)C(=O)O,-1.1594,-0.6083,-0.2362,0.9468,PASS
+LIB_0054_DMA-VSA-HEMA,Oligomer(DMA-VSA-HEMA),Ester-OH + Sulfonic + Tert-Amide,"-CONMe2, -COO-/-OH, -SO3H",CC(CC(CC(C)C(=O)N(C)C)S(=O)(=O)O)C(=O)OCCO,-0.6954,-1.0415,-0.086,0.9461,PASS
+LIB_0265_VP-AN-TFEA,Oligomer(VP-AN-TFEA),Fluorinated + Heterocycle + Nitrile,"-CF3, -CN, Pyrrolidone",CC(CC(C#N)CCC(=O)OCC(F)(F)F)N1CCCC1=O,-0.6165,-1.0063,-0.18,0.9404,PASS
+LIB_0060_ACMO-VP-AM,Oligomer(ACMO-VP-AM),Acrylamide + Heterocycle + Heterocycle-Ether,"-CONH2, Morpholine, Pyrrolidone",CC(CC(CCC(N)=O)N1CCCC1=O)C(=O)N1CCOCC1,-0.5204,-0.324,-1.0708,0.9379,PASS
+LIB_0148_VP-AM-DMA,Oligomer(VP-AM-DMA),Acrylamide + Heterocycle + Tert-Amide,"-CONH2, -CONMe2, Pyrrolidone",CC(CC(CCC(=O)N(C)C)C(N)=O)N1CCCC1=O,-0.6684,-0.9292,-0.2214,0.9356,PASS
+LIB_0121_VSO-HEMA-VA,Oligomer(VSO-HEMA-VA),Ester-OH + Polyvinyl + Sulfoxide,"-COO-/-OH, -OH, -S(=O)Me",CC(CC(C)(CCO)C(=O)OCCO)S(C)=O,-0.7991,-0.3009,-0.8626,0.9315,PASS
+LIB_0262_AN-VP-AA,Oligomer(AN-VP-AA),Carboxylic + Heterocycle + Nitrile,"-CN, -COOH, Pyrrolidone",CC(C#N)CC(CCC(=O)O)N1CCCC1=O,-0.8729,-0.2617,-0.8503,0.9313,PASS
+LIB_0319_VSA-EG-AA,Oligomer(VSA-EG-AA),Carboxylic + Polyether + Sulfonic,"-COOH, -OH/-O-, -SO3H",CC(OCCCCC(=O)O)S(=O)(=O)O,-0.8302,-0.2881,-0.8506,0.9302,PASS
+LIB_0356_MAN-VP-AA,Oligomer(MAN-VP-AA),Carboxylic + Heterocycle + Methacrylonitrile,"-CN/-CH3, -COOH, Pyrrolidone",CC(C)(C#N)CC(CCC(=O)O)N1CCCC1=O,-0.8743,-0.3281,-0.765,0.9291,PASS
+LIB_0071_MAN-VA-VSA,Oligomer(MAN-VA-VSA),Methacrylonitrile + Polyvinyl + Sulfonic,"-CN/-CH3, -OH, -SO3H",CC(C)(C#N)CC(O)CCS(=O)(=O)O,-0.9183,-2.3488,-0.5439,0.9253,PASS
+LIB_0301_VP-DMA-AA,Oligomer(VP-DMA-AA),Carboxylic + Heterocycle + Tert-Amide,"-CONMe2, -COOH, Pyrrolidone",CC(CC(CCC(=O)O)C(=O)N(C)C)N1CCCC1=O,-0.6379,-0.7225,-0.4691,0.9232,PASS
+LIB_0149_AMPS-AA-AN,Oligomer(AMPS-AA-AN),Carboxylic + Nitrile + Sulfonic,"-CN, -COOH, -SO3H/-CONH-",CC(CC(CCC#N)C(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-1.2489,-1.3052,0.7214,0.922,PASS
+LIB_0128_AN-HEMA-AM,Oligomer(AN-HEMA-AM),Acrylamide + Ester-OH + Nitrile,"-CN, -CONH2, -COO-/-OH",CC(C#N)CC(C)(CCC(N)=O)C(=O)OCCO,-0.8,-0.2947,-0.8481,0.9209,PASS
+LIB_0083_ACMO-AM-VSO,Oligomer(ACMO-AM-VSO),Acrylamide + Heterocycle-Ether + Sulfoxide,"-CONH2, -S(=O)Me, Morpholine",CC(CC(CCS(C)=O)C(N)=O)C(=O)N1CCOCC1,-0.6005,-0.2872,-1.0083,0.9167,PASS
+LIB_0287_AM-DMA-TFEA,Oligomer(AM-DMA-TFEA),Acrylamide + Fluorinated + Tert-Amide,"-CF3, -CONH2, -CONMe2",CC(CC(CCC(=O)OCC(F)(F)F)C(=O)N(C)C)C(N)=O,-0.8233,-0.8837,-0.1123,0.9157,PASS
+LIB_0277_EG-AM-AM,Oligomer(EG-AM-AM),Acrylamide + Polyether,"-CONH2, -OH/-O-",NC(=O)CCC(CCCO)C(N)=O,-0.5701,-0.2265,-1.0981,0.913,PASS
+LIB_0013_VPA-VPA-AN,Oligomer(VPA-VPA-AN),Nitrile + Phosphonate,"-CN, -PO3H2",CC(CC(CCC#N)P(=O)(O)O)P(=O)(O)O,-0.8655,-0.6973,-0.2851,0.9071,PASS
+LIB_0003_AM-HEMA-VPA,Oligomer(AM-HEMA-VPA),Acrylamide + Ester-OH + Phosphonate,"-CONH2, -COO-/-OH, -PO3H2",CC(CC(C)(CCP(=O)(O)O)C(=O)OCCO)C(N)=O,-0.5854,-0.1853,-1.1214,0.906,PASS
+LIB_0347_VI-MAN-MAN,Oligomer(VI-MAN-MAN),Heterocycle + Methacrylonitrile,"-CN/-CH3, Imidazole",CC(C#N)CC(C)(C#N)CC(C)n1ccnc1,-0.4669,-0.8968,-0.3562,0.9029,PASS
+LIB_0137_AMPS-AM-AN,Oligomer(AMPS-AM-AN),Acrylamide + Nitrile + Sulfonic,"-CN, -CONH2, -SO3H/-CONH-",CC(CC(CCC#N)C(N)=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.7977,-2.4189,-0.7174,0.9008,PASS
+LIB_0099_VA-HEMA-AM,Oligomer(VA-HEMA-AM),Acrylamide + Ester-OH + Polyvinyl,"-CONH2, -COO-/-OH, -OH",CC(O)CC(C)(CCC(N)=O)C(=O)OCCO,-0.8076,-0.3335,-0.7496,0.8979,PASS
+LIB_0303_VSA-TFEA-VP,Oligomer(VSA-TFEA-VP),Fluorinated + Heterocycle + Sulfonic,"-CF3, -SO3H, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)OCC(F)(F)F)S(=O)(=O)O,-0.7405,-2.3553,-0.6404,0.8967,PASS
+LIB_0186_VP-VPA-AA,Oligomer(VP-VPA-AA),Carboxylic + Heterocycle + Phosphonate,"-COOH, -PO3H2, Pyrrolidone",CC(CC(CCC(=O)O)P(=O)(O)O)N1CCCC1=O,-0.8763,-0.3695,-0.6485,0.8965,PASS
+LIB_0059_VI-AA-AN,Oligomer(VI-AA-AN),Carboxylic + Heterocycle + Nitrile,"-CN, -COOH, Imidazole",CC(CC(CCC#N)C(=O)O)n1ccnc1,-0.5666,-0.568,-0.6459,0.8904,PASS
+LIB_0020_VSO-AA-HEMA,Oligomer(VSO-AA-HEMA),Carboxylic + Ester-OH + Sulfoxide,"-COO-/-OH, -COOH, -S(=O)Me",CC(CC(CC(C)S(C)=O)C(=O)O)C(=O)OCCO,-0.8215,-0.5291,-0.4803,0.8862,PASS
+LIB_0310_VSA-HEMA-AN,Oligomer(VSA-HEMA-AN),Ester-OH + Nitrile + Sulfonic,"-CN, -COO-/-OH, -SO3H",CC(CC(C)(CCC#N)C(=O)OCCO)S(=O)(=O)O,-0.4977,-2.3757,-0.8473,0.8846,PASS
+LIB_0195_AM-VSO-VSA,Oligomer(AM-VSO-VSA),Acrylamide + Sulfonic + Sulfoxide,"-CONH2, -S(=O)Me, -SO3H",CC(CC(CCS(=O)(=O)O)S(C)=O)C(N)=O,-0.6776,-2.1913,-0.3656,0.8817,PASS
+LIB_0351_VA-AN-AN,Oligomer(VA-AN-AN),Nitrile + Polyvinyl,"-CN, -OH",CC(O)CC(C#N)CCC#N,-0.6156,-0.3222,-0.8828,0.881,PASS
+LIB_0199_DMA-MAN-HEMA,Oligomer(DMA-MAN-HEMA),Ester-OH + Methacrylonitrile + Tert-Amide,"-CN/-CH3, -CONMe2, -COO-/-OH",CC(CC(C)(C#N)CC(C)C(=O)N(C)C)C(=O)OCCO,-0.6422,-0.5109,-0.6328,0.8798,PASS
+LIB_0215_EG-VA-AA,Oligomer(EG-VA-AA),Carboxylic + Polyether + Polyvinyl,"-COOH, -OH, -OH/-O-",O=C(O)CCC(O)CCCO,-0.6485,-0.368,-0.7953,0.8778,PASS
+LIB_0064_EG-AM-VPA,Oligomer(EG-AM-VPA),Acrylamide + Phosphonate + Polyether,"-CONH2, -OH/-O-, -PO3H2",NC(=O)C(CCCO)CCP(=O)(O)O,-0.9117,-0.3034,-0.6566,0.875,PASS
+LIB_0021_AMPS-AA-VSO,Oligomer(AMPS-AA-VSO),Carboxylic + Sulfonic + Sulfoxide,"-COOH, -S(=O)Me, -SO3H/-CONH-",CC(CC(CCS(C)=O)C(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.769,-1.2706,0.3946,0.8727,PASS
+LIB_0151_MAN-VSA-VA,Oligomer(MAN-VSA-VA),Methacrylonitrile + Polyvinyl + Sulfonic,"-CN/-CH3, -OH, -SO3H",CC(C)(C#N)CC(CCO)S(=O)(=O)O,-0.8331,-0.5616,-0.397,0.8687,PASS
+LIB_0225_EG-VA-VI,Oligomer(EG-VA-VI),Heterocycle + Polyether + Polyvinyl,"-OH, -OH/-O-, Imidazole",OCCCC(O)CCn1ccnc1,-0.8409,-0.5905,-0.3537,0.8676,PASS
+LIB_0241_AA-SBMA-AN,Oligomer(AA-SBMA-AN),Carboxylic + Nitrile + Zwitterionic,"-CN, -COOH, Zwitterion",CC(CC(C)(CCC#N)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(=O)O,-0.9823,-3.1622,-1.8399,0.8669,PASS
+LIB_0370_VA-HEMA-DMA,Oligomer(VA-HEMA-DMA),Ester-OH + Polyvinyl + Tert-Amide,"-CONMe2, -COO-/-OH, -OH",CC(O)CC(C)(CCC(=O)N(C)C)C(=O)OCCO,-0.7906,-0.3029,-0.7343,0.8651,PASS
+LIB_0121_VA-TFEA-AM,Oligomer(VA-TFEA-AM),Acrylamide + Fluorinated + Polyvinyl,"-CF3, -CONH2, -OH",CC(O)CC(CCC(N)=O)C(=O)OCC(F)(F)F,-0.6671,-0.2562,-0.8855,0.8633,PASS
+LIB_0270_AA-VA-AN,Oligomer(AA-VA-AN),Carboxylic + Nitrile + Polyvinyl,"-CN, -COOH, -OH",CC(CC(O)CCC#N)C(=O)O,-0.8446,-0.5847,-0.3358,0.8566,PASS
+LIB_0134_EG-HEMA-VP,Oligomer(EG-HEMA-VP),Ester-OH + Heterocycle + Polyether,"-COO-/-OH, -OH/-O-, Pyrrolidone",CC(CCCO)(CCN1CCCC1=O)C(=O)OCCO,-0.6669,-0.4698,-0.6119,0.8546,PASS
+LIB_0113_HEMA-VSO-VP,Oligomer(HEMA-VSO-VP),Ester-OH + Heterocycle + Sulfoxide,"-COO-/-OH, -S(=O)Me, Pyrrolidone",CS(=O)C(CCN1CCCC1=O)CC(C)(C)C(=O)OCCO,-0.8183,-0.2725,-0.722,0.8518,PASS
+LIB_0037_HEMA-AN-AN,Oligomer(HEMA-AN-AN),Ester-OH + Nitrile,"-CN, -COO-/-OH",CC(C)(CC(C#N)CCC#N)C(=O)OCCO,-0.7965,-0.3178,-0.6844,0.8515,PASS
+LIB_0354_TFEA-AA-VSA,Oligomer(TFEA-AA-VSA),Carboxylic + Fluorinated + Sulfonic,"-CF3, -COOH, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)O)C(=O)OCC(F)(F)F,-1.1392,-0.196,-0.5514,0.849,PASS
+LIB_0374_AA-TFEA-EG,Oligomer(AA-TFEA-EG),Carboxylic + Fluorinated + Polyether,"-CF3, -COOH, -OH/-O-",CCOC(CC(C)C(=O)O)C(=O)OCC(F)(F)F,-0.8874,-0.3224,-0.6002,0.8485,PASS
+LIB_0251_TFEA-MAN-VSA,Oligomer(TFEA-MAN-VSA),Fluorinated + Methacrylonitrile + Sulfonic,"-CF3, -CN/-CH3, -SO3H",CC(CC(C)(C#N)CCS(=O)(=O)O)C(=O)OCC(F)(F)F,-0.4209,-2.4529,-0.9617,0.8416,PASS
+LIB_0032_VA-AM-VSA,Oligomer(VA-AM-VSA),Acrylamide + Polyvinyl + Sulfonic,"-CONH2, -OH, -SO3H",CC(O)CC(CCS(=O)(=O)O)C(N)=O,-0.7974,-0.3902,-0.5645,0.8353,PASS
+LIB_0349_AA-VP-VI,Oligomer(AA-VP-VI),Carboxylic + Heterocycle,"-COOH, Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)N1CCCC1=O)C(=O)O,-0.8723,-0.2258,-0.7015,0.8351,PASS
+LIB_0097_VA-MAN-TFEA,Oligomer(VA-MAN-TFEA),Fluorinated + Methacrylonitrile + Polyvinyl,"-CF3, -CN/-CH3, -OH",CC(O)CC(C)(C#N)CCC(=O)OCC(F)(F)F,-0.8449,-0.4116,-0.4938,0.8318,PASS
+LIB_0101_HEMA-DMA-HEMA,Oligomer(HEMA-DMA-HEMA),Ester-OH + Tert-Amide,"-CONMe2, -COO-/-OH",CC(CC(CC(C)(C)C(=O)OCCO)C(=O)N(C)C)C(=O)OCCO,-0.7762,-0.3829,-0.5828,0.8316,PASS
+LIB_0222_DMA-VA-VA,Oligomer(DMA-VA-VA),Polyvinyl + Tert-Amide,"-CONMe2, -OH",CC(CC(O)CCO)C(=O)N(C)C,-0.6492,-0.6724,-0.3345,0.8303,PASS
+LIB_0369_VSA-AA-HEMA,Oligomer(VSA-AA-HEMA),Carboxylic + Ester-OH + Sulfonic,"-COO-/-OH, -COOH, -SO3H",CC(CC(CC(C)S(=O)(=O)O)C(=O)O)C(=O)OCCO,-0.6157,-0.3722,-0.7185,0.8288,PASS
+LIB_0044_AA-AMPS,Oligomer(AA-AMPS),Carboxylic + Sulfonic,"-COOH, -SO3H/-CONH-",CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-1.1285,-0.2683,-0.4237,0.8242,PASS
+LIB_0194_VP-HEMA-HEMA,Oligomer(VP-HEMA-HEMA),Ester-OH + Heterocycle,"-COO-/-OH, Pyrrolidone",CC(CC(C)(CC(C)N1CCCC1=O)C(=O)OCCO)C(=O)OCCO,-0.7902,-0.4983,-0.4178,0.824,PASS
+LIB_0168_VPA-AN-ACMO,Oligomer(VPA-AN-ACMO),Heterocycle-Ether + Nitrile + Phosphonate,"-CN, -PO3H2, Morpholine",CC(CC(C#N)CCC(=O)N1CCOCC1)P(=O)(O)O,-0.6386,-0.4365,-0.5865,0.8106,PASS
+LIB_0005_AA-AA-VP,Oligomer(AA-AA-VP),Carboxylic + Heterocycle,"-COOH, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)O)C(=O)O,-0.8559,-0.5672,-0.2538,0.8096,PASS
+LIB_0047_VA-DMA-VPA,Oligomer(VA-DMA-VPA),Phosphonate + Polyvinyl + Tert-Amide,"-CONMe2, -OH, -PO3H2",CC(O)CC(CCP(=O)(O)O)C(=O)N(C)C,-0.6845,-0.3356,-0.665,0.8077,PASS
+LIB_0169_HEMA-VP,Oligomer(HEMA-VP),Ester-OH + Heterocycle,"-COO-/-OH, Pyrrolidone",CC(C)(CCN1CCCC1=O)C(=O)OCCO,-0.7954,-0.3514,-0.5563,0.8071,PASS
+LIB_0294_DMA-AN-VA,Oligomer(DMA-AN-VA),Nitrile + Polyvinyl + Tert-Amide,"-CN, -CONMe2, -OH",CC(CC(C#N)CCO)C(=O)N(C)C,-0.7848,-0.2282,-0.7032,0.8024,PASS
+LIB_0307_EG-AMPS-VP,Oligomer(EG-AMPS-VP),Heterocycle + Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-, Pyrrolidone",CC(C)(CNC(=O)C(CCCO)CCN1CCCC1=O)S(=O)(=O)O,-0.6733,-0.3263,-0.6691,0.7997,PASS
+LIB_0103_HEMA-AA-AN,Oligomer(HEMA-AA-AN),Carboxylic + Ester-OH + Nitrile,"-CN, -COO-/-OH, -COOH",CC(C)(CC(CCC#N)C(=O)O)C(=O)OCCO,-0.7695,-0.4477,-0.4413,0.7971,PASS
+LIB_0128_HEMA-VSO-DMA,Oligomer(HEMA-VSO-DMA),Ester-OH + Sulfoxide + Tert-Amide,"-CONMe2, -COO-/-OH, -S(=O)Me",CN(C)C(=O)CCC(CC(C)(C)C(=O)OCCO)S(C)=O,-0.5734,-0.1641,-0.9346,0.7951,PASS
+LIB_0275_AMPS-VI-DMA,Oligomer(AMPS-VI-DMA),Heterocycle + Sulfonic + Tert-Amide,"-CONMe2, -SO3H/-CONH-, Imidazole",CC(CC(CCC(=O)N(C)C)n1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O,-1.2539,-0.2591,-0.2709,0.7925,PASS
+LIB_0071_HEMA-HEMA-VA,Oligomer(HEMA-HEMA-VA),Ester-OH + Polyvinyl,"-COO-/-OH, -OH",CC(C)(CC(C)(CCO)C(=O)OCCO)C(=O)OCCO,-0.7051,-0.409,-0.5263,0.7906,PASS
+LIB_0140_VA-VP,Oligomer(VA-VP),Heterocycle + Polyvinyl,"-OH, Pyrrolidone",CC(O)CCN1CCCC1=O,-0.7321,-0.2937,-0.6383,0.7882,PASS
+LIB_0043_AN-VI-AN,Oligomer(AN-VI-AN),Heterocycle + Nitrile,"-CN, Imidazole",CC(C#N)CC(CCC#N)n1ccnc1,-0.4345,-0.8771,-0.1746,0.7874,PASS
+LIB_0106_AM-ACMO-VSO,Oligomer(AM-ACMO-VSO),Acrylamide + Heterocycle-Ether + Sulfoxide,"-CONH2, -S(=O)Me, Morpholine",CC(CC(CCS(C)=O)C(=O)N1CCOCC1)C(N)=O,-0.5781,-0.3903,-0.6398,0.7853,PASS
+LIB_0072_VA-DMA-AA,Oligomer(VA-DMA-AA),Carboxylic + Polyvinyl + Tert-Amide,"-CONMe2, -COOH, -OH",CC(O)CC(CCC(=O)O)C(=O)N(C)C,-0.893,-0.2433,-0.5598,0.783,PASS
+LIB_0179_VA-TFEA-DMA,Oligomer(VA-TFEA-DMA),Fluorinated + Polyvinyl + Tert-Amide,"-CF3, -CONMe2, -OH",CC(O)CC(CCC(=O)N(C)C)C(=O)OCC(F)(F)F,-0.6736,-0.5097,-0.4095,0.78,PASS
+LIB_0069_AN-EG-TFEA,Oligomer(AN-EG-TFEA),Fluorinated + Nitrile + Polyether,"-CF3, -CN, -OH/-O-",CC(C#N)OCCCCC(=O)OCC(F)(F)F,-0.5677,-0.7828,-0.1597,0.7766,PASS
+LIB_0061_HEMA-DMA-VA,Oligomer(HEMA-DMA-VA),Ester-OH + Polyvinyl + Tert-Amide,"-CONMe2, -COO-/-OH, -OH",CN(C)C(=O)C(CCO)CC(C)(C)C(=O)OCCO,-0.728,-0.4143,-0.4665,0.773,PASS
+LIB_0324_AN-VA-DMA,Oligomer(AN-VA-DMA),Nitrile + Polyvinyl + Tert-Amide,"-CN, -CONMe2, -OH",CC(C#N)CC(O)CCC(=O)N(C)C,-0.7363,-0.2742,-0.6263,0.7722,PASS
+LIB_0066_MAN-VA-HEMA,Oligomer(MAN-VA-HEMA),Ester-OH + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -COO-/-OH, -OH",CC(CC(O)CC(C)(C)C#N)C(=O)OCCO,-0.7996,-0.2014,-0.6587,0.77,PASS
+LIB_0067_EG-TFEA-VA,Oligomer(EG-TFEA-VA),Fluorinated + Polyether + Polyvinyl,"-CF3, -OH, -OH/-O-",O=C(OCC(F)(F)F)C(CCO)CCCO,-0.8267,-0.2259,-0.5966,0.7645,PASS
+LIB_0036_AA-HEMA-EG,Oligomer(AA-HEMA-EG),Carboxylic + Ester-OH + Polyether,"-COO-/-OH, -COOH, -OH/-O-",CCOC(C)(CC(C)C(=O)O)C(=O)OCCO,-0.7829,-0.22,-0.6359,0.7631,PASS
+LIB_0180_AN-MAN-AA,Oligomer(AN-MAN-AA),Carboxylic + Methacrylonitrile + Nitrile,"-CN, -CN/-CH3, -COOH",CC(C#N)CC(C)(C#N)CCC(=O)O,-0.8942,-0.3741,-0.3547,0.7595,PASS
+LIB_0041_VA-AM-HEMA,Oligomer(VA-AM-HEMA),Acrylamide + Ester-OH + Polyvinyl,"-CONH2, -COO-/-OH, -OH",CC(O)CC(CC(C)C(=O)OCCO)C(N)=O,-0.7209,-0.2302,-0.6652,0.7591,PASS
+LIB_0188_VA-VP-EG,Oligomer(VA-VP-EG),Heterocycle + Polyether + Polyvinyl,"-OH, -OH/-O-, Pyrrolidone",CCOC(CC(C)O)N1CCCC1=O,-0.8398,-0.5535,-0.1815,0.7588,PASS
+LIB_0400_EG-MAN-VSA,Oligomer(EG-MAN-VSA),Methacrylonitrile + Polyether + Sulfonic,"-CN/-CH3, -OH/-O-, -SO3H",CC(C#N)(CCCO)CCS(=O)(=O)O,-0.6535,-0.2959,-0.6366,0.7573,PASS
+LIB_0187_VI-VI-MAN,Oligomer(VI-VI-MAN),Heterocycle + Methacrylonitrile,"-CN/-CH3, Imidazole",CC(C#N)CC(CC(C)n1ccnc1)n1ccnc1,-0.3392,-0.859,-0.2116,0.7569,PASS
+LIB_0325_HEMA-AM-VA,Oligomer(HEMA-AM-VA),Acrylamide + Ester-OH + Polyvinyl,"-CONH2, -COO-/-OH, -OH",CC(C)(CC(CCO)C(N)=O)C(=O)OCCO,-0.666,-0.5165,-0.3595,0.7561,PASS
+LIB_0132_VSO-VPA-VPA,Oligomer(VSO-VPA-VPA),Phosphonate + Sulfoxide,"-PO3H2, -S(=O)Me",CC(CC(CCP(=O)(O)O)P(=O)(O)O)S(C)=O,-1.3441,-2.6862,-0.4717,0.7559,PASS
+LIB_0031_AM-TFEMA-HEMA,Oligomer(AM-TFEMA-HEMA),Acrylamide + Ester-OH + Fluorinated-Amide,"-CF3/-CONH-, -CONH2, -COO-/-OH",CC(CC(CC(C)C(=O)OCCO)C(=O)NCC(F)(F)F)C(N)=O,-0.6339,-0.1626,-0.8069,0.7546,PASS
+LIB_0111_VSA-VP-ACMO,Oligomer(VSA-VP-ACMO),Heterocycle + Heterocycle-Ether + Sulfonic,"-SO3H, Morpholine, Pyrrolidone",CC(CC(CCC(=O)N1CCOCC1)N1CCCC1=O)S(=O)(=O)O,-0.5949,-0.3215,-0.6455,0.7536,PASS
+LIB_0142_EG-VSO-HEMA,Oligomer(EG-VSO-HEMA),Ester-OH + Polyether + Sulfoxide,"-COO-/-OH, -OH/-O-, -S(=O)Me",CC(CC(CCCO)S(C)=O)C(=O)OCCO,-0.7832,-0.5198,-0.2418,0.746,PASS
+LIB_0231_EG-TFEA-TFEA,Oligomer(EG-TFEA-TFEA),Fluorinated + Polyether,"-CF3, -OH/-O-",O=C(CCC(CCCO)C(=O)OCC(F)(F)F)OCC(F)(F)F,-0.7295,-0.2926,-0.5461,0.7405,PASS
+LIB_0331_HEMA-MAN-AA,Oligomer(HEMA-MAN-AA),Carboxylic + Ester-OH + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, -COOH",CC(C#N)(CCC(=O)O)CC(C)(C)C(=O)OCCO,-0.5895,-0.2139,-0.7467,0.7375,PASS
+LIB_0031_HEMA-VP-MAN,Oligomer(HEMA-VP-MAN),Ester-OH + Heterocycle + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, Pyrrolidone",CC(C#N)CC(CC(C)(C)C(=O)OCCO)N1CCCC1=O,-0.5502,-0.485,-0.4454,0.7338,PASS
+LIB_0288_VP-VI-DMA,Oligomer(VP-VI-DMA),Heterocycle + Tert-Amide,"-CONMe2, Imidazole, Pyrrolidone",CC(CC(CCC(=O)N(C)C)n1ccnc1)N1CCCC1=O,-0.636,-0.8321,0.045,0.7312,PASS
+LIB_0150_VA-VI-VP,Oligomer(VA-VI-VP),Heterocycle + Polyvinyl,"-OH, Imidazole, Pyrrolidone",CC(O)CC(CCN1CCCC1=O)n1ccnc1,-0.689,-0.3069,-0.5415,0.7305,PASS
+LIB_0329_AM-VA-EG,Oligomer(AM-VA-EG),Acrylamide + Polyether + Polyvinyl,"-CONH2, -OH, -OH/-O-",CCOC(O)CC(C)C(N)=O,-0.8157,-0.3494,-0.3866,0.7292,PASS
+LIB_0062_EG-VSA,Oligomer(EG-VSA),Polyether + Sulfonic,"-OH/-O-, -SO3H",O=S(=O)(O)CCCCO,-0.848,-0.2951,-0.4224,0.7275,PASS
+LIB_0014_AM-AA-VA,Oligomer(AM-AA-VA),Acrylamide + Carboxylic + Polyvinyl,"-CONH2, -COOH, -OH",CC(CC(CCO)C(=O)O)C(N)=O,-0.5558,-0.3339,-0.6087,0.727,PASS
+LIB_0193_AMPS-HEMA-EG,Oligomer(AMPS-HEMA-EG),Ester-OH + Polyether + Sulfonic,"-COO-/-OH, -OH/-O-, -SO3H/-CONH-",CCOC(C)(CC(C)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCCO,-0.8253,-0.2445,-0.4976,0.7256,PASS
+LIB_0377_EG-AA,Oligomer(EG-AA),Carboxylic + Polyether,"-COOH, -OH/-O-",O=C(O)CCCCO,-0.792,-0.3575,-0.3883,0.7255,PASS
+LIB_0149_VP-HEMA-DMA,Oligomer(VP-HEMA-DMA),Ester-OH + Heterocycle + Tert-Amide,"-CONMe2, -COO-/-OH, Pyrrolidone",CC(CC(C)(CCC(=O)N(C)C)C(=O)OCCO)N1CCCC1=O,-0.8886,-0.3051,-0.3687,0.7228,PASS
+LIB_0084_VA-HEMA,Oligomer(VA-HEMA),Ester-OH + Polyvinyl,"-COO-/-OH, -OH",CC(O)CC(C)C(=O)OCCO,-0.7325,-0.1955,-0.6176,0.7191,PASS
+LIB_0001_HEMA-HEMA-TFEA,Oligomer(HEMA-HEMA-TFEA),Ester-OH + Fluorinated,"-CF3, -COO-/-OH",CC(C)(CC(C)(CCC(=O)OCC(F)(F)F)C(=O)OCCO)C(=O)OCCO,-0.8214,-0.2422,-0.4865,0.7171,PASS
+LIB_0156_AA-AA-VSA,Oligomer(AA-AA-VSA),Carboxylic + Sulfonic,"-COOH, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)O)C(=O)O,-0.849,-0.1718,-0.5354,0.7104,PASS
+LIB_0112_VA-HEMA-VPA,Oligomer(VA-HEMA-VPA),Ester-OH + Phosphonate + Polyvinyl,"-COO-/-OH, -OH, -PO3H2",CC(O)CC(C)(CCP(=O)(O)O)C(=O)OCCO,-0.5192,-0.255,-0.6883,0.7048,PASS
+LIB_0052_EG-VP-VI,Oligomer(EG-VP-VI),Heterocycle + Polyether,"-OH/-O-, Imidazole, Pyrrolidone",O=C1CCCN1C(CCCO)CCn1ccnc1,-0.5836,-0.249,-0.642,0.7038,PASS
+LIB_0205_VI-EG-VA,Oligomer(VI-EG-VA),Heterocycle + Polyether + Polyvinyl,"-OH, -OH/-O-, Imidazole",CC(OCCCCO)n1ccnc1,-0.6055,-0.2859,-0.5758,0.7016,PASS
+LIB_0181_AM-AMPS,Oligomer(AM-AMPS),Acrylamide + Sulfonic,"-CONH2, -SO3H/-CONH-",CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O,-0.9148,-2.5439,-0.4502,0.7015,PASS
+LIB_0069_AA-ACMO-VPA,Oligomer(AA-ACMO-VPA),Carboxylic + Heterocycle-Ether + Phosphonate,"-COOH, -PO3H2, Morpholine",CC(CC(CCP(=O)(O)O)C(=O)N1CCOCC1)C(=O)O,-0.5777,-0.1559,-0.7538,0.7015,PASS
+LIB_0184_EG-MAN-MAN,Oligomer(EG-MAN-MAN),Methacrylonitrile + Polyether,"-CN/-CH3, -OH/-O-",CC(C#N)CC(C)(C#N)CCCO,-0.7829,-0.3382,-0.3645,0.6983,PASS
+LIB_0049_AN-VI-VI,Oligomer(AN-VI-VI),Heterocycle + Nitrile,"-CN, Imidazole",CC(C#N)CC(CCn1ccnc1)n1ccnc1,-0.4634,-0.7516,-0.1196,0.6961,PASS
+LIB_0261_EG-HEMA,Oligomer(EG-HEMA),Ester-OH + Polyether,"-COO-/-OH, -OH/-O-",CC(CCCO)C(=O)OCCO,-0.5885,-0.2689,-0.5932,0.6933,PASS
+LIB_0144_VSO-VSA-AA,Oligomer(VSO-VSA-AA),Carboxylic + Sulfonic + Sulfoxide,"-COOH, -S(=O)Me, -SO3H",CC(CC(CCC(=O)O)S(=O)(=O)O)S(C)=O,-0.8825,-0.3088,-0.303,0.6898,PASS
+LIB_0384_VA-AA,Oligomer(VA-AA),Carboxylic + Polyvinyl,"-COOH, -OH",CC(O)CCC(=O)O,-0.9036,-0.2926,-0.2989,0.6865,PASS
+LIB_0378_HEMA-VI-MAN,Oligomer(HEMA-VI-MAN),Ester-OH + Heterocycle + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, Imidazole",CC(C#N)CC(CC(C)(C)C(=O)OCCO)n1ccnc1,-0.7433,-0.1718,-0.5722,0.6865,PASS
+LIB_0107_AA-MAN-TFEA,Oligomer(AA-MAN-TFEA),Carboxylic + Fluorinated + Methacrylonitrile,"-CF3, -CN/-CH3, -COOH",CC(CC(C)(C#N)CCC(=O)OCC(F)(F)F)C(=O)O,-0.8366,-0.6637,0.0941,0.6858,PASS
+LIB_0255_AA-VA-MAN,Oligomer(AA-VA-MAN),Carboxylic + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -COOH, -OH",CC(C#N)CC(O)CC(C)C(=O)O,-0.5902,-0.4689,-0.3297,0.6823,PASS
+LIB_0245_AA-MAN,Oligomer(AA-MAN),Carboxylic + Methacrylonitrile,"-CN/-CH3, -COOH",CC(C#N)CC(C)C(=O)O,-0.9017,-0.2454,-0.346,0.6809,PASS
+LIB_0126_VP-VA,Oligomer(VP-VA),Heterocycle + Polyvinyl,"-OH, Pyrrolidone",CC(CCO)N1CCCC1=O,-0.5926,-0.2883,-0.539,0.6795,PASS
+LIB_0136_HEMA-VP-AM,Oligomer(HEMA-VP-AM),Acrylamide + Ester-OH + Heterocycle,"-CONH2, -COO-/-OH, Pyrrolidone",CC(C)(CC(CCC(N)=O)N1CCCC1=O)C(=O)OCCO,-0.6269,-0.3435,-0.4437,0.6787,PASS
+LIB_0339_DMA-VA,Oligomer(DMA-VA),Polyvinyl + Tert-Amide,"-CONMe2, -OH",CC(CCO)C(=O)N(C)C,-0.8181,-0.3002,-0.3229,0.6688,PASS
+LIB_0167_MAN-AA-VSA,Oligomer(MAN-AA-VSA),Carboxylic + Methacrylonitrile + Sulfonic,"-CN/-CH3, -COOH, -SO3H",CC(C)(C#N)CC(CCS(=O)(=O)O)C(=O)O,-0.5561,-2.287,-0.2036,0.666,PASS
+LIB_0061_HEMA-VI-VP,Oligomer(HEMA-VI-VP),Ester-OH + Heterocycle,"-COO-/-OH, Imidazole, Pyrrolidone",CC(C)(CC(CCN1CCCC1=O)n1ccnc1)C(=O)OCCO,-0.6304,-1.2033,0.618,0.6651,PASS
+LIB_0138_ACMO-AM-TFEA,Oligomer(ACMO-AM-TFEA),Acrylamide + Fluorinated + Heterocycle-Ether,"-CF3, -CONH2, Morpholine",CC(CC(CCC(=O)OCC(F)(F)F)C(N)=O)C(=O)N1CCOCC1,-0.6665,-0.4531,-0.2524,0.6646,PASS
+LIB_0295_VP-TFEA-HEMA,Oligomer(VP-TFEA-HEMA),Ester-OH + Fluorinated + Heterocycle,"-CF3, -COO-/-OH, Pyrrolidone",CC(CC(CC(C)N1CCCC1=O)C(=O)OCC(F)(F)F)C(=O)OCCO,-0.5594,-0.3681,-0.4349,0.6621,PASS
+LIB_0017_VSA-VSA-MAN,Oligomer(VSA-VSA-MAN),Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H",CC(C#N)CC(CC(C)S(=O)(=O)O)S(=O)(=O)O,-0.5554,-2.3613,-0.3267,0.6603,PASS
+LIB_0336_VA-HEMA-VP,Oligomer(VA-HEMA-VP),Ester-OH + Heterocycle + Polyvinyl,"-COO-/-OH, -OH, Pyrrolidone",CC(O)CC(C)(CCN1CCCC1=O)C(=O)OCCO,-0.7043,-0.4126,-0.2585,0.6585,PASS
+LIB_0013_AA-MAN-HEMA,Oligomer(AA-MAN-HEMA),Carboxylic + Ester-OH + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, -COOH",CC(CC(C)(C#N)CC(C)C(=O)OCCO)C(=O)O,-0.6612,-0.4872,-0.1862,0.6499,PASS
+LIB_0030_EG-HEMA-MAN,Oligomer(EG-HEMA-MAN),Ester-OH + Methacrylonitrile + Polyether,"-CN/-CH3, -COO-/-OH, -OH/-O-",CC(C#N)CC(C)(CCCO)C(=O)OCCO,-0.5925,-0.2894,-0.4749,0.6481,PASS
+LIB_0298_EG-DMA-VSA,Oligomer(EG-DMA-VSA),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H",CN(C)C(=O)C(CCCO)CCS(=O)(=O)O,-0.7634,-0.2165,-0.4096,0.64,PASS
+LIB_0214_TFEA-DMA-EG,Oligomer(TFEA-DMA-EG),Fluorinated + Polyether + Tert-Amide,"-CF3, -CONMe2, -OH/-O-",CCOC(CC(C)C(=O)OCC(F)(F)F)C(=O)N(C)C,-0.3468,-0.5681,-0.3166,0.6378,PASS
+LIB_0165_MAN-ACMO-HEMA,Oligomer(MAN-ACMO-HEMA),Ester-OH + Heterocycle-Ether + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, Morpholine",CC(CC(CC(C)(C)C#N)C(=O)N1CCOCC1)C(=O)OCCO,-0.5556,-0.2039,-0.5845,0.6369,PASS
+LIB_0114_EG-AM-EG,Oligomer(EG-AM-EG),Acrylamide + Polyether,"-CONH2, -OH/-O-",CCOC(CCCO)C(N)=O,-0.5828,-0.2112,-0.5499,0.6348,PASS
+LIB_0044_AMPS-ACMO,Oligomer(AMPS-ACMO),Heterocycle-Ether + Sulfonic,"-SO3H/-CONH-, Morpholine",CC(CCC(=O)N1CCOCC1)C(=O)NCC(C)(C)S(=O)(=O)O,-0.4201,-0.2908,-0.5755,0.6303,PASS
+LIB_0189_AA-ACMO-DMA,Oligomer(AA-ACMO-DMA),Carboxylic + Heterocycle-Ether + Tert-Amide,"-CONMe2, -COOH, Morpholine",CC(CC(CCC(=O)N(C)C)C(=O)N1CCOCC1)C(=O)O,-0.8887,-0.2711,-0.2196,0.628,PASS
+LIB_0104_AM-VP-VA,Oligomer(AM-VP-VA),Acrylamide + Heterocycle + Polyvinyl,"-CONH2, -OH, Pyrrolidone",CC(CC(CCO)N1CCCC1=O)C(N)=O,-0.5538,-0.2494,-0.5045,0.6234,PASS
+LIB_0247_EG-EG-MAN,Oligomer(EG-EG-MAN),Methacrylonitrile + Polyether,"-CN/-CH3, -OH/-O-",CC(C#N)CCCOCCO,-0.7648,-0.2254,-0.3607,0.6216,PASS
+LIB_0178_AA-VP-ACMO,Oligomer(AA-VP-ACMO),Carboxylic + Heterocycle + Heterocycle-Ether,"-COOH, Morpholine, Pyrrolidone",CC(CC(CCC(=O)N1CCOCC1)N1CCCC1=O)C(=O)O,-0.5962,-0.3376,-0.3605,0.6213,PASS
+LIB_0116_EG-DMA-VP,Oligomer(EG-DMA-VP),Heterocycle + Polyether + Tert-Amide,"-CONMe2, -OH/-O-, Pyrrolidone",CN(C)C(=O)C(CCCO)CCN1CCCC1=O,-0.5234,-0.2637,-0.5056,0.6203,PASS
+LIB_0016_ACMO-TFEMA-AM,Oligomer(ACMO-TFEMA-AM),Acrylamide + Fluorinated-Amide + Heterocycle-Ether,"-CF3/-CONH-, -CONH2, Morpholine",CC(CC(CCC(N)=O)C(=O)NCC(F)(F)F)C(=O)N1CCOCC1,-0.5867,-0.2924,-0.4116,0.6159,PASS
+LIB_0085_AN-DMA-VSA,Oligomer(AN-DMA-VSA),Nitrile + Sulfonic + Tert-Amide,"-CN, -CONMe2, -SO3H",CC(C#N)CC(CCS(=O)(=O)O)C(=O)N(C)C,-0.9687,-2.5524,-0.2499,0.6153,PASS
+LIB_0025_DMA-AN-VI,Oligomer(DMA-AN-VI),Heterocycle + Nitrile + Tert-Amide,"-CN, -CONMe2, Imidazole",CC(CC(C#N)CCn1ccnc1)C(=O)N(C)C,-0.696,-1.0359,0.57,0.615,PASS
+LIB_0081_AN-DMA-VSA,Oligomer(AN-DMA-VSA),Nitrile + Sulfonic + Tert-Amide,"-CN, -CONMe2, -SO3H",CC(C#N)CC(CCS(=O)(=O)O)C(=O)N(C)C,-0.9568,-2.544,-0.2381,0.6122,PASS
+LIB_0210_AA-EG-VA,Oligomer(AA-EG-VA),Carboxylic + Polyether + Polyvinyl,"-COOH, -OH, -OH/-O-",CC(OCCCCO)C(=O)O,-0.7642,-0.244,-0.3176,0.6108,PASS
+LIB_0087_AN-ACMO-VSA,Oligomer(AN-ACMO-VSA),Heterocycle-Ether + Nitrile + Sulfonic,"-CN, -SO3H, Morpholine",CC(C#N)CC(CCS(=O)(=O)O)C(=O)N1CCOCC1,-0.4467,-0.2737,-0.5286,0.6072,PASS
+LIB_0053_EG-EG-AA,Oligomer(EG-EG-AA),Carboxylic + Polyether,"-COOH, -OH/-O-",O=C(O)CCCCOCCO,-0.5695,-0.2354,-0.4755,0.6067,PASS
+LIB_0003_TFEA-VI-VA,Oligomer(TFEA-VI-VA),Fluorinated + Heterocycle + Polyvinyl,"-CF3, -OH, Imidazole",CC(CC(CCO)n1ccnc1)C(=O)OCC(F)(F)F,-0.8555,-0.1884,-0.2938,0.6021,PASS
+LIB_0147_MAN-AMPS-MAN,Oligomer(MAN-AMPS-MAN),Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H/-CONH-",CC(C#N)CC(CC(C)(C)C#N)C(=O)NCC(C)(C)S(=O)(=O)O,-0.527,-2.2513,-0.0346,0.6019,PASS
+LIB_0239_EG-TFEA-MAN,Oligomer(EG-TFEA-MAN),Fluorinated + Methacrylonitrile + Polyether,"-CF3, -CN/-CH3, -OH/-O-",CC(C#N)CC(CCCO)C(=O)OCC(F)(F)F,-0.5358,-0.2153,-0.5138,0.6004,PASS
+LIB_0109_HEMA-VA-AA,Oligomer(HEMA-VA-AA),Carboxylic + Ester-OH + Polyvinyl,"-COO-/-OH, -COOH, -OH",CC(C)(CC(O)CCC(=O)O)C(=O)OCCO,-0.9041,-0.3843,0.0002,0.5922,PASS
+LIB_0355_AA-HEMA-AN,Oligomer(AA-HEMA-AN),Carboxylic + Ester-OH + Nitrile,"-CN, -COO-/-OH, -COOH",CC(CC(C)(CCC#N)C(=O)OCCO)C(=O)O,-0.7557,-0.3135,-0.2008,0.5907,PASS
+LIB_0010_AA-TFEMA-VA,Oligomer(AA-TFEMA-VA),Carboxylic + Fluorinated-Amide + Polyvinyl,"-CF3/-CONH-, -COOH, -OH",CC(CC(CCO)C(=O)NCC(F)(F)F)C(=O)O,-0.7676,-0.2273,-0.2788,0.5828,PASS
+LIB_0334_EG-AM-AA,Oligomer(EG-AM-AA),Acrylamide + Carboxylic + Polyether,"-CONH2, -COOH, -OH/-O-",NC(=O)C(CCCO)CCC(=O)O,-0.6377,-0.1775,-0.4353,0.5793,PASS
+LIB_0070_VA-VI,Oligomer(VA-VI),Heterocycle + Polyvinyl,"-OH, Imidazole",CC(O)CCn1ccnc1,-0.7021,-0.376,-0.1362,0.5745,PASS
+LIB_0038_AMPS-AM-EG,Oligomer(AMPS-AM-EG),Acrylamide + Polyether + Sulfonic,"-CONH2, -OH/-O-, -SO3H/-CONH-",CCOC(CC(C)C(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O,-0.9506,-2.5262,-0.1321,0.5727,PASS
+LIB_0112_AA-DMA-VI,Oligomer(AA-DMA-VI),Carboxylic + Heterocycle + Tert-Amide,"-CONMe2, -COOH, Imidazole",CC(CC(CCn1ccnc1)C(=O)N(C)C)C(=O)O,-0.5905,-0.452,-0.1294,0.5721,PASS
+LIB_0281_AMPS-EG-VP,Oligomer(AMPS-EG-VP),Heterocycle + Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-, Pyrrolidone",CC(OCCCCN1CCCC1=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.6738,-0.9476,0.5442,0.566,PASS
+LIB_0283_AMPS-MAN-HEMA,Oligomer(AMPS-MAN-HEMA),Ester-OH + Methacrylonitrile + Sulfonic,"-CN/-CH3, -COO-/-OH, -SO3H/-CONH-",CC(CC(C)(C#N)CC(C)C(=O)OCCO)C(=O)NCC(C)(C)S(=O)(=O)O,-0.7652,-0.124,-0.3658,0.5634,PASS
+LIB_0098_AM-TFEMA-ACMO,Oligomer(AM-TFEMA-ACMO),Acrylamide + Fluorinated-Amide + Heterocycle-Ether,"-CF3/-CONH-, -CONH2, Morpholine",CC(CC(CCC(=O)N1CCOCC1)C(=O)NCC(F)(F)F)C(N)=O,-0.5845,-0.3465,-0.235,0.5592,PASS
+LIB_0185_MAN-AMPS-VI,Oligomer(MAN-AMPS-VI),Heterocycle + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H/-CONH-, Imidazole",CC(C)(C#N)CC(CCn1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O,-0.8663,-2.7748,-0.6092,0.5538,PASS
+LIB_0249_VI-VSA-VA,Oligomer(VI-VSA-VA),Heterocycle + Polyvinyl + Sulfonic,"-OH, -SO3H, Imidazole",CC(CC(CCO)S(=O)(=O)O)n1ccnc1,-0.5985,-0.32,-0.2419,0.5524,PASS
+LIB_0026_VA-AM-VI,Oligomer(VA-AM-VI),Acrylamide + Heterocycle + Polyvinyl,"-CONH2, -OH, Imidazole",CC(O)CC(CCn1ccnc1)C(N)=O,-0.6431,-0.2717,-0.2587,0.5496,PASS
+LIB_0358_EG-VI,Oligomer(EG-VI),Heterocycle + Polyether,"-OH/-O-, Imidazole",OCCCCn1ccnc1,-0.7354,-0.2892,-0.1618,0.5486,PASS
+LIB_0197_MAN-VSA-ACMO,Oligomer(MAN-VSA-ACMO),Heterocycle-Ether + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H, Morpholine",CC(C)(C#N)CC(CCC(=O)N1CCOCC1)S(=O)(=O)O,-0.5568,-0.3293,-0.2501,0.5454,PASS
+LIB_0021_VSA-VA-AN,Oligomer(VSA-VA-AN),Nitrile + Polyvinyl + Sulfonic,"-CN, -OH, -SO3H",CC(CC(O)CCC#N)S(=O)(=O)O,-0.888,-2.8242,-0.6539,0.5403,PASS
+LIB_0060_EG-EG,Oligomer(EG-EG),Polyether,-OH/-O-,CCOCCO,-0.5963,-0.3442,-0.1843,0.5372,PASS
+LIB_0357_MAN-VSA-AA,Oligomer(MAN-VSA-AA),Carboxylic + Methacrylonitrile + Sulfonic,"-CN/-CH3, -COOH, -SO3H",CC(C)(C#N)CC(CCC(=O)O)S(=O)(=O)O,-0.8573,-0.2173,-0.1271,0.5369,PASS
+LIB_0019_MAN-VA,Oligomer(MAN-VA),Methacrylonitrile + Polyvinyl,"-CN/-CH3, -OH",CC(C)(C#N)CCO,-0.8647,-0.2214,-0.1094,0.5334,PASS
+LIB_0039_TFEMA-AM-EG,Oligomer(TFEMA-AM-EG),Acrylamide + Fluorinated-Amide + Polyether,"-CF3/-CONH-, -CONH2, -OH/-O-",CCOC(CC(C)C(=O)NCC(F)(F)F)C(N)=O,-0.6311,-1.6378,1.3025,0.5272,PASS
+LIB_0155_EG-TFEMA-AA,Oligomer(EG-TFEMA-AA),Carboxylic + Fluorinated-Amide + Polyether,"-CF3/-CONH-, -COOH, -OH/-O-",O=C(O)CCC(CCCO)C(=O)NCC(F)(F)F,-0.6181,-0.2679,-0.2336,0.5247,PASS
+LIB_0200_AMPS-VA-VI,Oligomer(AMPS-VA-VI),Heterocycle + Polyvinyl + Sulfonic,"-OH, -SO3H/-CONH-, Imidazole",CC(CC(O)CCn1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5549,-2.1791,0.2721,0.5247,PASS
+LIB_0057_AM-TFEA-ACMO,Oligomer(AM-TFEA-ACMO),Acrylamide + Fluorinated + Heterocycle-Ether,"-CF3, -CONH2, Morpholine",CC(CC(CCC(=O)N1CCOCC1)C(=O)OCC(F)(F)F)C(N)=O,-0.603,-0.3277,-0.1715,0.5235,PASS
+LIB_0258_HEMA-DMA-VI,Oligomer(HEMA-DMA-VI),Ester-OH + Heterocycle + Tert-Amide,"-CONMe2, -COO-/-OH, Imidazole",CN(C)C(=O)C(CCn1ccnc1)CC(C)(C)C(=O)OCCO,-0.6317,-0.3757,-0.0881,0.5222,PASS
+LIB_0086_TFEA-EG-AA,Oligomer(TFEA-EG-AA),Carboxylic + Fluorinated + Polyether,"-CF3, -COOH, -OH/-O-",CC(OCCCCC(=O)O)C(=O)OCC(F)(F)F,-0.5069,-0.3523,-0.1968,0.5125,PASS
+LIB_0147_VI-ACMO-VPA,Oligomer(VI-ACMO-VPA),Heterocycle + Heterocycle-Ether + Phosphonate,"-PO3H2, Imidazole, Morpholine",CC(CC(CCP(=O)(O)O)C(=O)N1CCOCC1)n1ccnc1,-0.5767,-0.303,-0.1924,0.5087,PASS
+LIB_0145_VSA-VSA,Oligomer(VSA-VSA),Sulfonic,-SO3H,CC(CCS(=O)(=O)O)S(=O)(=O)O,-0.8998,-2.8396,-0.5965,0.5025,PASS
+LIB_0394_TFEA-HEMA-VI,Oligomer(TFEA-HEMA-VI),Ester-OH + Fluorinated + Heterocycle,"-CF3, -COO-/-OH, Imidazole",CC(CC(C)(CCn1ccnc1)C(=O)OCCO)C(=O)OCC(F)(F)F,-0.5919,-0.2241,-0.2435,0.493,PASS
+LIB_0318_VSA-VSA-DMA,Oligomer(VSA-VSA-DMA),Sulfonic + Tert-Amide,"-CONMe2, -SO3H",CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)S(=O)(=O)O,-0.9315,-2.3916,0.2654,0.4875,PASS
+LIB_0092_VSA-VSA-DMA,Oligomer(VSA-VSA-DMA),Sulfonic + Tert-Amide,"-CONMe2, -SO3H",CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)S(=O)(=O)O,-0.9217,-2.391,0.2647,0.4844,PASS
+LIB_0182_ACMO-HEMA-DMA,Oligomer(ACMO-HEMA-DMA),Ester-OH + Heterocycle-Ether + Tert-Amide,"-CONMe2, -COO-/-OH, Morpholine",CC(CC(C)(CCC(=O)N(C)C)C(=O)OCCO)C(=O)N1CCOCC1,-0.5273,-0.2265,-0.2663,0.48,PASS
+LIB_0264_AA-VA-SBMA,Oligomer(AA-VA-SBMA),Carboxylic + Polyvinyl + Zwitterionic,"-COOH, -OH, Zwitterion",CC(CC(O)CC(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(=O)O,-0.8623,-3.2517,-1.3078,0.4723,PASS
+LIB_0367_VI-EG,Oligomer(VI-EG),Heterocycle + Polyether,"-OH/-O-, Imidazole",CCOC(C)n1ccnc1,-0.5328,-0.4333,0.0239,0.4612,PASS
+LIB_0103_VA-EG-VI,Oligomer(VA-EG-VI),Heterocycle + Polyether + Polyvinyl,"-OH, -OH/-O-, Imidazole",CC(O)OCCCCn1ccnc1,-0.5543,-0.2383,-0.1852,0.4573,PASS
+LIB_0029_VA-EG-MAN,Oligomer(VA-EG-MAN),Methacrylonitrile + Polyether + Polyvinyl,"-CN/-CH3, -OH, -OH/-O-",CC(C#N)CCCOC(C)O,-0.5805,-0.1785,-0.2249,0.4517,PASS
+LIB_0238_AA-MAN-VA,Oligomer(AA-MAN-VA),Carboxylic + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -COOH, -OH",CC(CC(C)(C#N)CCO)C(=O)O,-0.5498,-0.1831,-0.2385,0.449,PASS
+LIB_0080_MAN-ACMO-AM,Oligomer(MAN-ACMO-AM),Acrylamide + Heterocycle-Ether + Methacrylonitrile,"-CN/-CH3, -CONH2, Morpholine",CC(C)(C#N)CC(CCC(N)=O)C(=O)N1CCOCC1,-0.5158,-0.1185,-0.334,0.4444,PASS
+LIB_0386_VI-VP-TFEA,Oligomer(VI-VP-TFEA),Fluorinated + Heterocycle,"-CF3, Imidazole, Pyrrolidone",CC(CC(CCC(=O)OCC(F)(F)F)N1CCCC1=O)n1ccnc1,-0.6086,-0.9739,0.7684,0.4436,PASS
+LIB_0006_HEMA-VA-VA,Oligomer(HEMA-VA-VA),Ester-OH + Polyvinyl,"-COO-/-OH, -OH",CC(C)(CC(O)CCO)C(=O)OCCO,-0.7714,-0.1438,-0.04,0.4148,PASS
+LIB_0140_HEMA-VA-VA,Oligomer(HEMA-VA-VA),Ester-OH + Polyvinyl,"-COO-/-OH, -OH",CC(C)(CC(O)CCO)C(=O)OCCO,-0.7702,-0.1438,-0.0399,0.4143,PASS
+LIB_0015_AM-EG-DMA,Oligomer(AM-EG-DMA),Acrylamide + Polyether + Tert-Amide,"-CONH2, -CONMe2, -OH/-O-",CC(OCCCCC(=O)N(C)C)C(N)=O,-0.8418,-1.0181,1.1257,0.3848,PASS
+LIB_0130_VP-DMA-VA,Oligomer(VP-DMA-VA),Heterocycle + Polyvinyl + Tert-Amide,"-CONMe2, -OH, Pyrrolidone",CC(CC(CCO)C(=O)N(C)C)N1CCCC1=O,-0.5277,-0.2491,-0.0341,0.3776,PASS
+LIB_0022_VP-VSA-DMA,Oligomer(VP-VSA-DMA),Heterocycle + Sulfonic + Tert-Amide,"-CONMe2, -SO3H, Pyrrolidone",CC(CC(CCC(=O)N(C)C)S(=O)(=O)O)N1CCCC1=O,-0.7388,-2.7954,-0.3659,0.3626,PASS
+LIB_0257_VI-VA-AA,Oligomer(VI-VA-AA),Carboxylic + Heterocycle + Polyvinyl,"-COOH, -OH, Imidazole",CC(CC(O)CCC(=O)O)n1ccnc1,-0.5481,-0.0503,-0.1592,0.329,PASS
+LIB_0279_VI-AM-VI,Oligomer(VI-AM-VI),Acrylamide + Heterocycle,"-CONH2, Imidazole",CC(CC(CCn1ccnc1)C(N)=O)n1ccnc1,-0.8085,-0.8366,1.0086,0.3211,PASS
+LIB_0058_AMPS-AN-AM,Oligomer(AMPS-AN-AM),Acrylamide + Nitrile + Sulfonic,"-CN, -CONH2, -SO3H/-CONH-",CC(CC(C#N)CCC(N)=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.9592,-1.3175,1.8361,0.2561,PASS
+LIB_0135_VI-VA-HEMA,Oligomer(VI-VA-HEMA),Ester-OH + Heterocycle + Polyvinyl,"-COO-/-OH, -OH, Imidazole",CC(CC(O)CC(C)n1ccnc1)C(=O)OCCO,-0.6233,-0.5524,0.6555,0.253,PASS
+LIB_0213_AMPS-HEMA,Oligomer(AMPS-HEMA),Ester-OH + Sulfonic,"-COO-/-OH, -SO3H/-CONH-",CC(CC(C)C(=O)OCCO)C(=O)NCC(C)(C)S(=O)(=O)O,-0.6807,-1.1748,1.4721,0.2411,PASS
+LIB_0157_VI-VI-DMA,Oligomer(VI-VI-DMA),Heterocycle + Tert-Amide,"-CONMe2, Imidazole",CC(CC(CCC(=O)N(C)C)n1ccnc1)n1ccnc1,-0.6942,0.0654,-0.195,0.2379,PASS
+LIB_0100_AN-MAN-SBMA,Oligomer(AN-MAN-SBMA),Methacrylonitrile + Nitrile + Zwitterionic,"-CN, -CN/-CH3, Zwitterion",CC(C#N)CC(C)(C#N)CC(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.9053,-3.1354,-0.4418,0.1612,PASS
+LIB_0143_TFEMA-AM-VPA,Oligomer(TFEMA-AM-VPA),Acrylamide + Fluorinated-Amide + Phosphonate,"-CF3/-CONH-, -CONH2, -PO3H2",CC(CC(CCP(=O)(O)O)C(N)=O)C(=O)NCC(F)(F)F,-0.8924,-0.8839,1.4531,0.1607,PASS
+LIB_0047_AA-TFEA-DMA,Oligomer(AA-TFEA-DMA),Carboxylic + Fluorinated + Tert-Amide,"-CF3, -CONMe2, -COOH",CC(CC(CCC(=O)N(C)C)C(=O)OCC(F)(F)F)C(=O)O,-0.5284,0.2879,-0.8902,0.0518,PASS
+LIB_0207_SBMA-VA-AN,Oligomer(SBMA-VA-AN),Nitrile + Polyvinyl + Zwitterionic,"-CN, -OH, Zwitterion",CC(C)(CC(O)CCC#N)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8686,-3.148,-0.2715,0.05,PASS
+LIB_0178_VP-DMA-AMPS,Oligomer(VP-DMA-AMPS),Heterocycle + Sulfonic + Tert-Amide,"-CONMe2, -SO3H/-CONH-, Pyrrolidone",CC(CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C)N1CCCC1=O,-1.2261,-1.4736,2.7244,0.0124,PASS
+LIB_0114_VPA-EG-ACMO,Oligomer(VPA-EG-ACMO),Heterocycle-Ether + Phosphonate + Polyether,"-OH/-O-, -PO3H2, Morpholine",CC(OCCCCC(=O)N1CCOCC1)P(=O)(O)O,-0.5475,-0.3312,0.8333,0.001,PASS
+LIB_0102_HEMA-HEMA-VSO,Oligomer(HEMA-HEMA-VSO),Ester-OH + Sulfoxide,"-COO-/-OH, -S(=O)Me",CS(=O)CCC(C)(CC(C)(C)C(=O)OCCO)C(=O)OCCO,-0.7724,-1.1829,2.036,0.0007,PASS
+LIB_0177_AA-VSA-AMPS,Oligomer(AA-VSA-AMPS),Carboxylic + Sulfonic,"-COOH, -SO3H, -SO3H/-CONH-",CC(CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)S(=O)(=O)O)C(=O)O,-1.1482,-2.2968,1.6047,-0.0102,PASS
+LIB_0193_HEMA-HEMA-VP,Oligomer(HEMA-HEMA-VP),Ester-OH + Heterocycle,"-COO-/-OH, Pyrrolidone",CC(C)(CC(C)(CCN1CCCC1=O)C(=O)OCCO)C(=O)OCCO,-0.8851,-0.5432,1.7643,-0.2022,PASS
+LIB_0040_ACMO-VI-HEMA,Oligomer(ACMO-VI-HEMA),Ester-OH + Heterocycle + Heterocycle-Ether,"-COO-/-OH, Imidazole, Morpholine",CC(CC(CC(C)C(=O)N1CCOCC1)n1ccnc1)C(=O)OCCO,-0.6002,-0.4537,1.4567,-0.216,PASS
+LIB_0066_VA-AM-TFEA,Oligomer(VA-AM-TFEA),Acrylamide + Fluorinated + Polyvinyl,"-CF3, -CONH2, -OH",CC(O)CC(CCC(=O)OCC(F)(F)F)C(N)=O,-0.8396,-1.3219,2.7311,-0.2366,PASS
+LIB_0111_AMPS-MAN-VA,Oligomer(AMPS-MAN-VA),Methacrylonitrile + Polyvinyl + Sulfonic,"-CN/-CH3, -OH, -SO3H/-CONH-",CC(CC(C)(C#N)CCO)C(=O)NCC(C)(C)S(=O)(=O)O,-0.8348,-0.1069,1.3314,-0.2676,PASS
+LIB_0274_AA-EG-TFEA,Oligomer(AA-EG-TFEA),Carboxylic + Fluorinated + Polyether,"-CF3, -COOH, -OH/-O-",CC(OCCCCC(=O)OCC(F)(F)F)C(=O)O,-0.6922,-0.7306,1.9771,-0.2734,PASS
+LIB_0260_MAN-VP-AMPS,Oligomer(MAN-VP-AMPS),Heterocycle + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H/-CONH-, Pyrrolidone",CC(C)(C#N)CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)N1CCCC1=O,-0.675,-1.6935,3.2403,-0.4743,PASS
+LIB_0160_VPA-EG-HEMA,Oligomer(VPA-EG-HEMA),Ester-OH + Phosphonate + Polyether,"-COO-/-OH, -OH/-O-, -PO3H2",CC(CCCOC(C)P(=O)(O)O)C(=O)OCCO,-0.6326,-0.1429,1.8363,-0.5794,PASS
+LIB_0366_VA-VA-AMPS,Oligomer(VA-VA-AMPS),Polyvinyl + Sulfonic,"-OH, -SO3H/-CONH-",CC(O)CC(O)CCC(=O)NCC(C)(C)S(=O)(=O)O,-0.74,-0.7088,2.6138,-0.5856,PASS
+LIB_0333_VA-SBMA-VA,Oligomer(VA-SBMA-VA),Polyvinyl + Zwitterionic,"-OH, Zwitterion",CC(O)CC(C)(CCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8391,-3.1306,1.123,-0.6434,PASS
+LIB_0201_HEMA-AN-TFEA,Oligomer(HEMA-AN-TFEA),Ester-OH + Fluorinated + Nitrile,"-CF3, -CN, -COO-/-OH",CC(C)(CC(C#N)CCC(=O)OCC(F)(F)F)C(=O)OCCO,-0.7027,-0.507,2.6269,-0.7282,PASS
+LIB_0018_ACMO-MAN-HEMA,Oligomer(ACMO-MAN-HEMA),Ester-OH + Heterocycle-Ether + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, Morpholine",CC(CC(C)(C#N)CC(C)C(=O)N1CCOCC1)C(=O)OCCO,-0.8528,-0.5597,2.9134,-0.7798,PASS
+LIB_0321_AM-SBMA-EG,Oligomer(AM-SBMA-EG),Acrylamide + Polyether + Zwitterionic,"-CONH2, -OH/-O-, Zwitterion",CCOC(C)(CC(C)C(N)=O)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8134,-2.9853,2.9587,-1.4408,PASS
+LIB_0082_VSA-AM-TFEA,Oligomer(VSA-AM-TFEA),Acrylamide + Fluorinated + Sulfonic,"-CF3, -CONH2, -SO3H",CC(CC(CCC(=O)OCC(F)(F)F)C(N)=O)S(=O)(=O)O,-0.8573,-2.7381,3.9328,-1.6877,PASS
+LIB_0004_ACMO-AA-VSO,Oligomer(ACMO-AA-VSO),Carboxylic + Heterocycle-Ether + Sulfoxide,"-COOH, -S(=O)Me, Morpholine",CC(CC(CCS(C)=O)C(=O)O)C(=O)N1CCOCC1,-0.5281,-0.3179,4.1891,-1.6926,PASS
+LIB_0195_SBMA-AM-MAN,Oligomer(SBMA-AM-MAN),Acrylamide + Methacrylonitrile + Zwitterionic,"-CN/-CH3, -CONH2, Zwitterion",CC(C#N)CC(CC(C)(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(N)=O,-0.8037,-3.0491,4.4836,-2.2645,PASS
+LIB_0375_MAN-EG-AN,Oligomer(MAN-EG-AN),Methacrylonitrile + Nitrile + Polyether,"-CN, -CN/-CH3, -OH/-O-",CC(C)(C#N)OCCCCC#N,-0.4819,2.0702,-0.2026,-4.0534,PASS
+LIB_0187_AM-DMA-VPA,Oligomer(AM-DMA-VPA),Acrylamide + Phosphonate + Tert-Amide,"-CONH2, -CONMe2, -PO3H2",CC(CC(CCP(=O)(O)O)C(=O)N(C)C)C(N)=O,-1.0348,-1.8997,-1.273,-97.2593,WARN: Valid | Valid | Did not converge (fmax=0.107 eV/A) | Valid
+LIB_0150_VI-VSA-VPA,Oligomer(VI-VSA-VPA),Heterocycle + Phosphonate + Sulfonic,"-PO3H2, -SO3H, Imidazole",CC(CC(CCP(=O)(O)O)S(=O)(=O)O)n1ccnc1,-1.2735,-1.1548,-0.9019,-97.3468,WARN: Valid | Valid | Valid | Did not converge (fmax=0.109 eV/A)
+LIB_0116_VP-VSO-VPA,Oligomer(VP-VSO-VPA),Heterocycle + Phosphonate + Sulfoxide,"-PO3H2, -S(=O)Me, Pyrrolidone",CC(CC(CCP(=O)(O)O)S(C)=O)N1CCCC1=O,-0.7045,-1.1106,-1.3849,-97.3594,WARN: Valid | Valid | Valid | Did not converge (fmax=0.114 eV/A)
+LIB_0143_AN-AA-AA,Oligomer(AN-AA-AA),Carboxylic + Nitrile,"-CN, -COOH",CC(C#N)CC(CCC(=O)O)C(=O)O,-0.8193,-1.4858,-0.8334,-97.3641,WARN: Valid | Valid | Did not converge (fmax=0.197 eV/A) | Valid
+LIB_0286_TFEA-DMA-AM,Oligomer(TFEA-DMA-AM),Acrylamide + Fluorinated + Tert-Amide,"-CF3, -CONH2, -CONMe2",CC(CC(CCC(N)=O)C(=O)N(C)C)C(=O)OCC(F)(F)F,-1.031,-1.1335,-1.0732,-97.3709,WARN: Valid | Valid | Valid | Did not converge (fmax=0.172 eV/A)
+LIB_0152_VA-VPA-VSO,Oligomer(VA-VPA-VSO),Phosphonate + Polyvinyl + Sulfoxide,"-OH, -PO3H2, -S(=O)Me",CC(O)CC(CCS(C)=O)P(=O)(O)O,-0.6683,-1.2648,-1.0569,-97.4454,WARN: Valid | Valid | Valid | Did not converge (fmax=0.195 eV/A)
+LIB_0395_VP-AM-EG,Oligomer(VP-AM-EG),Acrylamide + Heterocycle + Polyether,"-CONH2, -OH/-O-, Pyrrolidone",CCOC(CC(C)N1CCCC1=O)C(N)=O,-0.9003,-1.5377,-0.5369,-97.4488,WARN: Valid | Valid | Valid | Did not converge (fmax=0.122 eV/A)
+LIB_0174_VSO-DMA-VPA,Oligomer(VSO-DMA-VPA),Phosphonate + Sulfoxide + Tert-Amide,"-CONMe2, -PO3H2, -S(=O)Me",CC(CC(CCP(=O)(O)O)C(=O)N(C)C)S(C)=O,-0.7287,-1.059,-1.2421,-97.4521,WARN: Valid | Valid | Valid | Did not converge (fmax=0.116 eV/A)
+LIB_0164_VPA-VSA-AN,Oligomer(VPA-VSA-AN),Nitrile + Phosphonate + Sulfonic,"-CN, -PO3H2, -SO3H",CC(CC(CCC#N)S(=O)(=O)O)P(=O)(O)O,-1.25,-1.0587,-0.7154,-97.507,WARN: Valid | Valid | Valid | Did not converge (fmax=0.111 eV/A)
+LIB_0075_VSA-HEMA-VP,Oligomer(VSA-HEMA-VP),Ester-OH + Heterocycle + Sulfonic,"-COO-/-OH, -SO3H, Pyrrolidone",CC(CC(C)(CCN1CCCC1=O)C(=O)OCCO)S(=O)(=O)O,-0.5813,-1.5622,-0.6263,-97.517,WARN: Valid | Valid | Valid | Did not converge (fmax=0.119 eV/A)
+LIB_0181_VSO-VP-VPA,Oligomer(VSO-VP-VPA),Heterocycle + Phosphonate + Sulfoxide,"-PO3H2, -S(=O)Me, Pyrrolidone",CC(CC(CCP(=O)(O)O)N1CCCC1=O)S(C)=O,-1.0098,-1.0069,-0.9415,-97.5212,WARN: Valid | Valid | Valid | Did not converge (fmax=0.162 eV/A)
+LIB_0170_VSA-HEMA-VSO,Oligomer(VSA-HEMA-VSO),Ester-OH + Sulfonic + Sulfoxide,"-COO-/-OH, -S(=O)Me, -SO3H",CC(CC(C)(CCS(C)=O)C(=O)OCCO)S(=O)(=O)O,-0.6069,-1.1179,-1.1192,-97.5269,WARN: Valid | Valid | Valid | Did not converge (fmax=0.298 eV/A)
+LIB_0122_MAN-VSA-VPA,Oligomer(MAN-VSA-VPA),Methacrylonitrile + Phosphonate + Sulfonic,"-CN/-CH3, -PO3H2, -SO3H",CC(C)(C#N)CC(CCP(=O)(O)O)S(=O)(=O)O,-1.2463,-1.3662,-0.297,-97.5332,WARN: Valid | Valid | Did not converge (fmax=0.191 eV/A) | Valid
+LIB_0010_VSA-VSA-VP,Oligomer(VSA-VSA-VP),Heterocycle + Sulfonic,"-SO3H, Pyrrolidone",CC(CC(CCN1CCCC1=O)S(=O)(=O)O)S(=O)(=O)O,-0.5652,-1.6233,-0.5716,-97.5491,WARN: Valid | Valid | Valid | Did not converge (fmax=0.188 eV/A)
+LIB_0068_AA-AA-DMA,Oligomer(AA-AA-DMA),Carboxylic + Tert-Amide,"-CONMe2, -COOH",CC(CC(CCC(=O)N(C)C)C(=O)O)C(=O)O,-0.8356,-1.4527,-0.4815,-97.5534,WARN: Valid | Valid | Did not converge (fmax=0.146 eV/A) | Valid
+LIB_0360_VI-VP-DMA,Oligomer(VI-VP-DMA),Heterocycle + Tert-Amide,"-CONMe2, Imidazole, Pyrrolidone",CC(CC(CCC(=O)N(C)C)N1CCCC1=O)n1ccnc1,-0.7904,-1.5932,-0.3342,-97.5608,WARN: Valid | Valid | Did not converge (fmax=0.157 eV/A) | Valid
+LIB_0076_AM-VP-TFEMA,Oligomer(AM-VP-TFEMA),Acrylamide + Fluorinated-Amide + Heterocycle,"-CF3/-CONH-, -CONH2, Pyrrolidone",CC(CC(CCC(=O)NCC(F)(F)F)N1CCCC1=O)C(N)=O,-0.7142,-1.823,-0.7532,-97.5785,WARN: Valid | Valid | Valid | Did not converge (fmax=0.102 eV/A)
+LIB_0379_TFEA-AMPS,Oligomer(TFEA-AMPS),Fluorinated + Sulfonic,"-CF3, -SO3H/-CONH-",CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.5732,-1.5597,-0.5122,-97.5789,WARN: Valid | Valid | Valid | Did not converge (fmax=0.169 eV/A)
+LIB_0368_VP-VSA-AA,Oligomer(VP-VSA-AA),Carboxylic + Heterocycle + Sulfonic,"-COOH, -SO3H, Pyrrolidone",CC(CC(CCC(=O)O)S(=O)(=O)O)N1CCCC1=O,-0.5153,-1.3715,-0.763,-97.5894,WARN: Valid | Valid | Did not converge (fmax=0.366 eV/A) | Valid
+LIB_0024_VPA-VP-VSO,Oligomer(VPA-VP-VSO),Heterocycle + Phosphonate + Sulfoxide,"-PO3H2, -S(=O)Me, Pyrrolidone",CC(CC(CCS(C)=O)N1CCCC1=O)P(=O)(O)O,-0.7609,-1.8031,-0.6541,-97.5914,WARN: Valid | Valid | Did not converge (fmax=0.110 eV/A) | Valid
+LIB_0372_HEMA-HEMA-MAN,Oligomer(HEMA-HEMA-MAN),Ester-OH + Methacrylonitrile,"-CN/-CH3, -COO-/-OH",CC(C#N)CC(C)(CC(C)(C)C(=O)OCCO)C(=O)OCCO,-0.8009,-1.8386,-0.6834,-97.5927,WARN: Valid | Valid | Did not converge (fmax=0.138 eV/A) | Valid
+LIB_0266_VP-AA-HEMA,Oligomer(VP-AA-HEMA),Carboxylic + Ester-OH + Heterocycle,"-COO-/-OH, -COOH, Pyrrolidone",CC(CC(CC(C)N1CCCC1=O)C(=O)O)C(=O)OCCO,-0.7143,-1.0013,-1.0139,-97.6065,WARN: Valid | Valid | Valid | Did not converge (fmax=0.105 eV/A)
+LIB_0129_VP-VSA-TFEA,Oligomer(VP-VSA-TFEA),Fluorinated + Heterocycle + Sulfonic,"-CF3, -SO3H, Pyrrolidone",CC(CC(CCC(=O)OCC(F)(F)F)S(=O)(=O)O)N1CCCC1=O,-0.709,-1.6178,-0.3163,-97.6143,WARN: Valid | Valid | Did not converge (fmax=0.173 eV/A) | Did not converge (fmax=0.142 eV/A)
+LIB_0170_VSA-AA-AA,Oligomer(VSA-AA-AA),Carboxylic + Sulfonic,"-COOH, -SO3H",CC(CC(CCC(=O)O)C(=O)O)S(=O)(=O)O,-0.8445,-1.4649,-0.329,-97.6187,WARN: Valid | Valid | Did not converge (fmax=0.102 eV/A) | Valid
+LIB_0074_VP-VSA-AM,Oligomer(VP-VSA-AM),Acrylamide + Heterocycle + Sulfonic,"-CONH2, -SO3H, Pyrrolidone",CC(CC(CCC(N)=O)S(=O)(=O)O)N1CCCC1=O,-0.8553,-1.0509,-0.8069,-97.6238,WARN: Valid | Valid | Valid | Did not converge (fmax=0.185 eV/A)
+LIB_0183_VI-VPA-HEMA,Oligomer(VI-VPA-HEMA),Ester-OH + Heterocycle + Phosphonate,"-COO-/-OH, -PO3H2, Imidazole",CC(CC(CC(C)n1ccnc1)P(=O)(O)O)C(=O)OCCO,-0.8211,-0.4937,-1.5023,-97.6242,WARN: Valid | Valid | Valid | Did not converge (fmax=0.178 eV/A)
+LIB_0159_TFEA-AM-VPA,Oligomer(TFEA-AM-VPA),Acrylamide + Fluorinated + Phosphonate,"-CF3, -CONH2, -PO3H2",CC(CC(CCP(=O)(O)O)C(N)=O)C(=O)OCC(F)(F)F,-0.929,-1.1013,-0.6598,-97.6377,WARN: Valid | Valid | Valid | Did not converge (fmax=0.167 eV/A)
+LIB_0040_AA-VP-TFEA,Oligomer(AA-VP-TFEA),Carboxylic + Fluorinated + Heterocycle,"-CF3, -COOH, Pyrrolidone",CC(CC(CCC(=O)OCC(F)(F)F)N1CCCC1=O)C(=O)O,-0.8212,-1.937,-0.7499,-97.6398,WARN: Valid | Did not converge (fmax=0.337 eV/A) | Did not converge (fmax=0.264 eV/A) | Valid
+LIB_0180_TFEA-VA-AM,Oligomer(TFEA-VA-AM),Acrylamide + Fluorinated + Polyvinyl,"-CF3, -CONH2, -OH",CC(CC(O)CCC(N)=O)C(=O)OCC(F)(F)F,-0.771,-1.8511,-0.6254,-97.6449,WARN: Valid | Valid | Did not converge (fmax=0.110 eV/A) | Valid
+LIB_0348_AA-MAN-AN,Oligomer(AA-MAN-AN),Carboxylic + Methacrylonitrile + Nitrile,"-CN, -CN/-CH3, -COOH",CC(CC(C)(C#N)CCC#N)C(=O)O,-1.2092,-0.5582,-1.0664,-97.6482,WARN: Valid | Did not converge (fmax=0.106 eV/A) | Valid | Valid
+LIB_0089_DMA-VPA-VSO,Oligomer(DMA-VPA-VSO),Phosphonate + Sulfoxide + Tert-Amide,"-CONMe2, -PO3H2, -S(=O)Me",CC(CC(CCS(C)=O)P(=O)(O)O)C(=O)N(C)C,-0.6318,-1.2096,-0.7358,-97.6536,WARN: Valid | Valid | Valid | Did not converge (fmax=0.144 eV/A)
+LIB_0190_VSA-DMA-HEMA,Oligomer(VSA-DMA-HEMA),Ester-OH + Sulfonic + Tert-Amide,"-CONMe2, -COO-/-OH, -SO3H",CC(CC(CC(C)S(=O)(=O)O)C(=O)N(C)C)C(=O)OCCO,-0.6584,-1.4993,-0.3501,-97.662,WARN: Valid | Valid | Valid | Did not converge (fmax=0.116 eV/A)
+LIB_0186_EG-AN-MAN,Oligomer(EG-AN-MAN),Methacrylonitrile + Nitrile + Polyether,"-CN, -CN/-CH3, -OH/-O-",CC(C#N)CC(C#N)CCCO,-0.7668,-1.1792,-0.6433,-97.6641,WARN: Valid | Valid | Did not converge (fmax=0.114 eV/A) | Valid
+LIB_0078_VP-VSA-VP,Oligomer(VP-VSA-VP),Heterocycle + Sulfonic,"-SO3H, Pyrrolidone",CC(CC(CCN1CCCC1=O)S(=O)(=O)O)N1CCCC1=O,-0.7098,-1.4387,-0.3413,-97.6822,WARN: Valid | Valid | Did not converge (fmax=0.361 eV/A) | Valid
+LIB_0203_VP-AM-AM,Oligomer(VP-AM-AM),Acrylamide + Heterocycle,"-CONH2, Pyrrolidone",CC(CC(CCC(N)=O)C(N)=O)N1CCCC1=O,-1.0342,-1.1588,-0.4164,-97.6828,WARN: Valid | Valid | Valid | Did not converge (fmax=0.160 eV/A)
+LIB_0363_DMA-AA-AM,Oligomer(DMA-AA-AM),Acrylamide + Carboxylic + Tert-Amide,"-CONH2, -CONMe2, -COOH",CC(CC(CCC(N)=O)C(=O)O)C(=O)N(C)C,-1.04,-1.1139,-0.4481,-97.6916,WARN: Valid | Valid | Valid | Did not converge (fmax=0.141 eV/A)
+LIB_0115_DMA-AM,Oligomer(DMA-AM),Acrylamide + Tert-Amide,"-CONH2, -CONMe2",CC(CCC(N)=O)C(=O)N(C)C,-0.845,-1.0226,-0.6822,-97.7073,WARN: Valid | Valid | Valid | Did not converge (fmax=0.125 eV/A)
+LIB_0141_TFEA-AM-EG,Oligomer(TFEA-AM-EG),Acrylamide + Fluorinated + Polyether,"-CF3, -CONH2, -OH/-O-",CCOC(CC(C)C(=O)OCC(F)(F)F)C(N)=O,-0.8446,-0.9181,-0.8056,-97.7085,WARN: Valid | Valid | Valid | Did not converge (fmax=0.114 eV/A)
+LIB_0162_VA-TFEMA-VSA,Oligomer(VA-TFEMA-VSA),Fluorinated-Amide + Polyvinyl + Sulfonic,"-CF3/-CONH-, -OH, -SO3H",CC(O)CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F,-1.1791,-1.0922,-0.3281,-97.709,WARN: Valid | Valid | Valid | Did not converge (fmax=0.142 eV/A)
+LIB_0028_MAN-EG,Oligomer(MAN-EG),Methacrylonitrile + Polyether,"-CN/-CH3, -OH/-O-",CCOC(C)(C)C#N,-0.6364,-1.359,-0.3784,-97.7409,WARN: Valid | Valid | Did not converge (fmax=0.168 eV/A) | Valid
+LIB_0107_AMPS-VA-VPA,Oligomer(AMPS-VA-VPA),Phosphonate + Polyvinyl + Sulfonic,"-OH, -PO3H2, -SO3H/-CONH-",CC(CC(O)CCP(=O)(O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5036,-1.1617,-0.7203,-97.7415,WARN: Valid | Valid | Valid | Did not converge (fmax=0.108 eV/A)
+LIB_0199_VP-VPA-VP,Oligomer(VP-VPA-VP),Heterocycle + Phosphonate,"-PO3H2, Pyrrolidone",CC(CC(CCN1CCCC1=O)P(=O)(O)O)N1CCCC1=O,-0.6944,-1.8508,-0.4901,-97.7429,WARN: Valid | Valid | Valid | Did not converge (fmax=0.104 eV/A)
+LIB_0124_VA-HEMA-VI,Oligomer(VA-HEMA-VI),Ester-OH + Heterocycle + Polyvinyl,"-COO-/-OH, -OH, Imidazole",CC(O)CC(C)(CCn1ccnc1)C(=O)OCCO,-0.8201,-1.1502,-0.4734,-97.7451,WARN: Valid | Valid | Did not converge (fmax=0.101 eV/A) | Valid
+LIB_0162_MAN-VSA-HEMA,Oligomer(MAN-VSA-HEMA),Ester-OH + Methacrylonitrile + Sulfonic,"-CN/-CH3, -COO-/-OH, -SO3H",CC(CC(CC(C)(C)C#N)S(=O)(=O)O)C(=O)OCCO,-0.6739,-1.1596,-0.5655,-97.7519,WARN: Valid | Valid | Did not converge (fmax=0.124 eV/A) | Valid
+LIB_0045_VPA-VP-VSA,Oligomer(VPA-VP-VSA),Heterocycle + Phosphonate + Sulfonic,"-PO3H2, -SO3H, Pyrrolidone",CC(CC(CCS(=O)(=O)O)N1CCCC1=O)P(=O)(O)O,-0.6946,-2.1066,-0.8942,-97.771,WARN: Valid | Valid | Valid | Did not converge (fmax=0.108 eV/A)
+LIB_0063_VP-VP-VPA,Oligomer(VP-VP-VPA),Heterocycle + Phosphonate,"-PO3H2, Pyrrolidone",CC(CC(CCP(=O)(O)O)N1CCCC1=O)N1CCCC1=O,-0.8451,-1.1337,-0.3534,-97.805,WARN: Valid | Did not converge (fmax=0.141 eV/A) | Valid | Valid
+LIB_0035_TFEA-VI-HEMA,Oligomer(TFEA-VI-HEMA),Ester-OH + Fluorinated + Heterocycle,"-CF3, -COO-/-OH, Imidazole",CC(CC(CC(C)C(=O)OCC(F)(F)F)n1ccnc1)C(=O)OCCO,-0.8538,-0.5726,-0.9952,-97.8173,WARN: Valid | Valid | Valid | Did not converge (fmax=0.149 eV/A)
+LIB_0278_VP-AN-DMA,Oligomer(VP-AN-DMA),Heterocycle + Nitrile + Tert-Amide,"-CN, -CONMe2, Pyrrolidone",CC(CC(C#N)CCC(=O)N(C)C)N1CCCC1=O,-0.6744,-1.0169,-0.6047,-97.8178,WARN: Valid | Valid | Valid | Did not converge (fmax=0.129 eV/A)
+LIB_0168_DMA-EG-MAN,Oligomer(DMA-EG-MAN),Methacrylonitrile + Polyether + Tert-Amide,"-CN/-CH3, -CONMe2, -OH/-O-",CC(C#N)CCCOC(C)C(=O)N(C)C,-0.5891,-1.5036,-0.0727,-97.8259,WARN: Valid | Valid | Did not converge (fmax=0.149 eV/A) | Valid
+LIB_0146_AMPS-AN-VSA,Oligomer(AMPS-AN-VSA),Nitrile + Sulfonic,"-CN, -SO3H, -SO3H/-CONH-",CC(CC(C#N)CCS(=O)(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5992,-1.082,-0.5594,-97.8314,WARN: Valid | Valid | Valid | Did not converge (fmax=0.205 eV/A)
+LIB_0083_AN-VI-DMA,Oligomer(AN-VI-DMA),Heterocycle + Nitrile + Tert-Amide,"-CN, -CONMe2, Imidazole",CC(C#N)CC(CCC(=O)N(C)C)n1ccnc1,-0.702,-1.1799,-0.3391,-97.8417,WARN: Valid | Valid | Did not converge (fmax=0.115 eV/A) | Did not converge (fmax=0.207 eV/A)
+LIB_0338_TFEA-AN-MAN,Oligomer(TFEA-AN-MAN),Fluorinated + Methacrylonitrile + Nitrile,"-CF3, -CN, -CN/-CH3",CC(C#N)CC(C#N)CC(C)C(=O)OCC(F)(F)F,-0.4976,-1.2199,-0.4425,-97.8478,WARN: Valid | Valid | Did not converge (fmax=0.113 eV/A) | Valid
+LIB_0171_AN-VPA-HEMA,Oligomer(AN-VPA-HEMA),Ester-OH + Nitrile + Phosphonate,"-CN, -COO-/-OH, -PO3H2",CC(C#N)CC(CC(C)C(=O)OCCO)P(=O)(O)O,-0.8662,-0.5597,-0.9204,-97.8575,WARN: Valid | Valid | Valid | Did not converge (fmax=0.322 eV/A)
+LIB_0171_AMPS-AN-EG,Oligomer(AMPS-AN-EG),Nitrile + Polyether + Sulfonic,"-CN, -OH/-O-, -SO3H/-CONH-",CCOC(C#N)CC(C)C(=O)NCC(C)(C)S(=O)(=O)O,-1.2341,-2.209,-0.4528,-97.8681,WARN: Valid | Valid | Did not converge (fmax=0.153 eV/A) | Valid
+LIB_0311_TFEA-AM-HEMA,Oligomer(TFEA-AM-HEMA),Acrylamide + Ester-OH + Fluorinated,"-CF3, -CONH2, -COO-/-OH",CC(CC(CC(C)C(=O)OCC(F)(F)F)C(N)=O)C(=O)OCCO,-0.8812,-1.2177,-0.0966,-97.8686,WARN: Valid | Valid | Did not converge (fmax=0.128 eV/A) | Valid
+LIB_0097_HEMA-DMA-AA,Oligomer(HEMA-DMA-AA),Carboxylic + Ester-OH + Tert-Amide,"-CONMe2, -COO-/-OH, -COOH",CN(C)C(=O)C(CCC(=O)O)CC(C)(C)C(=O)OCCO,-0.7874,-0.961,-0.4728,-97.8721,WARN: Valid | Valid | Did not converge (fmax=0.161 eV/A) | Valid
+LIB_0065_TFEMA-VSA-VPA,Oligomer(TFEMA-VSA-VPA),Fluorinated-Amide + Phosphonate + Sulfonic,"-CF3/-CONH-, -PO3H2, -SO3H",CC(CC(CCP(=O)(O)O)S(=O)(=O)O)C(=O)NCC(F)(F)F,-0.8698,-2.0043,-0.3408,-97.8856,WARN: Valid | Valid | Did not converge (fmax=0.188 eV/A) | Valid
+LIB_0051_VPA-TFEMA-VSA,Oligomer(VPA-TFEMA-VSA),Fluorinated-Amide + Phosphonate + Sulfonic,"-CF3/-CONH-, -PO3H2, -SO3H",CC(CC(CCS(=O)(=O)O)C(=O)NCC(F)(F)F)P(=O)(O)O,-0.8953,-0.8667,-0.376,-97.9338,WARN: Valid | Valid | Did not converge (fmax=0.164 eV/A) | Valid
+LIB_0122_MAN-AM-EG,Oligomer(MAN-AM-EG),Acrylamide + Methacrylonitrile + Polyether,"-CN/-CH3, -CONH2, -OH/-O-",CCOC(CC(C)(C)C#N)C(N)=O,-0.8515,-0.9028,-0.3585,-97.9385,WARN: Valid | Did not converge (fmax=0.131 eV/A) | Valid | Valid
+LIB_0167_AA-VSA-VA,Oligomer(AA-VSA-VA),Carboxylic + Polyvinyl + Sulfonic,"-COOH, -OH, -SO3H",CC(CC(CCO)S(=O)(=O)O)C(=O)O,-0.6039,-1.2005,-0.1774,-97.9495,WARN: Valid | Valid | Did not converge (fmax=0.149 eV/A) | Valid
+LIB_0172_AN-AN-VP,Oligomer(AN-AN-VP),Heterocycle + Nitrile,"-CN, Pyrrolidone",CC(C#N)CC(C#N)CCN1CCCC1=O,-0.6987,-1.0131,-0.3161,-97.9546,WARN: Valid | Valid | Valid | Did not converge (fmax=0.404 eV/A)
+LIB_0228_VSA-AN-VP,Oligomer(VSA-AN-VP),Heterocycle + Nitrile + Sulfonic,"-CN, -SO3H, Pyrrolidone",CC(CC(C#N)CCN1CCCC1=O)S(=O)(=O)O,-0.5479,-2.0317,-0.5052,-97.9568,WARN: Valid | Valid | Did not converge (fmax=0.216 eV/A) | Valid
+LIB_0176_TFEA-VP-EG,Oligomer(TFEA-VP-EG),Fluorinated + Heterocycle + Polyether,"-CF3, -OH/-O-, Pyrrolidone",CCOC(CC(C)C(=O)OCC(F)(F)F)N1CCCC1=O,-0.5402,-1.1283,-0.2828,-97.9655,WARN: Valid | Valid | Did not converge (fmax=0.120 eV/A) | Valid
+LIB_0312_HEMA-MAN-AMPS,Oligomer(HEMA-MAN-AMPS),Ester-OH + Methacrylonitrile + Sulfonic,"-CN/-CH3, -COO-/-OH, -SO3H/-CONH-",CC(C#N)(CCC(=O)NCC(C)(C)S(=O)(=O)O)CC(C)(C)C(=O)OCCO,-0.456,-0.9101,-0.6068,-97.9682,WARN: Valid | Valid | Valid | Did not converge (fmax=0.130 eV/A)
+LIB_0015_VA-VSA-VP,Oligomer(VA-VSA-VP),Heterocycle + Polyvinyl + Sulfonic,"-OH, -SO3H, Pyrrolidone",CC(O)CC(CCN1CCCC1=O)S(=O)(=O)O,-0.7432,-1.0111,-0.2386,-97.9768,WARN: Valid | Valid | Valid | Did not converge (fmax=0.417 eV/A)
+LIB_0396_AN-AN,Oligomer(AN-AN),Nitrile,-CN,CC(C#N)CCC#N,-0.4664,-0.8968,-0.5785,-97.9861,WARN: Valid | Valid | Valid | Did not converge (fmax=0.811 eV/A)
+LIB_0398_VSA-TFEA-EG,Oligomer(VSA-TFEA-EG),Fluorinated + Polyether + Sulfonic,"-CF3, -OH/-O-, -SO3H",CCOC(CC(C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.8937,-2.0999,-0.2656,-97.9996,WARN: Valid | Valid | Did not converge (fmax=0.139 eV/A) | Valid
+LIB_0224_AN-TFEA-TFEA,Oligomer(AN-TFEA-TFEA),Fluorinated + Nitrile,"-CF3, -CN",CC(C#N)CC(CCC(=O)OCC(F)(F)F)C(=O)OCC(F)(F)F,-0.6045,-1.4752,0.2727,-98.0094,WARN: Valid | Valid | Did not converge (fmax=0.124 eV/A) | Valid
+LIB_0148_MAN-AA-EG,Oligomer(MAN-AA-EG),Carboxylic + Methacrylonitrile + Polyether,"-CN/-CH3, -COOH, -OH/-O-",CCOC(CC(C)(C)C#N)C(=O)O,-0.8573,-0.8924,-0.2048,-98.0192,WARN: Valid | Did not converge (fmax=0.178 eV/A) | Valid | Valid
+LIB_0209_AM-AMPS-AA,Oligomer(AM-AMPS-AA),Acrylamide + Carboxylic + Sulfonic,"-CONH2, -COOH, -SO3H/-CONH-",CC(CC(CCC(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O,-0.4881,-2.3917,-1.0667,-98.0239,WARN: Valid | Valid | Did not converge (fmax=0.150 eV/A) | Valid
+LIB_0078_EG-MAN-HEMA,Oligomer(EG-MAN-HEMA),Ester-OH + Methacrylonitrile + Polyether,"-CN/-CH3, -COO-/-OH, -OH/-O-",CC(CC(C)(C#N)CCCO)C(=O)OCCO,-0.7589,-0.5274,-0.6896,-98.0352,WARN: Valid | Valid | Valid | Did not converge (fmax=0.119 eV/A)
+LIB_0391_AMPS-AN-AA,Oligomer(AMPS-AN-AA),Carboxylic + Nitrile + Sulfonic,"-CN, -COOH, -SO3H/-CONH-",CC(CC(C#N)CCC(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-1.244,-1.6608,0.8776,-98.0359,WARN: Valid | Valid | Did not converge (fmax=0.703 eV/A) | Did not converge (fmax=0.121 eV/A)
+LIB_0058_VSA-EG-AM,Oligomer(VSA-EG-AM),Acrylamide + Polyether + Sulfonic,"-CONH2, -OH/-O-, -SO3H",CC(OCCCCC(N)=O)S(=O)(=O)O,-0.9091,-2.3857,-0.6873,-98.0399,WARN: Valid | Valid | Valid | Did not converge (fmax=0.162 eV/A)
+LIB_0314_EG-HEMA-TFEA,Oligomer(EG-HEMA-TFEA),Ester-OH + Fluorinated + Polyether,"-CF3, -COO-/-OH, -OH/-O-",CC(CCCO)(CCC(=O)OCC(F)(F)F)C(=O)OCCO,-0.8788,-0.3875,-0.7162,-98.0578,WARN: Valid | Valid | Valid | Did not converge (fmax=0.104 eV/A)
+LIB_0006_HEMA-AM-VP,Oligomer(HEMA-AM-VP),Acrylamide + Ester-OH + Heterocycle,"-CONH2, -COO-/-OH, Pyrrolidone",CC(C)(CC(CCN1CCCC1=O)C(N)=O)C(=O)OCCO,-0.6152,-0.8693,-0.3479,-98.0584,WARN: Valid | Valid | Did not converge (fmax=0.200 eV/A) | Valid
+LIB_0192_VP-VPA-DMA,Oligomer(VP-VPA-DMA),Heterocycle + Phosphonate + Tert-Amide,"-CONMe2, -PO3H2, Pyrrolidone",CC(CC(CCC(=O)N(C)C)P(=O)(O)O)N1CCCC1=O,-0.7424,-1.0729,0.0327,-98.0757,WARN: Valid | Valid | Valid | Atom overlap (min_dist=0.75 A)
+LIB_0322_VSA-AA-EG,Oligomer(VSA-AA-EG),Carboxylic + Polyether + Sulfonic,"-COOH, -OH/-O-, -SO3H",CCOC(CC(C)S(=O)(=O)O)C(=O)O,-0.9588,-0.7159,-0.2059,-98.084,WARN: Valid | Valid | Did not converge (fmax=0.816 eV/A) | Valid
+LIB_0292_VI-AA-VI,Oligomer(VI-AA-VI),Carboxylic + Heterocycle,"-COOH, Imidazole",CC(CC(CCn1ccnc1)C(=O)O)n1ccnc1,-0.9195,-1.4545,0.6892,-98.1041,WARN: Valid | Valid | Did not converge (fmax=0.156 eV/A) | Valid
+LIB_0125_AN-TFEA-VP,Oligomer(AN-TFEA-VP),Fluorinated + Heterocycle + Nitrile,"-CF3, -CN, Pyrrolidone",CC(C#N)CC(CCN1CCCC1=O)C(=O)OCC(F)(F)F,-0.7491,-2.2868,-0.4732,-98.1219,WARN: Valid | Valid | Valid | Did not converge (fmax=0.127 eV/A)
+LIB_0043_TFEMA-VSA-VA,Oligomer(TFEMA-VSA-VA),Fluorinated-Amide + Polyvinyl + Sulfonic,"-CF3/-CONH-, -OH, -SO3H",CC(CC(CCO)S(=O)(=O)O)C(=O)NCC(F)(F)F,-0.8369,-0.5205,-0.4383,-98.1338,WARN: Valid | Valid | Valid | Did not converge (fmax=0.115 eV/A)
+LIB_0230_AA-VSA,Oligomer(AA-VSA),Carboxylic + Sulfonic,"-COOH, -SO3H",CC(CCS(=O)(=O)O)C(=O)O,-0.8535,-0.5111,-0.4297,-98.1371,WARN: Valid | Valid | Did not converge (fmax=0.190 eV/A) | Valid
+LIB_0166_VSA-AN-AA,Oligomer(VSA-AN-AA),Carboxylic + Nitrile + Sulfonic,"-CN, -COOH, -SO3H",CC(CC(C#N)CCC(=O)O)S(=O)(=O)O,-0.5838,-2.2887,-0.5565,-98.1481,WARN: Valid | Valid | Did not converge (fmax=0.111 eV/A) | Valid
+LIB_0236_AN-AA-DMA,Oligomer(AN-AA-DMA),Carboxylic + Nitrile + Tert-Amide,"-CN, -CONMe2, -COOH",CC(C#N)CC(CCC(=O)N(C)C)C(=O)O,-1.1065,-0.5235,-0.1467,-98.17,WARN: Valid | Did not converge (fmax=0.392 eV/A) | Valid | Valid
+LIB_0077_VA-AM-MAN,Oligomer(VA-AM-MAN),Acrylamide + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -CONH2, -OH",CC(O)CC(CC(C)C#N)C(N)=O,-0.7934,-0.3532,-0.5915,-98.175,WARN: Valid | Valid | Valid | Did not converge (fmax=0.102 eV/A)
+LIB_0091_DMA-AM-DMA,Oligomer(DMA-AM-DMA),Acrylamide + Tert-Amide,"-CONH2, -CONMe2",CC(CC(CCC(=O)N(C)C)C(N)=O)C(=O)N(C)C,-0.684,-1.2761,0.4289,-98.1752,WARN: Valid | Valid | Valid | Did not converge (fmax=0.126 eV/A)
+LIB_0173_DMA-AM-DMA,Oligomer(DMA-AM-DMA),Acrylamide + Tert-Amide,"-CONH2, -CONMe2",CC(CC(CCC(=O)N(C)C)C(N)=O)C(=O)N(C)C,-0.6843,-1.2755,0.4287,-98.1754,WARN: Valid | Valid | Valid | Did not converge (fmax=0.122 eV/A)
+LIB_0073_AA-AMPS,Oligomer(AA-AMPS),Carboxylic + Sulfonic,"-COOH, -SO3H/-CONH-",CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-1.1275,-0.2685,-0.4156,-98.1801,WARN: Valid | Did not converge (fmax=0.123 eV/A) | Valid | Valid
+LIB_0123_VSA-HEMA-DMA,Oligomer(VSA-HEMA-DMA),Ester-OH + Sulfonic + Tert-Amide,"-CONMe2, -COO-/-OH, -SO3H",CC(CC(C)(CCC(=O)N(C)C)C(=O)OCCO)S(=O)(=O)O,-0.579,-0.5885,-0.4626,-98.184,WARN: Valid | Valid | Did not converge (fmax=0.454 eV/A) | Valid
+LIB_0065_AA-AMPS-AN,Oligomer(AA-AMPS-AN),Carboxylic + Nitrile + Sulfonic,"-CN, -COOH, -SO3H/-CONH-",CC(CC(CCC#N)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-1.2754,-2.5225,-0.3469,-98.1867,WARN: Valid | Valid | Did not converge (fmax=0.156 eV/A) | Valid
+LIB_0082_AN-AM-VSA,Oligomer(AN-AM-VSA),Acrylamide + Nitrile + Sulfonic,"-CN, -CONH2, -SO3H",CC(C#N)CC(CCS(=O)(=O)O)C(N)=O,-0.9344,-2.7474,-1.0171,-98.1903,WARN: Valid | Valid | Did not converge (fmax=0.113 eV/A) | Valid
+LIB_0054_AN-VA-HEMA,Oligomer(AN-VA-HEMA),Ester-OH + Nitrile + Polyvinyl,"-CN, -COO-/-OH, -OH",CC(C#N)CC(O)CC(C)C(=O)OCCO,-0.6736,-0.5566,-0.4124,-98.1904,WARN: Valid | Valid | Valid | Did not converge (fmax=0.133 eV/A)
+LIB_0196_AMPS-EG-DMA,Oligomer(AMPS-EG-DMA),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H/-CONH-",CC(OCCCCC(=O)N(C)C)C(=O)NCC(C)(C)S(=O)(=O)O,-0.6735,-1.1973,0.3657,-98.1951,WARN: Valid | Valid | Valid | Did not converge (fmax=0.164 eV/A)
+LIB_0052_VSA-VPA-VA,Oligomer(VSA-VPA-VA),Phosphonate + Polyvinyl + Sulfonic,"-OH, -PO3H2, -SO3H",CC(CC(CCO)P(=O)(O)O)S(=O)(=O)O,-0.5932,-0.394,-0.6619,-98.1954,WARN: Valid | Valid | Valid | Did not converge (fmax=0.111 eV/A)
+LIB_0012_AMPS-VA-VSO,Oligomer(AMPS-VA-VSO),Polyvinyl + Sulfonic + Sulfoxide,"-OH, -S(=O)Me, -SO3H/-CONH-",CC(CC(O)CCS(C)=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.7575,-1.1459,0.392,-98.2055,WARN: Valid | Valid | Valid | Did not converge (fmax=0.251 eV/A)
+LIB_0125_EG-AMPS-VP,Oligomer(EG-AMPS-VP),Heterocycle + Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-, Pyrrolidone",CC(C)(CNC(=O)C(CCCO)CCN1CCCC1=O)S(=O)(=O)O,-0.6595,-0.3265,-0.669,-98.2058,WARN: Valid | Valid | Valid | Did not converge (fmax=0.108 eV/A)
+LIB_0290_VA-HEMA-AMPS,Oligomer(VA-HEMA-AMPS),Ester-OH + Polyvinyl + Sulfonic,"-COO-/-OH, -OH, -SO3H/-CONH-",CC(O)CC(C)(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCCO,-0.7979,-0.8777,0.1039,-98.2062,WARN: Valid | Valid | Did not converge (fmax=0.329 eV/A) | Did not converge (fmax=0.180 eV/A)
+LIB_0285_VA-TFEA-AMPS,Oligomer(VA-TFEA-AMPS),Fluorinated + Polyvinyl + Sulfonic,"-CF3, -OH, -SO3H/-CONH-",CC(O)CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-0.9063,-2.4316,-0.4193,-98.2163,WARN: Valid | Valid | Did not converge (fmax=0.440 eV/A) | Did not converge (fmax=0.157 eV/A)
+LIB_0092_VA-AMPS-EG,Oligomer(VA-AMPS-EG),Polyether + Polyvinyl + Sulfonic,"-OH, -OH/-O-, -SO3H/-CONH-",CCOC(CC(C)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.528,-2.3813,-0.6264,-98.2188,WARN: Valid | Valid | Did not converge (fmax=0.168 eV/A) | Valid
+LIB_0299_AA-AA-VA,Oligomer(AA-AA-VA),Carboxylic + Polyvinyl,"-COOH, -OH",CC(CC(CCO)C(=O)O)C(=O)O,-0.7938,-0.365,-0.4684,-98.2292,WARN: Valid | Valid | Valid | Did not converge (fmax=0.112 eV/A)
+LIB_0335_MAN-AA-VA,Oligomer(MAN-AA-VA),Carboxylic + Methacrylonitrile + Polyvinyl,"-CN/-CH3, -COOH, -OH",CC(C)(C#N)CC(CCO)C(=O)O,-0.8121,-0.2959,-0.5359,-98.2297,WARN: Valid | Did not converge (fmax=0.134 eV/A) | Valid | Valid
+LIB_0056_AA-DMA-AA,Oligomer(AA-DMA-AA),Carboxylic + Tert-Amide,"-CONMe2, -COOH",CC(CC(CCC(=O)O)C(=O)N(C)C)C(=O)O,-0.8741,-0.2694,-0.4953,-98.2411,WARN: Valid | Valid | Valid | Did not converge (fmax=0.148 eV/A)
+LIB_0088_VP-EG-AMPS,Oligomer(VP-EG-AMPS),Heterocycle + Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-, Pyrrolidone",CC(OCCCCC(=O)NCC(C)(C)S(=O)(=O)O)N1CCCC1=O,-0.5548,-2.1086,-0.0467,-98.2525,WARN: Valid | Valid | Did not converge (fmax=0.139 eV/A) | Valid
+LIB_0016_SBMA-HEMA,Oligomer(SBMA-HEMA),Ester-OH + Zwitterionic,"-COO-/-OH, Zwitterion",CC(CC(C)(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(=O)OCCO,-0.6603,-1.0005,0.2472,-98.2592,WARN: Valid | Valid | Valid | Did not converge (fmax=0.158 eV/A)
+LIB_0056_VPA-VPA-EG,Oligomer(VPA-VPA-EG),Phosphonate + Polyether,"-OH/-O-, -PO3H2",CCOC(CC(C)P(=O)(O)O)P(=O)(O)O,-0.8321,-0.5613,-0.1299,-98.2654,WARN: Valid | Valid | Did not converge (fmax=0.119 eV/A) | Valid
+LIB_0352_VP-VSA-VI,Oligomer(VP-VSA-VI),Heterocycle + Sulfonic,"-SO3H, Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)S(=O)(=O)O)N1CCCC1=O,-0.7023,-1.5501,0.9754,-98.2767,WARN: Valid | Valid | Did not converge (fmax=0.170 eV/A) | Valid
+LIB_0120_VSA-ACMO-VI,Oligomer(VSA-ACMO-VI),Heterocycle + Heterocycle-Ether + Sulfonic,"-SO3H, Imidazole, Morpholine",CC(CC(CCn1ccnc1)C(=O)N1CCOCC1)S(=O)(=O)O,-0.538,-0.3284,-0.6056,-98.2849,WARN: Valid | Valid | Valid | Did not converge (fmax=0.197 eV/A)
+LIB_0330_VSA-HEMA-TFEA,Oligomer(VSA-HEMA-TFEA),Ester-OH + Fluorinated + Sulfonic,"-CF3, -COO-/-OH, -SO3H",CC(CC(C)(CCC(=O)OCC(F)(F)F)C(=O)OCCO)S(=O)(=O)O,-0.7505,-0.2259,-0.5537,-98.2874,WARN: Valid | Valid | Valid | Did not converge (fmax=0.163 eV/A)
+LIB_0017_AN-DMA-HEMA,Oligomer(AN-DMA-HEMA),Ester-OH + Nitrile + Tert-Amide,"-CN, -CONMe2, -COO-/-OH",CC(C#N)CC(CC(C)C(=O)OCCO)C(=O)N(C)C,-0.7924,-0.3713,-0.3386,-98.291,WARN: Valid | Did not converge (fmax=0.157 eV/A) | Valid | Valid
+LIB_0252_AN-DMA-HEMA,Oligomer(AN-DMA-HEMA),Ester-OH + Nitrile + Tert-Amide,"-CN, -CONMe2, -COO-/-OH",CC(C#N)CC(CC(C)C(=O)OCCO)C(=O)N(C)C,-0.8085,-0.3595,-0.3384,-98.2917,WARN: Valid | Did not converge (fmax=0.131 eV/A) | Valid | Valid
+LIB_0084_VPA-ACMO-DMA,Oligomer(VPA-ACMO-DMA),Heterocycle-Ether + Phosphonate + Tert-Amide,"-CONMe2, -PO3H2, Morpholine",CC(CC(CCC(=O)N(C)C)C(=O)N1CCOCC1)P(=O)(O)O,-0.4836,-0.4249,-0.4479,-98.3276,WARN: Valid | Valid | Valid | Did not converge (fmax=0.112 eV/A)
+LIB_0267_AA-AN-TFEA,Oligomer(AA-AN-TFEA),Carboxylic + Fluorinated + Nitrile,"-CF3, -CN, -COOH",CC(CC(C#N)CCC(=O)OCC(F)(F)F)C(=O)O,-0.9111,-0.1503,-0.4302,-98.3303,WARN: Valid | Valid | Valid | Did not converge (fmax=0.146 eV/A)
+LIB_0240_MAN-AA-AMPS,Oligomer(MAN-AA-AMPS),Carboxylic + Methacrylonitrile + Sulfonic,"-CN/-CH3, -COOH, -SO3H/-CONH-",CC(C)(C#N)CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)O,-0.945,-2.4451,-0.1561,-98.3446,WARN: Valid | Valid | Valid | Did not converge (fmax=0.162 eV/A)
+LIB_0117_ACMO-VSA-AA,Oligomer(ACMO-VSA-AA),Carboxylic + Heterocycle-Ether + Sulfonic,"-COOH, -SO3H, Morpholine",CC(CC(CCC(=O)O)S(=O)(=O)O)C(=O)N1CCOCC1,-0.5528,-0.3292,-0.403,-98.3799,WARN: Valid | Valid | Valid | Did not converge (fmax=0.115 eV/A)
+LIB_0073_VSA-DMA-VP,Oligomer(VSA-DMA-VP),Heterocycle + Sulfonic + Tert-Amide,"-CONMe2, -SO3H, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)N(C)C)S(=O)(=O)O,-0.6655,-2.5292,-0.4493,-98.3854,WARN: Valid | Did not converge (fmax=0.137 eV/A) | Did not converge (fmax=0.137 eV/A) | Valid
+LIB_0002_DMA-AM-VI,Oligomer(DMA-AM-VI),Acrylamide + Heterocycle + Tert-Amide,"-CONH2, -CONMe2, Imidazole",CC(CC(CCn1ccnc1)C(N)=O)C(=O)N(C)C,-0.5426,-0.8437,0.2472,-98.4003,WARN: Valid | Valid | Valid | Did not converge (fmax=0.113 eV/A)
+LIB_0189_HEMA-MAN-VI,Oligomer(HEMA-MAN-VI),Ester-OH + Heterocycle + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, Imidazole",CC(C#N)(CCn1ccnc1)CC(C)(C)C(=O)OCCO,-0.625,-0.3872,-0.2291,-98.4031,WARN: Valid | Valid | Valid | Did not converge (fmax=0.125 eV/A)
+LIB_0218_AN-AN-DMA,Oligomer(AN-AN-DMA),Nitrile + Tert-Amide,"-CN, -CONMe2",CC(C#N)CC(C#N)CCC(=O)N(C)C,-0.7221,-0.0361,-0.5711,-98.4039,WARN: Valid | Valid | Atom overlap (min_dist=0.75 A) | Valid
+LIB_0269_VSA-DMA-EG,Oligomer(VSA-DMA-EG),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H",CCOC(CC(C)S(=O)(=O)O)C(=O)N(C)C,-0.8716,-2.4665,-0.1059,-98.4183,WARN: Valid | Valid | Did not converge (fmax=0.228 eV/A) | Valid
+LIB_0185_VA-TFEA-VSA,Oligomer(VA-TFEA-VSA),Fluorinated + Polyvinyl + Sulfonic,"-CF3, -OH, -SO3H",CC(O)CC(CCS(=O)(=O)O)C(=O)OCC(F)(F)F,-0.95,-2.6855,-0.4357,-98.4191,WARN: Valid | Valid | Did not converge (fmax=0.112 eV/A) | Valid
+LIB_0154_MAN-VI-EG,Oligomer(MAN-VI-EG),Heterocycle + Methacrylonitrile + Polyether,"-CN/-CH3, -OH/-O-, Imidazole",CCOC(CC(C)(C)C#N)n1ccnc1,-0.1054,-0.7426,-0.1691,-98.4277,WARN: Valid | Valid | Did not converge (fmax=0.164 eV/A) | Valid
+LIB_0217_HEMA-VSA-HEMA,Oligomer(HEMA-VSA-HEMA),Ester-OH + Sulfonic,"-COO-/-OH, -SO3H",CC(CC(CC(C)(C)C(=O)OCCO)S(=O)(=O)O)C(=O)OCCO,-0.7379,-0.2872,-0.2013,-98.4318,WARN: Valid | Valid | Valid | Did not converge (fmax=0.221 eV/A)
+LIB_0090_EG-AMPS-HEMA,Oligomer(EG-AMPS-HEMA),Ester-OH + Polyether + Sulfonic,"-COO-/-OH, -OH/-O-, -SO3H/-CONH-",CC(CC(CCCO)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCCO,-0.8313,-0.4709,0.1209,-98.4454,WARN: Valid | Valid | Did not converge (fmax=0.134 eV/A) | Did not converge (fmax=0.100 eV/A)
+LIB_0089_VI-VP-VI,Oligomer(VI-VP-VI),Heterocycle,"Imidazole, Pyrrolidone",CC(CC(CCn1ccnc1)N1CCCC1=O)n1ccnc1,-0.6979,-0.9368,0.5808,-98.4492,WARN: Valid | Valid | Valid | Did not converge (fmax=0.121 eV/A)
+LIB_0332_VSA-TFEA,Oligomer(VSA-TFEA),Fluorinated + Sulfonic,"-CF3, -SO3H",CC(CCC(=O)OCC(F)(F)F)S(=O)(=O)O,-0.9383,-2.7344,-0.4715,-98.4499,WARN: Valid | Valid | Did not converge (fmax=0.185 eV/A) | Valid
+LIB_0110_VSA-ACMO-VP,Oligomer(VSA-ACMO-VP),Heterocycle + Heterocycle-Ether + Sulfonic,"-SO3H, Morpholine, Pyrrolidone",CC(CC(CCN1CCCC1=O)C(=O)N1CCOCC1)S(=O)(=O)O,-0.9449,-2.8903,-0.7348,-98.4559,WARN: Valid | Valid | Did not converge (fmax=0.113 eV/A) | Valid
+LIB_0099_EG-VA-SBMA,Oligomer(EG-VA-SBMA),Polyether + Polyvinyl + Zwitterionic,"-OH, -OH/-O-, Zwitterion",CC(CC(O)CCCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.7361,-0.3147,-0.1201,-98.4567,WARN: Valid | Valid | Valid | Did not converge (fmax=0.219 eV/A)
+LIB_0081_EG-VA-SBMA,Oligomer(EG-VA-SBMA),Polyether + Polyvinyl + Zwitterionic,"-OH, -OH/-O-, Zwitterion",CC(CC(O)CCCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.7197,-0.3147,-0.1215,-98.4626,WARN: Valid | Valid | Valid | Did not converge (fmax=0.121 eV/A)
+LIB_0064_EG-AA-MAN,Oligomer(EG-AA-MAN),Carboxylic + Methacrylonitrile + Polyether,"-CN/-CH3, -COOH, -OH/-O-",CC(C#N)CC(CCCO)C(=O)O,-0.7522,-0.261,-0.1162,-98.4844,WARN: Valid | Did not converge (fmax=0.121 eV/A) | Valid | Valid
+LIB_0046_HEMA-AMPS-AN,Oligomer(HEMA-AMPS-AN),Ester-OH + Nitrile + Sulfonic,"-CN, -COO-/-OH, -SO3H/-CONH-",CC(C)(CC(CCC#N)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCCO,-0.853,-0.4209,0.2522,-98.5323,WARN: Valid | Valid | Valid | Did not converge (fmax=0.120 eV/A)
+LIB_0011_VSA-VSA-HEMA,Oligomer(VSA-VSA-HEMA),Ester-OH + Sulfonic,"-COO-/-OH, -SO3H",CC(CC(CC(C)S(=O)(=O)O)S(=O)(=O)O)C(=O)OCCO,-0.6351,-0.3923,0.0507,-98.5359,WARN: Valid | Valid | Valid | Did not converge (fmax=0.176 eV/A)
+LIB_0175_DMA-VP-TFEA,Oligomer(DMA-VP-TFEA),Fluorinated + Heterocycle + Tert-Amide,"-CF3, -CONMe2, Pyrrolidone",CC(CC(CCC(=O)OCC(F)(F)F)N1CCCC1=O)C(=O)N(C)C,-0.6632,-2.585,-0.2418,-98.5403,WARN: Valid | Valid | Did not converge (fmax=0.101 eV/A) | Valid
+LIB_0389_AM-AM-HEMA,Oligomer(AM-AM-HEMA),Acrylamide + Ester-OH,"-CONH2, -COO-/-OH",CC(CC(CC(C)C(=O)OCCO)C(N)=O)C(N)=O,-0.7079,-0.2378,-0.0634,-98.5424,WARN: Valid | Did not converge (fmax=0.429 eV/A) | Valid | Valid
+LIB_0007_VPA-ACMO,Oligomer(VPA-ACMO),Heterocycle-Ether + Phosphonate,"-PO3H2, Morpholine",CC(CCC(=O)N1CCOCC1)P(=O)(O)O,-0.5754,-0.1255,-0.2756,-98.5567,WARN: Valid | Valid | Valid | Did not converge (fmax=0.112 eV/A)
+LIB_0038_ACMO-AA-VSA,Oligomer(ACMO-AA-VSA),Carboxylic + Heterocycle-Ether + Sulfonic,"-COOH, -SO3H, Morpholine",CC(CC(CCS(=O)(=O)O)C(=O)O)C(=O)N1CCOCC1,-0.6146,-0.3408,0.0175,-98.5584,WARN: Valid | Valid | Valid | Did not converge (fmax=0.133 eV/A)
+LIB_0024_AMPS-VP-MAN,Oligomer(AMPS-VP-MAN),Heterocycle + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H/-CONH-, Pyrrolidone",CC(C#N)CC(CC(C)C(=O)NCC(C)(C)S(=O)(=O)O)N1CCCC1=O,-0.5258,-1.3288,1.1365,-98.5606,WARN: Valid | Valid | Valid | Did not converge (fmax=0.221 eV/A)
+LIB_0113_AMPS-VI,Oligomer(AMPS-VI),Heterocycle + Sulfonic,"-SO3H/-CONH-, Imidazole",CC(CCn1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O,-0.4963,-2.7631,-0.6267,-98.5749,WARN: Valid | Valid | Did not converge (fmax=0.247 eV/A) | Did not converge (fmax=0.111 eV/A)
+LIB_0233_TFEA-EG-MAN,Oligomer(TFEA-EG-MAN),Fluorinated + Methacrylonitrile + Polyether,"-CF3, -CN/-CH3, -OH/-O-",CC(C#N)CCCOC(C)C(=O)OCC(F)(F)F,-0.4543,-0.4454,0.0655,-98.5838,WARN: Valid | Valid | Did not converge (fmax=0.336 eV/A) | Valid
+LIB_0095_AM-VA-ACMO,Oligomer(AM-VA-ACMO),Acrylamide + Heterocycle-Ether + Polyvinyl,"-CONH2, -OH, Morpholine",CC(CC(O)CCC(=O)N1CCOCC1)C(N)=O,-0.8334,-0.9463,0.9824,-98.5901,WARN: Valid | Valid | Valid | Atom overlap (min_dist=0.75 A)
+LIB_0174_TFEA-VSA-MAN,Oligomer(TFEA-VSA-MAN),Fluorinated + Methacrylonitrile + Sulfonic,"-CF3, -CN/-CH3, -SO3H",CC(C#N)CC(CC(C)C(=O)OCC(F)(F)F)S(=O)(=O)O,-0.4979,-2.7411,-0.5048,-98.6154,WARN: Valid | Valid | Did not converge (fmax=0.184 eV/A) | Valid
+LIB_0005_VSA-HEMA-EG,Oligomer(VSA-HEMA-EG),Ester-OH + Polyether + Sulfonic,"-COO-/-OH, -OH/-O-, -SO3H",CCOC(C)(CC(C)S(=O)(=O)O)C(=O)OCCO,-0.6404,-2.759,-0.4106,-98.6217,WARN: Valid | Valid | Did not converge (fmax=0.137 eV/A) | Valid
+LIB_0159_MAN-DMA-TFEA,Oligomer(MAN-DMA-TFEA),Fluorinated + Methacrylonitrile + Tert-Amide,"-CF3, -CN/-CH3, -CONMe2",CN(C)C(=O)C(CCC(=O)OCC(F)(F)F)CC(C)(C)C#N,-0.7264,-1.0158,1.0472,-98.6236,WARN: Valid | Valid | Did not converge (fmax=0.283 eV/A) | Valid
+LIB_0364_SBMA-VA,Oligomer(SBMA-VA),Polyvinyl + Zwitterionic,"-OH, Zwitterion",CC(C)(CCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8702,-2.8664,-0.4161,-98.6237,WARN: Valid | Valid | Valid | Did not converge (fmax=0.225 eV/A)
+LIB_0035_HEMA-VI-VSA,Oligomer(HEMA-VI-VSA),Ester-OH + Heterocycle + Sulfonic,"-COO-/-OH, -SO3H, Imidazole",CC(C)(CC(CCS(=O)(=O)O)n1ccnc1)C(=O)OCCO,-0.6489,-0.4211,0.2939,-98.6347,WARN: Valid | Valid | Valid | Did not converge (fmax=0.118 eV/A)
+LIB_0008_SBMA-AM-EG,Oligomer(SBMA-AM-EG),Acrylamide + Polyether + Zwitterionic,"-CONH2, -OH/-O-, Zwitterion",CCOC(CC(C)(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(N)=O,-0.9628,-2.8998,-0.292,-98.6787,WARN: Valid | Valid | Valid | Did not converge (fmax=0.148 eV/A)
+LIB_0362_VP-AMPS-EG,Oligomer(VP-AMPS-EG),Heterocycle + Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-, Pyrrolidone",CCOC(CC(C)N1CCCC1=O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5404,-2.4954,0.3239,-98.7917,WARN: Valid | Valid | Valid | Did not converge (fmax=0.156 eV/A)
+LIB_0051_TFEA-MAN-VI,Oligomer(TFEA-MAN-VI),Fluorinated + Heterocycle + Methacrylonitrile,"-CF3, -CN/-CH3, Imidazole",CC(CC(C)(C#N)CCn1ccnc1)C(=O)OCC(F)(F)F,-0.531,-0.8988,1.1182,-98.8074,WARN: Valid | Valid | Did not converge (fmax=0.102 eV/A) | Valid
+LIB_0259_VP-HEMA-TFEA,Oligomer(VP-HEMA-TFEA),Ester-OH + Fluorinated + Heterocycle,"-CF3, -COO-/-OH, Pyrrolidone",CC(CC(C)(CCC(=O)OCC(F)(F)F)C(=O)OCCO)N1CCCC1=O,-0.7728,-0.4695,0.8505,-98.8344,WARN: Valid | Valid | Valid | Did not converge (fmax=0.117 eV/A)
+LIB_0237_EG-SBMA-EG,Oligomer(EG-SBMA-EG),Polyether + Zwitterionic,"-OH/-O-, Zwitterion",CCOC(C)(CCCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.9384,-3.2285,-0.5558,-98.8524,WARN: Valid | Valid | Valid | Did not converge (fmax=0.110 eV/A)
+LIB_0138_MAN-DMA-AMPS,Oligomer(MAN-DMA-AMPS),Methacrylonitrile + Sulfonic + Tert-Amide,"-CN/-CH3, -CONMe2, -SO3H/-CONH-",CN(C)C(=O)C(CCC(=O)NCC(C)(C)S(=O)(=O)O)CC(C)(C)C#N,-0.9305,-2.6488,0.4833,-98.8534,WARN: Valid | Valid | Did not converge (fmax=0.125 eV/A) | Did not converge (fmax=0.134 eV/A)
+LIB_0050_DMA-AM-AMPS,Oligomer(DMA-AM-AMPS),Acrylamide + Sulfonic + Tert-Amide,"-CONH2, -CONMe2, -SO3H/-CONH-",CC(CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O)C(=O)N(C)C,-0.7929,-1.7675,2.0283,-98.8877,WARN: Valid | Valid | Valid | Did not converge (fmax=0.197 eV/A)
+LIB_0316_AMPS-EG-TFEA,Oligomer(AMPS-EG-TFEA),Fluorinated + Polyether + Sulfonic,"-CF3, -OH/-O-, -SO3H/-CONH-",CC(OCCCCC(=O)OCC(F)(F)F)C(=O)NCC(C)(C)S(=O)(=O)O,-1.221,-1.3787,2.4363,-98.9025,WARN: Valid | Valid | Valid | Did not converge (fmax=0.189 eV/A)
+LIB_0271_VI-MAN-AMPS,Oligomer(VI-MAN-AMPS),Heterocycle + Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H/-CONH-, Imidazole",CC(CC(C)(C#N)CCC(=O)NCC(C)(C)S(=O)(=O)O)n1ccnc1,-0.549,-1.3773,2.0131,-98.9606,WARN: Valid | Valid | Valid | Did not converge (fmax=0.146 eV/A)
+LIB_0326_VA-EG-AMPS,Oligomer(VA-EG-AMPS),Polyether + Polyvinyl + Sulfonic,"-OH, -OH/-O-, -SO3H/-CONH-",CC(O)OCCCCC(=O)NCC(C)(C)S(=O)(=O)O,-0.6071,-0.2977,0.7868,-98.972,WARN: Valid | Valid | Valid | Did not converge (fmax=0.125 eV/A)
+LIB_0049_AA-AM-DMA,Oligomer(AA-AM-DMA),Acrylamide + Carboxylic + Tert-Amide,"-CONH2, -CONMe2, -COOH",CC(CC(CCC(=O)N(C)C)C(N)=O)C(=O)O,-1.215,-1.8491,2.4067,-98.9815,WARN: Valid | Valid | Valid | Did not converge (fmax=0.150 eV/A)
+LIB_0309_VA-SBMA-MAN,Oligomer(VA-SBMA-MAN),Methacrylonitrile + Polyvinyl + Zwitterionic,"-CN/-CH3, -OH, Zwitterion",CC(O)CC(C)(CC(C)C#N)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.6642,-3.156,-0.3482,-99.0006,WARN: Valid | Valid | Valid | Did not converge (fmax=0.109 eV/A)
+LIB_0208_AMPS-AN-MAN,Oligomer(AMPS-AN-MAN),Methacrylonitrile + Nitrile + Sulfonic,"-CN, -CN/-CH3, -SO3H/-CONH-",CC(C#N)CC(C#N)CC(C)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5723,-2.6069,0.6088,-99.0217,WARN: Valid | Valid | Valid | Did not converge (fmax=0.203 eV/A)
+LIB_0263_EG-AM-SBMA,Oligomer(EG-AM-SBMA),Acrylamide + Polyether + Zwitterionic,"-CONH2, -OH/-O-, Zwitterion",CC(CC(CCCO)C(N)=O)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.7997,-0.3314,1.1202,-99.0414,WARN: Valid | Valid | Valid | Did not converge (fmax=0.158 eV/A)
+LIB_0131_AMPS-DMA-AM,Oligomer(AMPS-DMA-AM),Acrylamide + Sulfonic + Tert-Amide,"-CONH2, -CONMe2, -SO3H/-CONH-",CC(CC(CCC(N)=O)C(=O)N(C)C)C(=O)NCC(C)(C)S(=O)(=O)O,-0.8683,-2.7739,0.6752,-99.0868,WARN: Valid | Valid | Valid | Did not converge (fmax=0.107 eV/A)
+LIB_0091_VP-VSA-HEMA,Oligomer(VP-VSA-HEMA),Ester-OH + Heterocycle + Sulfonic,"-COO-/-OH, -SO3H, Pyrrolidone",CC(CC(CC(C)N1CCCC1=O)S(=O)(=O)O)C(=O)OCCO,-0.6711,-0.2259,1.0873,-99.1397,WARN: Valid | Valid | Valid | Did not converge (fmax=0.186 eV/A)
+LIB_0297_AMPS-AA-DMA,Oligomer(AMPS-AA-DMA),Carboxylic + Sulfonic + Tert-Amide,"-CONMe2, -COOH, -SO3H/-CONH-",CC(CC(CCC(=O)N(C)C)C(=O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-0.6557,-1.3482,2.441,-99.1493,WARN: Valid | Valid | Valid | Atom overlap (min_dist=0.75 A)
+LIB_0053_DMA-EG-AMPS,Oligomer(DMA-EG-AMPS),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H/-CONH-",CC(OCCCCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C,-0.6456,-1.0583,2.1601,-99.1869,WARN: Valid | Valid | Valid | Did not converge (fmax=0.109 eV/A)
+LIB_0272_DMA-EG-AMPS,Oligomer(DMA-EG-AMPS),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H/-CONH-",CC(OCCCCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C,-0.6446,-1.0583,2.1602,-99.1873,WARN: Valid | Valid | Valid | Did not converge (fmax=0.109 eV/A)
+LIB_0108_HEMA-VA-VP,Oligomer(HEMA-VA-VP),Ester-OH + Heterocycle + Polyvinyl,"-COO-/-OH, -OH, Pyrrolidone",CC(C)(CC(O)CCN1CCCC1=O)C(=O)OCCO,-0.9488,-0.4779,1.8089,-99.2382,WARN: Valid | Valid | Valid | Did not converge (fmax=0.277 eV/A)
+LIB_0094_VSO-AN-AMPS,Oligomer(VSO-AN-AMPS),Nitrile + Sulfonic + Sulfoxide,"-CN, -S(=O)Me, -SO3H/-CONH-",CC(CC(C#N)CCC(=O)NCC(C)(C)S(=O)(=O)O)S(C)=O,-0.512,-2.2254,1.78,-99.2881,WARN: Valid | Valid | Did not converge (fmax=0.125 eV/A) | Did not converge (fmax=0.111 eV/A)
+LIB_0032_AMPS-TFEMA,Oligomer(AMPS-TFEMA),Fluorinated-Amide + Sulfonic,"-CF3/-CONH-, -SO3H/-CONH-",CC(CCC(=O)NCC(F)(F)F)C(=O)NCC(C)(C)S(=O)(=O)O,-0.8821,-2.1935,2.2312,-99.3369,WARN: Valid | Valid | Did not converge (fmax=0.329 eV/A) | Did not converge (fmax=0.149 eV/A)
+LIB_0173_AMPS-VA-AN,Oligomer(AMPS-VA-AN),Nitrile + Polyvinyl + Sulfonic,"-CN, -OH, -SO3H/-CONH-",CC(CC(O)CCC#N)C(=O)NCC(C)(C)S(=O)(=O)O,-0.481,-2.5281,1.3315,-99.3487,WARN: Valid | Valid | Did not converge (fmax=0.440 eV/A) | Did not converge (fmax=0.234 eV/A)
+LIB_0137_HEMA-ACMO-MAN,Oligomer(HEMA-ACMO-MAN),Ester-OH + Heterocycle-Ether + Methacrylonitrile,"-CN/-CH3, -COO-/-OH, Morpholine",CC(C#N)CC(CC(C)(C)C(=O)OCCO)C(=O)N1CCOCC1,-0.6579,-0.3973,1.8386,-99.4178,WARN: Valid | Valid | Valid | Did not converge (fmax=0.134 eV/A)
+LIB_0206_AMPS-VI-VP,Oligomer(AMPS-VI-VP),Heterocycle + Sulfonic,"-SO3H/-CONH-, Imidazole, Pyrrolidone",CC(CC(CCN1CCCC1=O)n1ccnc1)C(=O)NCC(C)(C)S(=O)(=O)O,-1.3649,-2.5304,2.197,-99.4299,WARN: Valid | Valid | Valid | Did not converge (fmax=0.149 eV/A)
+LIB_0282_EG-DMA-AMPS,Oligomer(EG-DMA-AMPS),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H/-CONH-",CN(C)C(=O)C(CCCO)CCC(=O)NCC(C)(C)S(=O)(=O)O,-0.7423,-0.2611,1.7803,-99.4366,WARN: Valid | Valid | Valid | Did not converge (fmax=0.121 eV/A)
+LIB_0296_AN-MAN-EG,Oligomer(AN-MAN-EG),Methacrylonitrile + Nitrile + Polyether,"-CN, -CN/-CH3, -OH/-O-",CCOC(C)(C#N)CC(C)C#N,-0.1534,0.3372,-0.3633,-99.4651,WARN: Valid | Valid | Did not converge (fmax=0.227 eV/A) | Valid
+LIB_0341_TFEA-AA-HEMA,Oligomer(TFEA-AA-HEMA),Carboxylic + Ester-OH + Fluorinated,"-CF3, -COO-/-OH, -COOH",CC(CC(CC(C)C(=O)OCC(F)(F)F)C(=O)O)C(=O)OCCO,-0.7269,-1.1536,2.9137,-99.474,WARN: Valid | Valid | Valid | Did not converge (fmax=0.102 eV/A)
+LIB_0315_VI-EG-VI,Oligomer(VI-EG-VI),Heterocycle + Polyether,"-OH/-O-, Imidazole",CC(OCCCCn1ccnc1)n1ccnc1,-0.4553,-0.4475,2.2934,-99.6961,WARN: Valid | Valid | Atom overlap (min_dist=0.75 A) | Valid
+LIB_0133_EG-AA-AMPS,Oligomer(EG-AA-AMPS),Carboxylic + Polyether + Sulfonic,"-COOH, -OH/-O-, -SO3H/-CONH-",CC(C)(CNC(=O)CCC(CCCO)C(=O)O)S(=O)(=O)O,-0.7977,-0.4014,2.5146,-99.6974,WARN: Valid | Valid | Valid | Atom overlap (min_dist=0.75 A)
+LIB_0291_VI-AM-AMPS,Oligomer(VI-AM-AMPS),Acrylamide + Heterocycle + Sulfonic,"-CONH2, -SO3H/-CONH-, Imidazole",CC(CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O)n1ccnc1,-0.5154,-1.4397,3.5932,-99.7266,WARN: Valid | Valid | Valid | Did not converge (fmax=0.299 eV/A)
+LIB_0034_EG-VSO-AMPS,Oligomer(EG-VSO-AMPS),Polyether + Sulfonic + Sulfoxide,"-OH/-O-, -S(=O)Me, -SO3H/-CONH-",CS(=O)C(CCCO)CCC(=O)NCC(C)(C)S(=O)(=O)O,-0.556,-0.262,2.2541,-99.7474,WARN: Valid | Valid | Valid | Did not converge (fmax=0.109 eV/A)
+LIB_0039_VSA-MAN-AMPS,Oligomer(VSA-MAN-AMPS),Methacrylonitrile + Sulfonic,"-CN/-CH3, -SO3H, -SO3H/-CONH-",CC(CC(C)(C#N)CCC(=O)NCC(C)(C)S(=O)(=O)O)S(=O)(=O)O,-0.5956,-1.6787,3.762,-99.7536,WARN: Valid | Valid | Valid | Did not converge (fmax=0.435 eV/A)
+LIB_0169_AN-DMA-AMPS,Oligomer(AN-DMA-AMPS),Nitrile + Sulfonic + Tert-Amide,"-CN, -CONMe2, -SO3H/-CONH-",CC(C#N)CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C,-1.2399,-2.4484,2.9814,-99.7983,WARN: Valid | Valid | Did not converge (fmax=0.129 eV/A) | Did not converge (fmax=0.134 eV/A)
+LIB_0343_SBMA-AN-AA,Oligomer(SBMA-AN-AA),Carboxylic + Nitrile + Zwitterionic,"-CN, -COOH, Zwitterion",CC(C)(CC(C#N)CCC(=O)O)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8646,-0.1964,2.5362,-99.8044,WARN: Valid | Valid | Valid | Did not converge (fmax=0.174 eV/A)
+LIB_0244_TFEA-EG-AMPS,Oligomer(TFEA-EG-AMPS),Fluorinated + Polyether + Sulfonic,"-CF3, -OH/-O-, -SO3H/-CONH-",CC(OCCCCC(=O)NCC(C)(C)S(=O)(=O)O)C(=O)OCC(F)(F)F,-1.0098,-2.6756,2.4479,-99.8281,WARN: Valid | Valid | Valid | Did not converge (fmax=0.151 eV/A)
+LIB_0135_MAN-AM-AMPS,Oligomer(MAN-AM-AMPS),Acrylamide + Methacrylonitrile + Sulfonic,"-CN/-CH3, -CONH2, -SO3H/-CONH-",CC(C)(C#N)CC(CCC(=O)NCC(C)(C)S(=O)(=O)O)C(N)=O,-0.5359,-1.3574,3.8307,-99.8866,WARN: Valid | Valid | Valid | Did not converge (fmax=0.166 eV/A)
+LIB_0220_DMA-MAN-VP,Oligomer(DMA-MAN-VP),Heterocycle + Methacrylonitrile + Tert-Amide,"-CN/-CH3, -CONMe2, Pyrrolidone",CC(CC(C)(C#N)CCN1CCCC1=O)C(=O)N(C)C,-0.7018,-0.9226,3.4738,-99.9026,WARN: Valid | Valid | Valid | Did not converge (fmax=0.256 eV/A)
+LIB_0045_VI-SBMA-VA,Oligomer(VI-SBMA-VA),Heterocycle + Polyvinyl + Zwitterionic,"-OH, Imidazole, Zwitterion",CC(CC(C)(CCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])n1ccnc1,-0.8216,-2.8867,2.1257,-99.9322,WARN: Valid | Valid | Valid | Did not converge (fmax=0.140 eV/A)
+LIB_0254_MAN-VA-SBMA,Oligomer(MAN-VA-SBMA),Methacrylonitrile + Polyvinyl + Zwitterionic,"-CN/-CH3, -OH, Zwitterion",CC(CC(O)CC(C)(C)C#N)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8516,-3.1894,1.6951,-99.9773,WARN: Valid | Valid | Valid | Did not converge (fmax=0.134 eV/A)
+LIB_0183_DMA-SBMA,Oligomer(DMA-SBMA),Tert-Amide + Zwitterionic,"-CONMe2, Zwitterion",CC(CC(C)C(=O)N(C)C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8758,-3.1262,1.8795,-100.003,WARN: Valid | Valid | Valid | Did not converge (fmax=0.113 eV/A)
+LIB_0284_VI-EG-TFEA,Oligomer(VI-EG-TFEA),Fluorinated + Heterocycle + Polyether,"-CF3, -OH/-O-, Imidazole",CC(OCCCCC(=O)OCC(F)(F)F)n1ccnc1,-0.4515,-0.6369,3.2395,-100.057,WARN: Valid | Valid | Did not converge (fmax=0.973 eV/A) | Valid
+LIB_0146_TFEA-VI-TFEA,Oligomer(TFEA-VI-TFEA),Fluorinated + Heterocycle,"-CF3, Imidazole",CC(CC(CCC(=O)OCC(F)(F)F)n1ccnc1)C(=O)OCC(F)(F)F,-0.3835,-1.0449,3.6878,-100.0635,WARN: Valid | Valid | Did not converge (fmax=0.113 eV/A) | Did not converge (fmax=0.137 eV/A)
+LIB_0289_AMPS-DMA-EG,Oligomer(AMPS-DMA-EG),Polyether + Sulfonic + Tert-Amide,"-CONMe2, -OH/-O-, -SO3H/-CONH-",CCOC(CC(C)C(=O)NCC(C)(C)S(=O)(=O)O)C(=O)N(C)C,-0.8996,-2.6437,2.9372,-100.0881,WARN: Valid | Valid | Did not converge (fmax=0.158 eV/A) | Did not converge (fmax=0.383 eV/A)
+LIB_0380_VA-AN-SBMA,Oligomer(VA-AN-SBMA),Nitrile + Polyvinyl + Zwitterionic,"-CN, -OH, Zwitterion",CC(O)CC(C#N)CC(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8456,-3.116,2.0621,-100.0972,WARN: Valid | Valid | Valid | Did not converge (fmax=0.246 eV/A)
+LIB_0242_TFEA-VA-TFEA,Oligomer(TFEA-VA-TFEA),Fluorinated + Polyvinyl,"-CF3, -OH",CC(CC(O)CCC(=O)OCC(F)(F)F)C(=O)OCC(F)(F)F,3.1503,-1.3524,1.726,-100.3117,WARN: Valid | Did not converge (fmax=0.121 eV/A) | Valid | Did not converge (fmax=0.144 eV/A)
+LIB_0042_AMPS-EG-EG,Oligomer(AMPS-EG-EG),Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-",CCOCCOC(C)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5316,0.5065,0.9605,-100.3313,WARN: Valid | Valid | Did not converge (fmax=0.100 eV/A) | Did not converge (fmax=0.294 eV/A)
+LIB_0172_AMPS-EG-EG,Oligomer(AMPS-EG-EG),Polyether + Sulfonic,"-OH/-O-, -SO3H/-CONH-",CCOCCOC(C)C(=O)NCC(C)(C)S(=O)(=O)O,-0.5311,0.5074,0.9644,-100.3353,WARN: Valid | Valid | Did not converge (fmax=0.133 eV/A) | Did not converge (fmax=0.276 eV/A)
+LIB_0268_AM-VA-SBMA,Oligomer(AM-VA-SBMA),Acrylamide + Polyvinyl + Zwitterionic,"-CONH2, -OH, Zwitterion",CC(CC(O)CC(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(N)=O,-0.9074,-2.919,2.9479,-100.3381,WARN: Valid | Valid | Valid | Did not converge (fmax=0.180 eV/A)
+LIB_0063_VA-SBMA-EG,Oligomer(VA-SBMA-EG),Polyether + Polyvinyl + Zwitterionic,"-OH, -OH/-O-, Zwitterion",CCOC(C)(CC(C)O)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8425,-2.7948,3.5441,-100.5503,WARN: Valid | Valid | Valid | Did not converge (fmax=0.135 eV/A)
+LIB_0191_HEMA-MAN-EG,Oligomer(HEMA-MAN-EG),Ester-OH + Methacrylonitrile + Polyether,"-CN/-CH3, -COO-/-OH, -OH/-O-",CCOC(C)(C#N)CC(C)(C)C(=O)OCCO,-0.5906,-0.3384,4.0885,-100.605,WARN: Valid | Valid | Valid | Did not converge (fmax=0.102 eV/A)
+LIB_0196_MAN-SBMA-VA,Oligomer(MAN-SBMA-VA),Methacrylonitrile + Polyvinyl + Zwitterionic,"-CN/-CH3, -OH, Zwitterion",CC(C)(C#N)CC(C)(CCO)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8788,-2.9451,3.4798,-100.639,WARN: Valid | Valid | Valid | Did not converge (fmax=0.242 eV/A)
+LIB_0101_AM-SBMA,Oligomer(AM-SBMA),Acrylamide + Zwitterionic,"-CONH2, Zwitterion",CC(CC(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])C(N)=O,-0.8998,-3.1602,3.3751,-100.7718,WARN: Valid | Valid | Valid | Did not converge (fmax=0.254 eV/A)
+LIB_0175_VI-VA-AMPS,Oligomer(VI-VA-AMPS),Heterocycle + Polyvinyl + Sulfonic,"-OH, -SO3H/-CONH-, Imidazole",CC(CC(O)CCC(=O)NCC(C)(C)S(=O)(=O)O)n1ccnc1,-0.7202,-2.8103,4.2057,-100.944,WARN: Valid | Valid | Valid | Did not converge (fmax=0.117 eV/A)
+LIB_0158_HEMA-EG-ACMO,Oligomer(HEMA-EG-ACMO),Ester-OH + Heterocycle-Ether + Polyether,"-COO-/-OH, -OH/-O-, Morpholine",CC(C)(OCCCCC(=O)N1CCOCC1)C(=O)OCCO,-0.7203,-0.2349,4.8896,-101.0157,WARN: Valid | Valid | Valid | Did not converge (fmax=0.584 eV/A)
+LIB_0080_EG-SBMA-AM,Oligomer(EG-SBMA-AM),Acrylamide + Polyether + Zwitterionic,"-CONH2, -OH/-O-, Zwitterion",CC(CCCO)(CCC(N)=O)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8759,-3.1456,3.9619,-101.0616,WARN: Valid | Valid | Valid | Did not converge (fmax=0.195 eV/A)
+LIB_0392_SBMA-EG-EG,Oligomer(SBMA-EG-EG),Polyether + Zwitterionic,"-OH/-O-, Zwitterion",CCOCCOC(C)(C)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.3759,0.9603,0.6725,-101.2025,WARN: Valid | Valid | Did not converge (fmax=0.183 eV/A) | Valid
+LIB_0030_AMPS-EG-VPA,Oligomer(AMPS-EG-VPA),Phosphonate + Polyether + Sulfonic,"-OH/-O-, -PO3H2, -SO3H/-CONH-",CC(OCCCCP(=O)(O)O)C(=O)NCC(C)(C)S(=O)(=O)O,-1.305,-1.2452,7.0778,-101.2698,WARN: Valid | Did not converge (fmax=0.154 eV/A) | Valid | Atom overlap (min_dist=0.75 A)
+LIB_0144_VI-VA-SBMA,Oligomer(VI-VA-SBMA),Heterocycle + Polyvinyl + Zwitterionic,"-OH, Imidazole, Zwitterion",CC(CC(O)CC(C)n1ccnc1)C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-],-0.8568,-2.5246,6.2971,-101.6779,WARN: Valid | Valid | Valid | Did not converge (fmax=0.226 eV/A)
