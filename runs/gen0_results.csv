@@ -1,5 +1,5 @@
 id,name,backbone,functional_groups,smiles,dE_hbond_eV,dE_exchange_eV,dE_ads_eV,composite_score,status
-GEN0_02_PEG3,Triethylene Glycol (PEG-trimer),Polyether (-CH2CH2O-),"-OH, -O-",OCCOCCOCCO,-0.9163,-0.3459,-0.6524,0.9003,PASS
-GEN0_03_PVA3,Polyvinyl Alcohol Trimer,Polyvinyl (-CH2CH-),-OH (x3),CC(O)CC(O)CC(O)C,-0.5334,-0.3192,-0.2902,0.5499,PASS
-GEN0_04_PAA3,Polyacrylic Acid Trimer,Polyacrylate,-COOH (x3),CC(C(=O)O)CC(C(=O)O)CC(C(=O)O)C,-0.4565,-0.2696,-0.2828,0.4858,PASS
-GEN0_01_EG,Ethylene Glycol (Baseline),Aliphatic C2,-OH (x2),OCCO,2.9594,-0.2264,-0.272,-99.9119,WARN: Valid | Atom overlap (min_dist=0.75 A) | Valid | Valid
+GEN0_02_PEG3,Triethylene Glycol (PEG-trimer),Polyether (-CH2CH2O-),"-OH, -O-",OCCOCCOCCO,-0.854,-0.3475,-0.6524,0.8763,PASS
+GEN0_04_PAA3,Polyacrylic Acid Trimer,Polyacrylate,-COOH (x3),CC(C(=O)O)CC(C(=O)O)CC(C(=O)O)C,-0.9461,-0.267,-0.2833,0.6803,PASS
+GEN0_03_PVA3,Polyvinyl Alcohol Trimer,Polyvinyl (-CH2CH-),-OH (x3),CC(O)CC(O)CC(O)C,-0.6582,-0.3176,-0.2872,0.5975,PASS
+GEN0_01_EG,Ethylene Glycol (Baseline),Aliphatic C2,-OH (x2),OCCO,-0.586,-0.3141,-0.272,0.5589,PASS

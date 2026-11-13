@@ -82,12 +82,21 @@ def build_zn_solvation_cluster(additive: Atoms) -> Atoms:
     return cluster
 
 def build_water_trimer_cluster(additive: Atoms) -> Atoms:
-    """Additive + 2 H2O 클러스터 조립 (자유수 포집 능력 평가용)"""
+    """Additive + 2 H2O 클러스터 조립 (질량중심 바깥 방향으로 배치하여 겹침 방지)"""
     cluster = additive.copy()
     coord_idx = find_coordinating_atom_idx(cluster)
     target_pos = cluster.positions[coord_idx]
+    com = cluster.get_center_of_mass()
     
-    offsets = [np.array([2.6, 0.0, 0.5]), np.array([-2.6, 0.5, 0.0])]
+    out_dir = target_pos - com
+    norm = np.linalg.norm(out_dir)
+    out_dir = out_dir / norm if norm > 1e-3 else np.array([1.0, 0.0, 0.0])
+    ortho = np.cross(out_dir, np.array([0.0, 0.0, 1.0]))
+    if np.linalg.norm(ortho) < 1e-3:
+        ortho = np.cross(out_dir, np.array([0.0, 1.0, 0.0]))
+    ortho /= np.linalg.norm(ortho)
+    
+    offsets = [out_dir * 2.8 + ortho * 1.4, out_dir * 2.8 - ortho * 1.4]
     for off in offsets:
         w = molecule('H2O')
         w.translate(-w.positions[0] + target_pos + off)
