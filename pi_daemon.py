@@ -145,7 +145,7 @@ def run_0token_autonomous_cycle(cycle: int, user_slack_notes: str):
 
     journal_entry = (
         f"\n## Cycle {cycle} (0-Token Local Autonomous GPU Mode)\n"
-        f"- **Hypothesis & Search Strategy:** Cycle 1~2 핵심 헤테로 모노머(`VMO`, `VIU`, `TauMA`, `VSL`) 및 비대칭 Janus 올리고머 {len(pool)}종 RDKit SMILES 자동 조립 및 물리화학적 필터 통과 후 RTX 3050 MLIP 연산 완수\n"
+        f"- **Hypothesis & Search Strategy:** Automated RDKit SMILES assembly and MLIP screening of asymmetric Janus oligomers incorporating core heterocyclic monomers (VMO, VIU, TauMA, VSL) — {len(pool)} candidates passed physicochemical filters and completed RTX 3050 evaluation.\n"
         f"- **Total Screened Candidates:** {total_cnt}종\n"
         f"- **Batch Top Candidate:** `{b_id}` ({b_name}) — Composite Score: **{b_score:.4f}**\n"
         f"- **Overall All-Time Champion:** `{top_id}` ({top_name}) — Composite Score: **{new_best:.4f}**\n"
@@ -161,12 +161,12 @@ def run_0token_autonomous_cycle(cycle: int, user_slack_notes: str):
             rf.write(
                 f"# Autonomous Research Status & Breakthrough Briefing (Cycle {cycle})\n\n"
                 f"### 1. System Operational Status\n"
-                f"- `agy` CLI 쿼터가 일시 소진(약 69h 후 리셋)됨에 따라 **0-Token 로컬 자율 GPU 모드(RTX 3050 + RDKit + MatterSim)**로 자동 전환되어 실제 3D 구조 생성 및 MLIP 연산이 연속 가동 중입니다.\n"
-                f"- **Cumulative Screened:** 총 **{total_cnt}종** 완료\n\n"
+                f"- LLM CLI quota temporarily exhausted; seamlessly switched to 0-Token Local Autonomous GPU Mode (RTX 3050 + RDKit + MatterSim) for continuous 3D structure generation and MLIP screening.\n"
+                f"- **Cumulative Screened:** Total **{total_cnt}종** 완료\n\n"
                 f"### 2. Key Scientific Findings (Desolvation barrier & Surface Adsorption)\n"
                 f"- **Overall Champion:** `{top_id}` (**{top_name}**) — Score **{new_best:.4f}**\n"
                 f"- **Current Cycle({cycle}) 최고 후보:** `{b_id}` (**{b_name}**) — Score **{b_score:.4f}**\n"
-                f"- 신규 헤테로 고리(`VMO`, `VIU`, `VSL`) 및 타우린계(`TauMA`) 비대칭 야누스(Janus) 구조를 중심으로 탈용매화 에너지 장벽(Desolvation barrier)과 아연 표면 흡착 균형을 정밀 탐색하고 있습니다.\n"
+                f"- Exploring asymmetric Janus architectures incorporating novel heterocycles (VMO, VIU, VSL) and taurine-derived (TauMA) monomers to optimize Zn2+ desolvation kinetics and Zn(0001) surface adsorption.\n"
             )
         send_milestone_notification(report_path)
 
@@ -201,17 +201,17 @@ def main():
         slack_injection = ""
         if user_slack_notes:
             slack_injection = (
-                f"\n\n[🚨 최우선 연구책임자(사용자) 실시간 지시사항 - Slack 수신]:\n{user_slack_notes}\n"
+                f"\n\n[🚨 HIGH-PRIORITY PRINCIPAL INVESTIGATOR (USER) REAL-TIME DIRECTIVE - RECEIVED VIA SLACK]:\n{user_slack_notes}\n"
                 f"위 사용자의 피드백/질문에 대한 답변 및 현재 연구 진행 현황 브리핑을 Current Cycle에 반드시 "
-                f"`alerts/REPORT_cycle_{cycle}_user_reply.md` 파일로 작성하여 Slack으로 즉시 회신하십시오.\n"
+                f"`alerts/REPORT_cycle_{cycle}_user_reply.md` to reply immediately via Slack.\n"
             )
 
         prompt = (
-            f"현재는 연속 자율 연구 **Cycle {cycle}**입니다. 'PI_DIRECTOR.md' 프로토콜을 준수하십시오. "
-            "대용량 CSV는 직접 읽지 말고 `runs/compact_digest.md`와 `runs/pi_research_journal.md`만 읽으십시오. "
-            f"하위 Worker(`--model {WORKER_MODEL}`)에게 탐색 풀 생성(30종 내외)과 사전 검수를 위임하고, "
-            "로컬 GPU 스크리닝(`run_overnight_batch.py`) 및 `python auto_analyze.py`를 완수한 뒤 "
-            f"`runs/pi_research_journal.md`의 `## Cycle {cycle}`에 기록하십시오." + slack_injection
+            f"Current autonomous research iteration: **Cycle {cycle}**. Follow all protocols in 'PI_DIRECTOR.md'. "
+            "Never read large raw CSV files directly; read only `runs/compact_digest.md`와 `runs/pi_research_journal.md`. "
+            f"Delegate candidate pool generation (~30 species) and chemical pre-screening to Worker (`--model {WORKER_MODEL}`), "
+            "then complete local GPU screening (`run_overnight_batch.py`) and `python auto_analyze.py`, "
+            f"`runs/pi_research_journal.md`under `## Cycle {cycle}`." + slack_injection
         )
 
         print(f"\n[{time.strftime('%Y-%m-%d %H:%M:%S')}] >>> Cycle {cycle} Start (Active PI: {active_pi})...", flush=True)
