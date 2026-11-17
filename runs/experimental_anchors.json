@@ -1,0 +1,7 @@
+[
+  {"id": "ANCHOR_PAM_trimer", "name": "Polyacrylamide (Literature Champion)", "smiles": "CC(CC(CC(N)=O)C(N)=O)C(N)=O", "lit_status": "PROVEN_HIGH", "ref": "Adv. Energy Mater. (Dendrite & HER suppression)"},
+  {"id": "ANCHOR_PVP_dimer", "name": "Polyvinylpyrrolidone (Literature Proven)", "smiles": "CC(CC(N1CCCC1=O))N1CCCC1=O", "lit_status": "PROVEN_HIGH", "ref": "ACS Energy Lett. (Solvation & Zn(0001) adsorption)"},
+  {"id": "ANCHOR_Betaine_monomer", "name": "Zwitterionic Betaine Analog", "smiles": "C[N+](C)(C)CC(=O)[O-]", "lit_status": "PROVEN_HIGH", "ref": "Angew. Chem. (Electrostatic shielding)"},
+  {"id": "ANCHOR_PEG3", "name": "Triethylene Glycol (Moderate Baseline)", "smiles": "OCCOCCOCCO", "lit_status": "MODERATE", "ref": "Baseline polyether"},
+  {"id": "ANCHOR_EG", "name": "Ethylene Glycol (Weak Baseline)", "smiles": "OCCO", "lit_status": "WEAK", "ref": "Weak adsorption baseline"}
+]

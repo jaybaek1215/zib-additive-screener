@@ -6,11 +6,11 @@ import subprocess
 import pandas as pd
 
 def compute_pareto_front(df: pd.DataFrame) -> pd.DataFrame:
-    """dE_hbond, dE_exchange(적정윈도우 근접도), dE_ads 3축 파레토 최적해 추출"""
+    """Extract 3-axis Pareto-optimal candidates across dE_hbond, dE_exchange window, and dE_ads"""
     valid = df[df["status"] == "PASS"].copy()
     if valid.empty:
         return valid
-    # 목표: dE_hbond 최소화(더 음수), |dE_exchange + 0.9| 최소화(이상적 탈용매화), dE_ads 최소화(더 음수)
+    # Objective: Minimize dE_hbond, minimize |dE_exchange + 0.9| (optimal desolvation), and minimize dE_ads
     valid["ex_dist"] = (valid["dE_exchange_eV"] + 0.9).abs()
     
     is_pareto = []
@@ -74,7 +74,7 @@ def main():
             m_df = m_df.sort_values(by="composite_score", ascending=False)
             m_df.to_csv(args.master_csv, index=False)
 
-        # 임시 파일 정리
+        # Clean up temporary batch files
         for tmp in [batch_json, batch_csv]:
             if os.path.exists(tmp):
                 os.remove(tmp)
@@ -82,7 +82,7 @@ def main():
         elapsed = (time.time() - start_time) / 60.0
         print(f"Batch {batch_num} saved to {args.master_csv} | Elapsed: {elapsed:.1f} min")
 
-    # 전체 완료 후 파레토 최적해 저장
+    # Save final Pareto front candidates after batch completion
     if os.path.exists(args.master_csv):
         final_df = pd.read_csv(args.master_csv)
         pareto_df = compute_pareto_front(final_df)

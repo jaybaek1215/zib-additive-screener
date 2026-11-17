@@ -1,4 +1,31 @@
+# Python & Virtual Environments
 .venv/
-structures/
-*.pth
+venv/
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & Secrets
+.env
+*.pem
+*.key
+runs/.last_slack_ts
+
+# Heavy simulation structures, trajectories & caches (>100MB prevention)
+structures/
+*.traj
+*.xyz
+*.extxyz
+*.cif
+*.npz
+*.pth
+*.pt
+*.ckpt
+
+# Runtime logs & temporary batch files
+logs/
+runs/tmp_*
+runs/user_feedback.md
+runs/next_pool.json
+alerts/
+STOP_RESEARCH

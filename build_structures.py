@@ -9,7 +9,7 @@ from ase.build import hcp0001, molecule, add_adsorbate
 from ase.io import write
 
 def smiles_to_ase(smiles: str, name: str) -> Atoms:
-    """SMILES 문자열을 RDKit MMFF94로 1차 최적화한 뒤 ASE Atoms 객체로 변환"""
+    """Optimize SMILES via RDKit MMFF94 and convert to ASE Atoms object"""
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
         raise ValueError(f"Invalid SMILES: {smiles}")
@@ -29,27 +29,27 @@ def smiles_to_ase(smiles: str, name: str) -> Atoms:
     return atoms
 
 def find_coordinating_atom_idx(atoms: Atoms) -> int:
-    """Zn2+ 또는 표면에 배위할 수 있는 전기음성도 높은 원자(O, N, S, F) 인덱스 탐색"""
+    """Find electronegative coordinating atom index (O, N, S, F) for Zn2+ or surface binding"""
     priority = ['O', 'N', 'S', 'F']
     for elem in priority:
         indices = [i for i, s in enumerate(atoms.get_chemical_symbols()) if s == elem]
         if indices:
-            # 분자 외곽에 노출된 원자를 우선 선택 (질량중심에서 가장 먼 원자)
+            # Prioritize sterically accessible outer atoms farthest from center of mass
             com = atoms.get_center_of_mass()
             dists = [np.linalg.norm(atoms.positions[i] - com) for i in indices]
             return indices[int(np.argmax(dists))]
     return 0
 
 def build_zn_solvation_cluster(additive: Atoms) -> Atoms:
-    """[Zn(H2O)5(Additive)]2+ 클러스터 조립"""
+    """Assemble [Zn(H2O)5(Additive)]2+ solvation cluster"""
     add_copy = additive.copy()
     coord_idx = find_coordinating_atom_idx(add_copy)
     
-    # 배위 원자를 원점(0,0,0)으로 이동 후 Zn2+를 (0, 0, -2.05 A)에 배치
+    # Translate coordinating atom to origin and place Zn2+ at (0, 0, -2.05 A)
     shift = -add_copy.positions[coord_idx]
     add_copy.translate(shift)
     
-    # 첨가제 질량중심이 +z 방향을 향하도록 회전 정렬
+    # Align additive center of mass along +z axis
     com = add_copy.get_center_of_mass()
     if np.linalg.norm(com) > 1e-3:
         add_copy.rotate(com, [0, 0, 1])

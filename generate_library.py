@@ -2,37 +2,45 @@ import os
 import json
 import random
 import argparse
-from itertools import product
+import itertools
 from rdkit import Chem
-from rdkit.Chem import Descriptors, QED, Crippen, rdMolDescriptors
+from rdkit.Chem import Descriptors, Crippen, rdMolDescriptors
 
-# 다양한 화학 공간을 포괄하는 모노머 빌딩 블록 (연결점 [*] 포함)
+# Monomer building blocks spanning diverse chemical spaces with [*] attachment points
 MONOMERS = {
-    "EG":      {"smiles": "[*]OCC[*]",                  "group": "-OH/-O-",       "family": "Polyether"},
-    "VA":      {"smiles": "[*]CC(O)[*]",                "group": "-OH",           "family": "Polyvinyl"},
-    "AM":      {"smiles": "[*]CC(C(=O)N)[*]",           "group": "-CONH2",        "family": "Acrylamide"},
-    "AN":      {"smiles": "[*]CC(C#N)[*]",              "group": "-CN",           "family": "Nitrile"},
-    "AA":      {"smiles": "[*]CC(C(=O)O)[*]",           "group": "-COOH",         "family": "Carboxylic"},
-    "DMA":     {"smiles": "[*]CC(C(=O)N(C)C)[*]",       "group": "-CONMe2",       "family": "Tert-Amide"},
-    "VP":      {"smiles": "[*]CC(N1CCCC1=O)[*]",        "group": "Pyrrolidone",   "family": "Heterocycle"},
-    "VI":      {"smiles": "[*]CC(n1ccnc1)[*]",          "group": "Imidazole",     "family": "Heterocycle"},
-    "AMPS":    {"smiles": "[*]CC(C(=O)NCC(C)(C)S(=O)(=O)O)[*]", "group": "-SO3H/-CONH-", "family": "Sulfonic"},
-    "VSA":     {"smiles": "[*]CC(S(=O)(=O)O)[*]",       "group": "-SO3H",         "family": "Sulfonic"},
-    "TFEA":    {"smiles": "[*]CC(C(=O)OCC(F)(F)F)[*]",  "group": "-CF3",          "family": "Fluorinated"},
-    "HEMA":    {"smiles": "[*]CC(C)(C(=O)OCCO)[*]",     "group": "-COO-/-OH",     "family": "Ester-OH"},
+    "EG":      {"smiles": "[*]OCC[*]",                            "group": "-OH/-O-",                 "family": "Polyether"},
+    "VA":      {"smiles": "[*]CC(O)[*]",                          "group": "-OH",                     "family": "Polyvinyl"},
+    "AM":      {"smiles": "[*]CC(C(=O)N)[*]",                     "group": "-CONH2",                  "family": "Acrylamide"},
+    "AN":      {"smiles": "[*]CC(C#N)[*]",                        "group": "-CN",                     "family": "Nitrile"},
+    "AA":      {"smiles": "[*]CC(C(=O)O)[*]",                     "group": "-COOH",                   "family": "Carboxylic"},
+    "DMA":     {"smiles": "[*]CC(C(=O)N(C)C)[*]",                 "group": "-CONMe2",                 "family": "Tert-Amide"},
+    "VP":      {"smiles": "[*]CC(N1CCCC1=O)[*]",                  "group": "Pyrrolidone",             "family": "Heterocycle"},
+    "VI":      {"smiles": "[*]CC(n1ccnc1)[*]",                    "group": "Imidazole",               "family": "Heterocycle"},
+    "AMPS":    {"smiles": "[*]CC(C(=O)NCC(C)(C)S(=O)(=O)O)[*]",   "group": "-SO3H/-CONH-",            "family": "Sulfonic"},
+    "VSA":     {"smiles": "[*]CC(S(=O)(=O)O)[*]",                 "group": "-SO3H",                   "family": "Sulfonic"},
+    "TFEA":    {"smiles": "[*]CC(C(=O)OCC(F)(F)F)[*]",            "group": "-CF3",                    "family": "Fluorinated"},
+    "HEMA":    {"smiles": "[*]CC(C)(C(=O)OCCO)[*]",               "group": "-COO-/-OH",               "family": "Ester-OH"},
     "SBMA":    {"smiles": "[*]CC(C)(C(=O)OCC[N+](C)(C)CCCS(=O)(=O)[O-])[*]", "group": "Zwitterion", "family": "Zwitterionic"},
-    "MAN":     {"smiles": "[*]CC(C)(C#N)[*]",           "group": "-CN/-CH3",      "family": "Methacrylonitrile"},
-    # Round 2 신규 도입 단량체 4종 (SAR 우수 패턴 및 전기화학 비판 결함 보완)
-    "VSO":     {"smiles": "[*]CC(S(=O)C)[*]",            "group": "-S(=O)Me",      "family": "Sulfoxide"},
-    "TFEMA":   {"smiles": "[*]CC(C(=O)NCC(F)(F)F)[*]",   "group": "-CF3/-CONH-",   "family": "Fluorinated-Amide"},
-    "VPA":     {"smiles": "[*]CC(P(=O)(O)O)[*]",         "group": "-PO3H2",        "family": "Phosphonate"},
-    "ACMO":    {"smiles": "[*]CC(C(=O)N1CCOCC1)[*]",     "group": "Morpholine",    "family": "Heterocycle-Ether"},
+    "MAN":     {"smiles": "[*]CC(C)(C#N)[*]",                     "group": "-CN/-CH3",                "family": "Methacrylonitrile"},
+    "VSO":     {"smiles": "[*]CC(S(=O)C)[*]",                      "group": "-S(=O)Me",                "family": "Sulfoxide"},
+    "TFEMA":   {"smiles": "[*]CC(C(=O)NCC(F)(F)F)[*]",             "group": "-CF3/-CONH-",             "family": "Fluorinated-Amide"},
+    "VPA":     {"smiles": "[*]CC(P(=O)(O)O)[*]",                   "group": "-PO3H2",                  "family": "Phosphonate"},
+    "ACMO":    {"smiles": "[*]CC(C(=O)N1CCOCC1)[*]",               "group": "Morpholine",              "family": "Heterocycle-Ether"},
+    # Cycle 1 newly introduced monomers (4 species)
+    "VMO":     {"smiles": "[*]CC(N1CCOC1=O)[*]",                   "group": "Oxazolidinone",           "family": "Heterocycle-Carbamate"},
+    "VSO2":    {"smiles": "[*]CC(S(=O)(=O)C)[*]",                  "group": "-SO2Me",                  "family": "Sulfone"},
+    "TFMSA":   {"smiles": "[*]CC(S(=O)(=O)NCC(F)(F)F)[*]",        "group": "Fluorinated-Sulfonamide", "family": "Fluorinated-Sulfonamide"},
+    "DMVP":    {"smiles": "[*]CC(P(=O)(OC)OC)[*]",                 "group": "Phosphonate-Ester",       "family": "Phosphonate-Ester"},
+    # Cycle 2 newly introduced monomers (3 species)
+    "VIU":     {"smiles": "[*]CC(N1CCNC1=O)[*]",                   "group": "EthyleneUrea",            "family": "Heterocycle-Urea"},
+    "TauMA":   {"smiles": "[*]CC(C(=O)NCCS(=O)(=O)O)[*]",          "group": "-SO3H/-CONH-",            "family": "Sulfonic-Amide"},
+    "VSL":     {"smiles": "[*]CC(N1CCCCS1(=O)=O)[*]",              "group": "Sultam",                  "family": "Heterocycle-Sulfonamide"},
 }
 
 def connect_monomers(m_list):
-    """[*] 더미 원자를 순차 결합하여 올리고머 SMILES 생성 및 말단 H 캡핑"""
+    """Sequentially couple [*] dummy atoms to build oligomer SMILES with terminal H capping"""
     mol = Chem.MolFromSmiles(m_list[0])
-    # 첫 번째 말단 [*] 하나를 수소([H])로 치환
+    # Replace first terminal [*] with hydrogen ([H])
     dummy_idx = [a.GetIdx() for a in mol.GetAtoms() if a.GetSymbol() == '*']
     rw = Chem.RWMol(mol)
     rw.ReplaceAtom(dummy_idx[0], Chem.Atom(1))
@@ -44,7 +52,7 @@ def connect_monomers(m_list):
         dummies = [a.GetIdx() for a in combo.GetAtoms() if a.GetSymbol() == '*']
         if len(dummies) < 2:
             return None
-        # curr의 남은 [*]와 nxt의 첫 번째 [*]의 이웃 원자를 직접 연결
+        # Connect remaining [*] of current oligomer to neighbor of first [*] in next monomer
         rw_c = Chem.RWMol(combo)
         d1, d2 = dummies[0], dummies[1]
         n1 = rw_c.GetAtomWithIdx(d1).GetNeighbors()[0].GetIdx()
@@ -54,7 +62,7 @@ def connect_monomers(m_list):
             rw_c.RemoveAtom(idx)
         curr = rw_c.GetMol()
 
-    # 마지막 남은 [*] 말단을 수소로 캡핑
+    # Cap final terminal [*] with hydrogen
     rem_dummies = [a.GetIdx() for a in curr.GetAtoms() if a.GetSymbol() == '*']
     rw_final = Chem.RWMol(curr)
     for idx in rem_dummies:
@@ -63,78 +71,281 @@ def connect_monomers(m_list):
     Chem.SanitizeMol(final_mol)
     return Chem.MolToSmiles(final_mol, canonical=True)
 
+def generate_cycle1_pool(target_size=60, start_id=601):
+    """Generate Cycle 1 candidate pool across 3 strategic categories
+    (A) Exhaustive sequence isomers of top-performing combinations (24 candidates)
+    (B) Promising combinations incorporating novel heterocyclic monomers (28 candidates)
+    (C) Negative controls and falsification stress tests (8 candidates)
+    Total 60 candidates (LIB_0601 ~ LIB_0660)
+    """
+    # (A) 상위 조합의 전수 서열 이성질체 (4 sets x 6 perms = 24종)
+    base_combos = [
+        ["VPA", "MAN", "AM"],
+        ["TFEMA", "VP", "VSA"],
+        ["VSO", "TFEMA", "AM"],
+        ["VPA", "TFEMA", "AM"]
+    ]
+    cat_a = []
+    for base in base_combos:
+        for p in itertools.permutations(base):
+            cat_a.append(p)
+
+    # (C) 대조군 및 반증 스트레스 테스트 (동종 3량체 8종)
+    cat_c = [
+        ("VPA", "VPA", "VPA"),
+        ("TFEMA", "TFEMA", "TFEMA"),
+        ("VSO", "VSO", "VSO"),
+        ("MAN", "MAN", "MAN"),
+        ("AM", "AM", "AM"),
+        ("VMO", "VMO", "VMO"),
+        ("VSO2", "VSO2", "VSO2"),
+        ("TFMSA", "TFMSA", "TFMSA")
+    ]
+
+    # (B) 신규 헤테로 모노머(VMO, VSO2, TFMSA, DMVP) 기반 유망 조합 (28종)
+    cat_b = [
+        # VMO (Oxazolidinone: 고극성/HER 방지/Zn2+ 탈용매화 완화)
+        ("VMO", "MAN", "AM"),
+        ("VMO", "TFEMA", "AM"),
+        ("VMO", "VPA", "AM"),
+        ("VMO", "VP", "VSA"),
+        ("VMO", "VSO", "AM"),
+        ("VMO", "AA", "AM"),
+        ("VMO", "VSA", "AM"),
+
+        # VSO2 (Sulfone: 우수한 산화안정성 및 극성 S=O 쌍극자)
+        ("VSO2", "MAN", "AM"),
+        ("VSO2", "TFEMA", "AM"),
+        ("VSO2", "VPA", "AM"),
+        ("VSO2", "VP", "VSA"),
+        ("VSO2", "VSO", "AM"),
+        ("VSO2", "AA", "AM"),
+        ("VSO2", "VSA", "AM"),
+
+        # TFMSA (Fluorinated-Sulfonamide: 불소 소수성 + 설폰아마이드 Zn 흡착)
+        ("TFMSA", "MAN", "AM"),
+        ("TFMSA", "VP", "VSA"),
+        ("TFMSA", "VPA", "AM"),
+        ("TFMSA", "VSO", "AM"),
+        ("TFMSA", "AA", "AM"),
+        ("TFMSA", "AM", "AM"),
+        ("TFMSA", "TFEMA", "AM"),
+
+        # DMVP (Phosphonate-Ester: 적정 세기 배위 및 전극 계면 보호막 유도)
+        ("DMVP", "MAN", "AM"),
+        ("DMVP", "TFEMA", "AM"),
+        ("DMVP", "VPA", "AM"),
+        ("DMVP", "VP", "VSA"),
+        ("DMVP", "VSO", "AM"),
+        ("DMVP", "AA", "AM"),
+
+        # 신규 모노머 간 복합 시너지
+        ("VMO", "VSO2", "AM")
+    ]
+
+    all_planned = cat_a + cat_b + cat_c
+    if target_size and target_size < len(all_planned):
+        all_planned = all_planned[:target_size]
+
+    library = []
+    current_id = start_id
+
+    for combo in all_planned:
+        m_smiles = [MONOMERS[k]["smiles"] for k in combo]
+        smi = connect_monomers(m_smiles)
+        if not smi:
+            continue
+        mol = Chem.MolFromSmiles(smi)
+        mw = Descriptors.MolWt(mol)
+
+        cid = f"LIB_{current_id:04d}_{'-'.join(combo)}"
+        current_id += 1
+        families = sorted(list(set(MONOMERS[k]["family"] for k in combo)))
+        groups = sorted(list(set(MONOMERS[k]["group"] for k in combo)))
+
+        category = "A (Regioisomer)" if combo in cat_a else ("C (Stress/Control)" if combo in cat_c else "B (Hetero Synergy)")
+
+        library.append({
+            "id": cid,
+            "name": f"Oligomer({'-'.join(combo)})",
+            "category": category,
+            "backbone": " + ".join(families),
+            "functional_groups": ", ".join(groups),
+            "mol_weight": round(mw, 2),
+            "smiles": smi
+        })
+
+    return library
+
+def generate_cycle2_pool(target_size=36, start_id=661):
+    """Cycle 2 4대 카테고리 기반 탐색 풀 생성 (총 36종)
+    (A) VMO 서열 이성질체 12종 (LIB_0661 ~ LIB_0672)
+    (B) 신규 헤테로 고리 및 비입체장애 설폰산 12종 (LIB_0673 ~ LIB_0684)
+    (C) 비대칭 양친매성 Janus 8종 (LIB_0685 ~ LIB_0692)
+    (D) 반증 및 대조군 4종 (LIB_0693 ~ LIB_0696)
+    총 36종 (LIB_0661 ~ LIB_0696)
+    """
+    # Category A (VMO 서열 이성질체 12종)
+    cat_a = []
+    for base in [["VMO", "VPA", "AM"], ["VMO", "TauMA", "AM"]]:
+        for p in itertools.permutations(base):
+            cat_a.append(tuple(p))
+
+    # Category B (신규 헤테로 고리 및 비입체장애 설폰산 12종)
+    cat_b = [
+        # VIU (에틸렌유리아) 계열 (6종)
+        ("VIU", "VPA", "AM"),
+        ("VIU", "TauMA", "AM"),
+        ("VIU", "VMO", "AM"),
+        ("VIU", "VSO", "AM"),
+        ("VIU", "MAN", "AM"),
+        ("VIU", "TFEMA", "VSA"),
+        # VSL (설탐) 및 TauMA 계열 (6종)
+        ("VSL", "VMO", "AM"),
+        ("VSL", "VPA", "AM"),
+        ("VSL", "TFEMA", "AM"),
+        ("TauMA", "TFEMA", "AM"),
+        ("TauMA", "VP", "AM"),
+        ("VMO", "VSL", "AM"),
+    ]
+
+    # Category C (비대칭 양친매성 Janus 8종)
+    cat_c = [
+        ("TFEMA", "VIU", "VPA"),
+        ("TFEMA", "VIU", "TauMA"),
+        ("TFEMA", "VMO", "TauMA"),
+        ("TFEMA", "VMO", "VPA"),
+        ("TFMSA", "VIU", "AM"),
+        ("TFMSA", "VMO", "AM"),
+        ("TFEMA", "VSO", "TauMA"),
+        ("TFEMA", "VIU", "VSA"),
+    ]
+
+    # Category D (반증 및 대조군 4종)
+    cat_d = [
+        # 동종 3량체 (3종)
+        ("VIU", "VIU", "VIU"),
+        ("TauMA", "TauMA", "TauMA"),
+        ("VSL", "VSL", "VSL"),
+        # 스트레스 대조군 (1종)
+        ("HEMA", "VMO", "AM"),
+    ]
+
+    planned_with_cat = []
+    for c in cat_a:
+        planned_with_cat.append((c, "A (Regioisomer)"))
+    for c in cat_b:
+        planned_with_cat.append((c, "B (Hetero & Non-hindered Sulfonic)"))
+    for c in cat_c:
+        planned_with_cat.append((c, "C (Asymmetric Janus)"))
+    for c in cat_d:
+        planned_with_cat.append((c, "D (Control/Stress)"))
+
+    if target_size and target_size < len(planned_with_cat):
+        planned_with_cat = planned_with_cat[:target_size]
+
+    library = []
+    current_id = start_id
+
+    for combo, category in planned_with_cat:
+        m_smiles = [MONOMERS[k]["smiles"] for k in combo]
+        smi = connect_monomers(m_smiles)
+        if not smi:
+            print(f"Warning: Failed to connect monomers {combo}")
+            continue
+        mol = Chem.MolFromSmiles(smi)
+        mw = Descriptors.MolWt(mol)
+
+        cid = f"LIB_{current_id:04d}_{'-'.join(combo)}"
+        current_id += 1
+        families = sorted(list(set(MONOMERS[k]["family"] for k in combo)))
+        groups = sorted(list(set(MONOMERS[k]["group"] for k in combo)))
+
+        library.append({
+            "id": cid,
+            "name": f"Oligomer({'-'.join(combo)})",
+            "category": category,
+            "backbone": " + ".join(families),
+            "functional_groups": ", ".join(groups),
+            "mol_weight": round(mw, 2),
+            "smiles": smi
+        })
+
+    return library
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--size", type=int, default=300, help="Target number of candidates to generate")
+    parser.add_argument("--size", type=int, default=60, help="Target number of candidates to generate")
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--out", default="runs/library_pool.json")
+    parser.add_argument("--out", default="runs/next_pool.json")
+    parser.add_argument("--start_id", type=int, default=661, help="Starting ID number (e.g. 661 for LIB_0661)")
+    parser.add_argument("--cycle", type=int, default=2, help="Design cycle (1 or 2, default: 2)")
+    parser.add_argument("--random_pool", action="store_true", help="Generate random pool instead of structured pool")
     parser.add_argument("--legacy_filter", action="store_true", help="Use legacy MW <= 420 Da filter only")
     args = parser.parse_args()
 
     random.seed(args.seed)
-    keys = list(MONOMERS.keys())
-    
-    # 2량체(18^2 = 324) + 3량체(18^3 = 5832) 전체 조합 공간 = 6,156종
-    all_combos = list(product(keys, repeat=2)) + list(product(keys, repeat=3))
-    random.shuffle(all_combos)
 
-    seen_smiles = set()
-    library = []
+    if not args.random_pool:
+        if args.cycle == 2 or args.start_id >= 661:
+            library = generate_cycle2_pool(target_size=args.size, start_id=args.start_id)
+        else:
+            library = generate_cycle1_pool(target_size=args.size, start_id=args.start_id)
+    else:
+        keys = list(MONOMERS.keys())
+        all_combos = list(itertools.product(keys, repeat=2)) + list(itertools.product(keys, repeat=3))
+        random.shuffle(all_combos)
 
-    for combo in all_combos:
-        if len(library) >= args.size:
-            break
-        m_smiles = [MONOMERS[k]["smiles"] for k in combo]
-        try:
-            smi = connect_monomers(m_smiles)
-            if not smi or smi in seen_smiles:
+        seen_smiles = set()
+        library = []
+
+        for combo in all_combos:
+            if len(library) >= args.size:
+                break
+            m_smiles = [MONOMERS[k]["smiles"] for k in combo]
+            try:
+                smi = connect_monomers(m_smiles)
+                if not smi or smi in seen_smiles:
+                    continue
+                mol = Chem.MolFromSmiles(smi)
+                mw = Descriptors.MolWt(mol)
+
+                if args.legacy_filter:
+                    if mw > 420.0:
+                        continue
+                else:
+                    if not (220.0 <= mw <= 380.0):
+                        continue
+                    logp = Crippen.MolLogP(mol)
+                    if not (-0.6 <= logp <= 1.0):
+                        continue
+                    tpsa = Descriptors.TPSA(mol)
+                    if tpsa < 80.0:
+                        continue
+                    hbd = rdMolDescriptors.CalcNumHBD(mol)
+                    if hbd < 1:
+                        continue
+
+                seen_smiles.add(smi)
+                cid = f"LIB_{args.start_id + len(library):04d}_{'-'.join(combo)}"
+                families = sorted(list(set(MONOMERS[k]["family"] for k in combo)))
+                groups = sorted(list(set(MONOMERS[k]["group"] for k in combo)))
+
+                library.append({
+                    "id": cid,
+                    "name": f"Oligomer({'-'.join(combo)})",
+                    "backbone": " + ".join(families),
+                    "functional_groups": ", ".join(groups),
+                    "mol_weight": round(mw, 2),
+                    "smiles": smi
+                })
+            except Exception:
                 continue
-            mol = Chem.MolFromSmiles(smi)
-            mw = Descriptors.MolWt(mol)
-
-            if args.legacy_filter:
-                # 레거시 단순 분자량 필터 (420 Da 이하)
-                if mw > 420.0:
-                    continue
-            else:
-                # Round 1 critique & SAR QA/QC 물리화학적 윈도우 규칙 (round1_critique.md Section 6.4)
-                # 1. 분자량(MW): 220 ~ 380 g/mol (3량체 올리고머 크기 제어, 전해액 내 고확산성 보장)
-                if not (220.0 <= mw <= 380.0):
-                    continue
-                # 2. 분배계수(LogP): -0.6 <= LogP <= 1.0 (2M ZnSO4 전해액 내 염석 및 상분리 원천 차단)
-                logp = Crippen.MolLogP(mol)
-                if not (-0.6 <= logp <= 1.0):
-                    continue
-                # 3. 극성 표면적(TPSA): >= 80.0 Å² (물 분자와의 친화력 및 자유수 포집을 위한 최소 극성 표면적)
-                tpsa = Descriptors.TPSA(mol)
-                if tpsa < 80.0:
-                    continue
-                # 4. 수소결합 공여체(HBD): >= 1 (자유수 수소결합 네트워크 형성을 위한 필수 주개)
-                hbd = rdMolDescriptors.CalcNumHBD(mol)
-                if hbd < 1:
-                    continue
-
-            seen_smiles.add(smi)
-            
-            cid = f"LIB_{len(library)+1:04d}_{'-'.join(combo)}"
-            families = sorted(list(set(MONOMERS[k]["family"] for k in combo)))
-            groups = sorted(list(set(MONOMERS[k]["group"] for k in combo)))
-            
-            library.append({
-                "id": cid,
-                "name": f"Oligomer({'-'.join(combo)})",
-                "backbone": " + ".join(families),
-                "functional_groups": ", ".join(groups),
-                "mol_weight": round(mw, 2),
-                "smiles": smi
-            })
-        except Exception:
-            continue
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(library, f, indent=2)
-    print(f"Generated {len(library)} unique valid polymer oligomers in {args.out}")
+    print(f"Generated {len(library)} unique valid polymer oligomers in {args.out} (IDs: {library[0]['id']} ~ {library[-1]['id']})")
 
 if __name__ == "__main__":
     main()

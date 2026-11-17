@@ -1,0 +1,6 @@
+id,name,backbone,functional_groups,smiles,dE_hbond_eV,dE_exchange_eV,dE_ads_eV,composite_score,status
+ANCHOR_PAM_trimer,Polyacrylamide (Literature Champion),,,CC(CC(CC(N)=O)C(N)=O)C(N)=O,-0.8469,-1.1231,-1.0127,1.519,PASS
+ANCHOR_PVP_dimer,Polyvinylpyrrolidone (Literature Proven),,,CC(CC(N1CCCC1=O))N1CCCC1=O,-0.6647,-1.0937,-0.35,1.0971,PASS
+ANCHOR_PEG3,Triethylene Glycol (Moderate Baseline),,,OCCOCCOCCO,-0.854,-0.3481,-0.6524,0.8767,PASS
+ANCHOR_Betaine_monomer,Zwitterionic Betaine Analog,,,C[N+](C)(C)CC(=O)[O-],-0.6846,-2.7152,-0.067,0.2637,PASS
+ANCHOR_EG,Ethylene Glycol (Weak Baseline),,,OCCO,-0.5993,-0.3144,-0.272,-98.4356,WARN: Valid | Did not converge (fmax=0.199 eV/A) | Valid | Valid
