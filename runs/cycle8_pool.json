@@ -1,0 +1,491 @@
+[
+  {
+    "id": "LIB_3267",
+    "name": "LIB_3267_VSL-VIU-TauMA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, EthyleneUrea, -SO3H/-CONH-",
+    "mol_weight": 454.16,
+    "logp": -0.63,
+    "tpsa": 153.19,
+    "hbd": 3,
+    "smiles": "CC(CC(CCC(=O)NCCS(=O)(=O)O)N1CCNC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VIU",
+      "TauMA"
+    ]
+  },
+  {
+    "id": "LIB_3268",
+    "name": "LIB_3268_VIU-VSL-TauMA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "EthyleneUrea, Sultam, -SO3H/-CONH-",
+    "mol_weight": 454.16,
+    "logp": -0.63,
+    "tpsa": 153.19,
+    "hbd": 3,
+    "smiles": "CC(CC(CCC(=O)NCCS(=O)(=O)O)N1CCCCS1(=O)=O)N1CCNC1=O",
+    "monomers": [
+      "VIU",
+      "VSL",
+      "TauMA"
+    ]
+  },
+  {
+    "id": "LIB_3269",
+    "name": "LIB_3269_VSL-AM-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, -CONH2, -PO3H2",
+    "mol_weight": 342.1,
+    "logp": -0.14,
+    "tpsa": 138.0,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(N)=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "AM",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3270",
+    "name": "LIB_3270_VSL-TFEMA-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, -CF3/-CONH-, -PO3H2",
+    "mol_weight": 424.1,
+    "logp": 1.05,
+    "tpsa": 124.01,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)NCC(F)(F)F)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "TFEMA",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3271",
+    "name": "LIB_3271_TFEMA-VSL-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-CF3/-CONH-, Sultam, -PO3H2",
+    "mol_weight": 424.1,
+    "logp": 1.05,
+    "tpsa": 124.01,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCCCS1(=O)=O)C(=O)NCC(F)(F)F",
+    "monomers": [
+      "TFEMA",
+      "VSL",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3272",
+    "name": "LIB_3272_TFEMA-VIU-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-CF3/-CONH-, EthyleneUrea, -PO3H2",
+    "mol_weight": 375.12,
+    "logp": 0.65,
+    "tpsa": 118.97,
+    "hbd": 4,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCNC1=O)C(=O)NCC(F)(F)F",
+    "monomers": [
+      "TFEMA",
+      "VIU",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3273",
+    "name": "LIB_3273_VSL-DMA-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, -CONMe2, -PO3H2",
+    "mol_weight": 370.13,
+    "logp": 0.46,
+    "tpsa": 115.22,
+    "hbd": 2,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)N(C)C)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "DMA",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3274",
+    "name": "LIB_3274_VSL-VMO-VIU",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, Oxazolidinone, EthyleneUrea",
+    "mol_weight": 388.18,
+    "logp": 0.43,
+    "tpsa": 99.26,
+    "hbd": 1,
+    "smiles": "CC(CC(CCN1CCNC1=O)N1CCOC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VMO",
+      "VIU"
+    ]
+  },
+  {
+    "id": "LIB_3275",
+    "name": "LIB_3275_VIU-VSL-VMO",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "EthyleneUrea, Sultam, Oxazolidinone",
+    "mol_weight": 388.18,
+    "logp": 0.43,
+    "tpsa": 99.26,
+    "hbd": 1,
+    "smiles": "CC(CC(CCN1CCOC1=O)N1CCCCS1(=O)=O)N1CCNC1=O",
+    "monomers": [
+      "VIU",
+      "VSL",
+      "VMO"
+    ]
+  },
+  {
+    "id": "LIB_3276",
+    "name": "LIB_3276_VMO-VSL-VIU",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Oxazolidinone, Sultam, EthyleneUrea",
+    "mol_weight": 388.18,
+    "logp": 0.43,
+    "tpsa": 99.26,
+    "hbd": 1,
+    "smiles": "CC(CC(CCN1CCNC1=O)N1CCCCS1(=O)=O)N1CCOC1=O",
+    "monomers": [
+      "VMO",
+      "VSL",
+      "VIU"
+    ]
+  },
+  {
+    "id": "LIB_3277",
+    "name": "LIB_3277_VSL-VSO-VIU",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, -S(=O)Me, EthyleneUrea",
+    "mol_weight": 365.14,
+    "logp": 0.35,
+    "tpsa": 86.79,
+    "hbd": 1,
+    "smiles": "CC(CC(CCN1CCNC1=O)S(C)=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VSO",
+      "VIU"
+    ]
+  },
+  {
+    "id": "LIB_3278",
+    "name": "LIB_3278_VSO-VSL-VIU",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-S(=O)Me, Sultam, EthyleneUrea",
+    "mol_weight": 365.14,
+    "logp": 0.35,
+    "tpsa": 86.79,
+    "hbd": 1,
+    "smiles": "CC(CC(CCN1CCNC1=O)N1CCCCS1(=O)=O)S(C)=O",
+    "monomers": [
+      "VSO",
+      "VSL",
+      "VIU"
+    ]
+  },
+  {
+    "id": "LIB_3279",
+    "name": "LIB_3279_VSL-VSO-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, -S(=O)Me, -CONH2",
+    "mol_weight": 324.12,
+    "logp": 0.2,
+    "tpsa": 97.54,
+    "hbd": 1,
+    "smiles": "CC(CC(CCC(N)=O)S(C)=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VSO",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3280",
+    "name": "LIB_3280_VSO-VMO-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-S(=O)Me, Oxazolidinone, -CONH2",
+    "mol_weight": 276.11,
+    "logp": 0.23,
+    "tpsa": 89.7,
+    "hbd": 1,
+    "smiles": "CC(CC(CCC(N)=O)N1CCOC1=O)S(C)=O",
+    "monomers": [
+      "VSO",
+      "VMO",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3281",
+    "name": "LIB_3281_VSL-VMO-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, Oxazolidinone, -PO3H2",
+    "mol_weight": 384.11,
+    "logp": 0.58,
+    "tpsa": 124.45,
+    "hbd": 2,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCOC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VMO",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3282",
+    "name": "LIB_3282_VSO-VMO-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-S(=O)Me, Oxazolidinone, -PO3H2",
+    "mol_weight": 313.07,
+    "logp": 0.53,
+    "tpsa": 104.14,
+    "hbd": 2,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCOC1=O)S(C)=O",
+    "monomers": [
+      "VSO",
+      "VMO",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3283",
+    "name": "LIB_3283_VMO-VSO-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Oxazolidinone, -S(=O)Me, -PO3H2",
+    "mol_weight": 313.07,
+    "logp": 0.53,
+    "tpsa": 104.14,
+    "hbd": 2,
+    "smiles": "CC(CC(CCP(=O)(O)O)S(C)=O)N1CCOC1=O",
+    "monomers": [
+      "VMO",
+      "VSO",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3284",
+    "name": "LIB_3284_VSO-VIU-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-S(=O)Me, EthyleneUrea, -PO3H2",
+    "mol_weight": 312.09,
+    "logp": 0.11,
+    "tpsa": 106.94,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)N1CCNC1=O)S(C)=O",
+    "monomers": [
+      "VSO",
+      "VIU",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3285",
+    "name": "LIB_3285_VIU-VSO-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "EthyleneUrea, -S(=O)Me, -PO3H2",
+    "mol_weight": 312.09,
+    "logp": 0.11,
+    "tpsa": 106.94,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)S(C)=O)N1CCNC1=O",
+    "monomers": [
+      "VIU",
+      "VSO",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3286",
+    "name": "LIB_3286_VSO2-TFEMA-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-SO2Me, -CF3/-CONH-, -PO3H2",
+    "mol_weight": 369.06,
+    "logp": 0.67,
+    "tpsa": 120.77,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)C(=O)NCC(F)(F)F)S(C)(=O)=O",
+    "monomers": [
+      "VSO2",
+      "TFEMA",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3287",
+    "name": "LIB_3287_TFEMA-VSO2-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-CF3/-CONH-, -SO2Me, -PO3H2",
+    "mol_weight": 369.06,
+    "logp": 0.67,
+    "tpsa": 120.77,
+    "hbd": 3,
+    "smiles": "CC(CC(CCP(=O)(O)O)S(C)(=O)=O)C(=O)NCC(F)(F)F",
+    "monomers": [
+      "TFEMA",
+      "VSO2",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3288",
+    "name": "LIB_3288_VSL-VIU-VSO2-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, EthyleneUrea, -SO2Me, -CONH2",
+    "mol_weight": 452.18,
+    "logp": -0.35,
+    "tpsa": 146.95,
+    "hbd": 2,
+    "smiles": "CC(CC(CC(CCC(N)=O)S(C)(=O)=O)N1CCNC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VIU",
+      "VSO2",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3289",
+    "name": "LIB_3289_VIU-VSL-VSO2-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "EthyleneUrea, Sultam, -SO2Me, -CONH2",
+    "mol_weight": 452.18,
+    "logp": -0.35,
+    "tpsa": 146.95,
+    "hbd": 2,
+    "smiles": "CC(CC(CC(CCC(N)=O)S(C)(=O)=O)N1CCCCS1(=O)=O)N1CCNC1=O",
+    "monomers": [
+      "VIU",
+      "VSL",
+      "VSO2",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3290",
+    "name": "LIB_3290_VSL-VIU-VSO-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, EthyleneUrea, -S(=O)Me, -CONH2",
+    "mol_weight": 436.18,
+    "logp": -0.01,
+    "tpsa": 129.88,
+    "hbd": 2,
+    "smiles": "CC(CC(CC(CCC(N)=O)S(C)=O)N1CCNC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VIU",
+      "VSO",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3291",
+    "name": "LIB_3291_TFEMA-VSL-VIU-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "-CF3/-CONH-, Sultam, EthyleneUrea, -CONH2",
+    "mol_weight": 499.21,
+    "logp": 0.53,
+    "tpsa": 141.91,
+    "hbd": 3,
+    "smiles": "CC(CC(CC(CCC(N)=O)N1CCNC1=O)N1CCCCS1(=O)=O)C(=O)NCC(F)(F)F",
+    "monomers": [
+      "TFEMA",
+      "VSL",
+      "VIU",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3292",
+    "name": "LIB_3292_VSL-VMO-VIU-AM",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, Oxazolidinone, EthyleneUrea, -CONH2",
+    "mol_weight": 459.22,
+    "logp": 0.06,
+    "tpsa": 142.35,
+    "hbd": 2,
+    "smiles": "CC(CC(CC(CCC(N)=O)N1CCNC1=O)N1CCOC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VMO",
+      "VIU",
+      "AM"
+    ]
+  },
+  {
+    "id": "LIB_3293",
+    "name": "LIB_3293_VSL-VIU-DMA-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, EthyleneUrea, -CONMe2, -PO3H2",
+    "mol_weight": 482.2,
+    "logp": 0.25,
+    "tpsa": 147.56,
+    "hbd": 3,
+    "smiles": "CC(CC(CC(CCP(=O)(O)O)C(=O)N(C)C)N1CCNC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VIU",
+      "DMA",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3294",
+    "name": "LIB_3294_VIU-VSL-DMA-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "EthyleneUrea, Sultam, -CONMe2, -PO3H2",
+    "mol_weight": 482.2,
+    "logp": 0.25,
+    "tpsa": 147.56,
+    "hbd": 3,
+    "smiles": "CC(CC(CC(CCP(=O)(O)O)C(=O)N(C)C)N1CCCCS1(=O)=O)N1CCNC1=O",
+    "monomers": [
+      "VIU",
+      "VSL",
+      "DMA",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3295",
+    "name": "LIB_3295_VSL-VIU-AM-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "Sultam, EthyleneUrea, -CONH2, -PO3H2",
+    "mol_weight": 454.17,
+    "logp": -0.36,
+    "tpsa": 170.34,
+    "hbd": 4,
+    "smiles": "CC(CC(CC(CCP(=O)(O)O)C(N)=O)N1CCNC1=O)N1CCCCS1(=O)=O",
+    "monomers": [
+      "VSL",
+      "VIU",
+      "AM",
+      "VPA"
+    ]
+  },
+  {
+    "id": "LIB_3296",
+    "name": "LIB_3296_VIU-VSL-AM-VPA",
+    "backbone": "Poly(vinyl/acrylic)",
+    "functional_groups": "EthyleneUrea, Sultam, -CONH2, -PO3H2",
+    "mol_weight": 454.17,
+    "logp": -0.36,
+    "tpsa": 170.34,
+    "hbd": 4,
+    "smiles": "CC(CC(CC(CCP(=O)(O)O)C(N)=O)N1CCCCS1(=O)=O)N1CCNC1=O",
+    "monomers": [
+      "VIU",
+      "VSL",
+      "AM",
+      "VPA"
+    ]
+  }
+]

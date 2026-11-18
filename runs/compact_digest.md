@@ -1,6 +1,6 @@
 # Compact Screening Digest (Zero-Token Auto-Generated)
-- **Total Screened:** 3118 | **PASS:** 1849 (59.3%) | **WARN:** 1269
-- **Kill-Criteria Clean & Qualified:** 1092 candidates
+- **Total Screened:** 3288 | **PASS:** 1955 (59.5%) | **WARN:** 1333
+- **Kill-Criteria Clean & Qualified:** 1185 candidates
 
 ## Top-10 Qualified Clean Champions
 | Rank | ID | Score | dE_hbond | dE_ex | dE_ads | SMILES |
@@ -14,6 +14,6 @@
 | 7 | `LIB_1434_VPA-VIU-VP-VP` | **1.7697** | -0.768 | -1.181 | -1.507 | `CC(CC(CC(CCN1CCCC1=O)N1CCCC1=O)N1CCNC1=O)P(=O)(O)O` |
 | 8 | `LIB_2739_VSO-VMO-TauMA` | **1.7630** | -1.180 | -1.031 | -1.345 | `CC(CC(CCC(=O)NCCS(=O)(=O)O)N1CCOC1=O)S(C)=O` |
 | 9 | `LIB_2847_VMO-VMO-VSO2-AM` | **1.7619** | -1.064 | -1.560 | -0.801 | `CC(CC(CC(CCC(N)=O)S(C)(=O)=O)N1CCOC1=O)N1CCOC1=O` |
-| 10 | `LIB_2162_VPA-VSO-VSO-AM` | **1.7541** | -1.058 | -1.036 | -1.419 | `CC(CC(CC(CCC(N)=O)S(C)=O)S(C)=O)P(=O)(O)O` |
+| 10 | `LIB_2187_VPA-VIU-VMO-VP` | **1.7541** | -0.891 | -1.197 | -1.360 | `CC(CC(CC(CCN1CCCC1=O)N1CCOC1=O)N1CCNC1=O)P(=O)(O)O` |
 
-## Current Global Pareto Front Count: 19
+## Current Global Pareto Front Count: 20
