@@ -78,7 +78,7 @@ def generate_cycle1_pool(target_size=60, start_id=601):
     (C) Negative controls and falsification stress tests (8 candidates)
     Total 60 candidates (LIB_0601 ~ LIB_0660)
     """
-    # (A) 상위 조합의 전수 서열 이성질체 (4 sets x 6 perms = 24종)
+    # Automated pipeline step
     base_combos = [
         ["VPA", "MAN", "AM"],
         ["TFEMA", "VP", "VSA"],
@@ -90,7 +90,7 @@ def generate_cycle1_pool(target_size=60, start_id=601):
         for p in itertools.permutations(base):
             cat_a.append(p)
 
-    # (C) 대조군 및 반증 스트레스 테스트 (동종 3량체 8종)
+    # Automated pipeline step
     cat_c = [
         ("VPA", "VPA", "VPA"),
         ("TFEMA", "TFEMA", "TFEMA"),
@@ -102,9 +102,9 @@ def generate_cycle1_pool(target_size=60, start_id=601):
         ("TFMSA", "TFMSA", "TFMSA")
     ]
 
-    # (B) 신규 헤테로 모노머(VMO, VSO2, TFMSA, DMVP) 기반 유망 조합 (28종)
+    # Automated pipeline step
     cat_b = [
-        # VMO (Oxazolidinone: 고극성/HER 방지/Zn2+ 탈용매화 완화)
+        # Automated pipeline step
         ("VMO", "MAN", "AM"),
         ("VMO", "TFEMA", "AM"),
         ("VMO", "VPA", "AM"),
@@ -113,7 +113,7 @@ def generate_cycle1_pool(target_size=60, start_id=601):
         ("VMO", "AA", "AM"),
         ("VMO", "VSA", "AM"),
 
-        # VSO2 (Sulfone: 우수한 산화안정성 및 극성 S=O 쌍극자)
+        # Automated pipeline step
         ("VSO2", "MAN", "AM"),
         ("VSO2", "TFEMA", "AM"),
         ("VSO2", "VPA", "AM"),
@@ -122,7 +122,7 @@ def generate_cycle1_pool(target_size=60, start_id=601):
         ("VSO2", "AA", "AM"),
         ("VSO2", "VSA", "AM"),
 
-        # TFMSA (Fluorinated-Sulfonamide: 불소 소수성 + 설폰아마이드 Zn 흡착)
+        # Automated pipeline step
         ("TFMSA", "MAN", "AM"),
         ("TFMSA", "VP", "VSA"),
         ("TFMSA", "VPA", "AM"),
@@ -131,7 +131,7 @@ def generate_cycle1_pool(target_size=60, start_id=601):
         ("TFMSA", "AM", "AM"),
         ("TFMSA", "TFEMA", "AM"),
 
-        # DMVP (Phosphonate-Ester: 적정 세기 배위 및 전극 계면 보호막 유도)
+        # Automated pipeline step
         ("DMVP", "MAN", "AM"),
         ("DMVP", "TFEMA", "AM"),
         ("DMVP", "VPA", "AM"),
@@ -139,7 +139,7 @@ def generate_cycle1_pool(target_size=60, start_id=601):
         ("DMVP", "VSO", "AM"),
         ("DMVP", "AA", "AM"),
 
-        # 신규 모노머 간 복합 시너지
+        # Automated pipeline step
         ("VMO", "VSO2", "AM")
     ]
 
@@ -178,29 +178,29 @@ def generate_cycle1_pool(target_size=60, start_id=601):
     return library
 
 def generate_cycle2_pool(target_size=36, start_id=661):
-    """Cycle 2 4대 카테고리 기반 탐색 풀 생성 (총 36종)
-    (A) VMO 서열 이성질체 12종 (LIB_0661 ~ LIB_0672)
-    (B) 신규 헤테로 고리 및 비입체장애 설폰산 12종 (LIB_0673 ~ LIB_0684)
-    (C) 비대칭 양친매성 Janus 8종 (LIB_0685 ~ LIB_0692)
-    (D) 반증 및 대조군 4종 (LIB_0693 ~ LIB_0696)
-    총 36종 (LIB_0661 ~ LIB_0696)
+    """Generate Cycle 2 exploration pool based on 4 categories (36 candidates total)
+    (A) 12 VMO sequence isomers (LIB_0661 ~ LIB_0672)
+    (B) 12 novel heterocycles and sterically unhindered sulfonic acids (LIB_0673 ~ LIB_0684)
+    (C) 8 asymmetric amphiphilic Janus candidates (LIB_0685 ~ LIB_0692)
+    (D) 4 falsification and control candidates (LIB_0693 ~ LIB_0696)
+    Total 36 candidates (LIB_0661 ~ LIB_0696)
     """
-    # Category A (VMO 서열 이성질체 12종)
+    # Automated pipeline step
     cat_a = []
     for base in [["VMO", "VPA", "AM"], ["VMO", "TauMA", "AM"]]:
         for p in itertools.permutations(base):
             cat_a.append(tuple(p))
 
-    # Category B (신규 헤테로 고리 및 비입체장애 설폰산 12종)
+    # Automated pipeline step
     cat_b = [
-        # VIU (에틸렌유리아) 계열 (6종)
+        # Automated pipeline step
         ("VIU", "VPA", "AM"),
         ("VIU", "TauMA", "AM"),
         ("VIU", "VMO", "AM"),
         ("VIU", "VSO", "AM"),
         ("VIU", "MAN", "AM"),
         ("VIU", "TFEMA", "VSA"),
-        # VSL (설탐) 및 TauMA 계열 (6종)
+        # Automated pipeline step
         ("VSL", "VMO", "AM"),
         ("VSL", "VPA", "AM"),
         ("VSL", "TFEMA", "AM"),
@@ -209,7 +209,7 @@ def generate_cycle2_pool(target_size=36, start_id=661):
         ("VMO", "VSL", "AM"),
     ]
 
-    # Category C (비대칭 양친매성 Janus 8종)
+    # Automated pipeline step
     cat_c = [
         ("TFEMA", "VIU", "VPA"),
         ("TFEMA", "VIU", "TauMA"),
@@ -221,13 +221,13 @@ def generate_cycle2_pool(target_size=36, start_id=661):
         ("TFEMA", "VIU", "VSA"),
     ]
 
-    # Category D (반증 및 대조군 4종)
+    # Automated pipeline step
     cat_d = [
-        # 동종 3량체 (3종)
+        # Automated pipeline step
         ("VIU", "VIU", "VIU"),
         ("TauMA", "TauMA", "TauMA"),
         ("VSL", "VSL", "VSL"),
-        # 스트레스 대조군 (1종)
+        # Automated pipeline step
         ("HEMA", "VMO", "AM"),
     ]
 

@@ -58,7 +58,7 @@ def build_zn_solvation_cluster(additive: Atoms) -> Atoms:
     cluster = Atoms('Zn', positions=[[0.0, 0.0, -2.05]])
     cluster += add_copy
 
-    # 나머지 5개 배위 자리에 물 분자 배치 (팔면체 근사: -z, +x, -x, +y, -y)
+    # Automated pipeline step
     water_dirs = [
         np.array([0.0, 0.0, -1.0]),
         np.array([1.0, 0.0, 0.0]),
@@ -69,7 +69,7 @@ def build_zn_solvation_cluster(additive: Atoms) -> Atoms:
     zn_pos = np.array([0.0, 0.0, -2.05])
     for d in water_dirs:
         w = molecule('H2O')
-        # O 원자가 Zn 쪽을 향하도록 정렬 (ASE H2O의 0번 인덱스가 O)
+        # Automated pipeline step
         w.translate(-w.positions[0])
         w_com = w.get_center_of_mass()
         if np.linalg.norm(w_com) > 1e-3:
@@ -82,7 +82,7 @@ def build_zn_solvation_cluster(additive: Atoms) -> Atoms:
     return cluster
 
 def build_water_trimer_cluster(additive: Atoms) -> Atoms:
-    """Additive + 2 H2O 클러스터 조립 (질량중심 바깥 방향으로 배치하여 겹침 방지)"""
+    """Assemble Additive + 2 H2O cluster (placed outward from center of mass to prevent overlap)"""
     cluster = additive.copy()
     coord_idx = find_coordinating_atom_idx(cluster)
     target_pos = cluster.positions[coord_idx]
@@ -105,10 +105,10 @@ def build_water_trimer_cluster(additive: Atoms) -> Atoms:
     return cluster
 
 def build_zn_slab_adsorption(additive: Atoms) -> Atoms:
-    """Zn(0001) 4x4x3 슬래브 위에 첨가제 흡착 구조 조립"""
+    """Assemble additive adsorption structure on a Zn(0001) 4x4x3 slab"""
     slab = hcp0001('Zn', size=(4, 4, 3), a=2.665, c=4.947, vacuum=12.0)
     add_copy = additive.copy()
-    # 분자의 가장 낮은 z좌표를 0으로 맞춘 뒤 슬래브 위 2.3 A 높이에 배치
+    # Automated pipeline step
     add_copy.translate(-add_copy.get_center_of_mass())
     min_z = np.min(add_copy.positions[:, 2])
     add_copy.positions[:, 2] -= min_z
@@ -122,7 +122,7 @@ def build_zn_slab_adsorption(additive: Atoms) -> Atoms:
     return combined
 
 def build_references(out_dir: str):
-    """기준 에너지 계산용 참조 구조(H2O, [Zn(H2O)6]2+, Zn(0001) slab) 생성"""
+    """Generate reference structures (H2O, [Zn(H2O)6]2+, Zn(0001) slab) for baseline energy calculations"""
     ref_dir = os.path.join(out_dir, "references")
     os.makedirs(ref_dir, exist_ok=True)
     

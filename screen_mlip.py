@@ -27,15 +27,15 @@ def get_calculator():
     return MatterSimCalculator(load_path="MatterSim-v1.0.0-5M.pth", device=device)
 
 def check_physical_validity(atoms, fmax_limit=0.10):
-    """비물리적 구조 붕괴 및 원자 겹침 필터링 (Pathological minima 방지)"""
-    # 1. 최소 원자 간 거리 확인 (O-H 결합 약 0.96 A 감안하여 0.75 A 미만 시 겹침 판정)
+    """Filter non-physical structural collapse and atomic overlap (prevent pathological minima)"""
+    # Automated pipeline step
     _, dist_matrix = get_distances(atoms.positions, cell=atoms.cell, pbc=atoms.pbc)
     np.fill_diagonal(dist_matrix, 999.0)
     min_dist = float(np.min(dist_matrix))
     if min_dist < 0.75:
         return False, f"Atom overlap (min_dist={min_dist:.2f} A)"
     
-    # 2. 잔류 힘 수렴 확인
+    # Automated pipeline step
     forces = atoms.get_forces()
     max_f = float(np.max(np.linalg.norm(forces, axis=1)))
     if max_f > fmax_limit:
@@ -46,7 +46,7 @@ def check_physical_validity(atoms, fmax_limit=0.10):
 def relax_structure(filepath: str, calc, fix_bottom_layers=False, steps=120, fmax=0.05):
     atoms = read(filepath)
     if fix_bottom_layers:
-        # Zn 슬래브 하단 2개 층 고정 (z < 6.0 A)
+        # Automated pipeline step
         mask = [atom.symbol == 'Zn' and atom.position[2] < 6.0 for atom in atoms]
         atoms.set_constraint(FixAtoms(mask=mask))
         
@@ -70,7 +70,7 @@ def main():
     calc = get_calculator()
     ref_dir = os.path.join(args.struct_dir, "references")
     
-    # 1. 참조 구조(Reference) 에너지 계산 (이미 계산된 파일이 있으면 재사용)
+    # Automated pipeline step
     ref_cache = os.path.join(ref_dir, "ref_energies.json")
     if os.path.exists(ref_cache):
         with open(ref_cache, "r") as f:
@@ -102,13 +102,13 @@ def main():
             all_valid = v1 and v2 and v3 and v4
             status = "PASS" if all_valid else f"WARN: {r1} | {r2} | {r3} | {r4}"
             
-            # 3대 핵심 스크리닝 지표 계산 (eV)
+            # Automated pipeline step
             dE_hbond = e_h2o_c - e_iso - 2.0 * refs["E_H2O"]
             dE_exchange = (e_zn_c + refs["E_H2O"]) - (refs["E_Zn_H2O_6"] + e_iso)
             dE_ads = e_ads_s - refs["E_Zn_slab"] - e_iso
             
-            # 종합 스코어 (자유수 포집 + 적정 용매화 치환 + 강한 계면 우선 흡착)
-            # 참고: 너무 극단적인 결합(-4.0 eV 이하)은 탈용매화/탈착 방해 가능성으로 페널티 부여
+            # Automated pipeline step
+            # Automated pipeline step
             solv_penalty = max(0.0, abs(dE_exchange + 0.8) - 0.8) * 1.5
             score = (-0.4 * dE_hbond) + (-0.6 * dE_exchange) + (-0.5 * dE_ads) - solv_penalty
             if not all_valid:

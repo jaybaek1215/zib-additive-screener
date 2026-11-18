@@ -146,7 +146,7 @@ def run_0token_autonomous_cycle(cycle: int, user_slack_notes: str):
     journal_entry = (
         f"\n## Cycle {cycle} (0-Token Local Autonomous GPU Mode)\n"
         f"- **Hypothesis & Search Strategy:** Automated RDKit SMILES assembly and MLIP screening of asymmetric Janus oligomers incorporating core heterocyclic monomers (VMO, VIU, TauMA, VSL) — {len(pool)} candidates passed physicochemical filters and completed RTX 3050 evaluation.\n"
-        f"- **Total Screened Candidates:** {total_cnt}종\n"
+        f"- **Total Screened Candidates:** {total_cnt}\n"
         f"- **Batch Top Candidate:** `{b_id}` ({b_name}) — Composite Score: **{b_score:.4f}**\n"
         f"- **Overall All-Time Champion:** `{top_id}` ({top_name}) — Composite Score: **{new_best:.4f}**\n"
     )
@@ -162,10 +162,10 @@ def run_0token_autonomous_cycle(cycle: int, user_slack_notes: str):
                 f"# Autonomous Research Status & Breakthrough Briefing (Cycle {cycle})\n\n"
                 f"### 1. System Operational Status\n"
                 f"- LLM CLI quota temporarily exhausted; seamlessly switched to 0-Token Local Autonomous GPU Mode (RTX 3050 + RDKit + MatterSim) for continuous 3D structure generation and MLIP screening.\n"
-                f"- **Cumulative Screened:** Total **{total_cnt}종** 완료\n\n"
+                f"- **Cumulative Screened:** Total **{total_cnt}** completed\n\n"
                 f"### 2. Key Scientific Findings (Desolvation barrier & Surface Adsorption)\n"
                 f"- **Overall Champion:** `{top_id}` (**{top_name}**) — Score **{new_best:.4f}**\n"
-                f"- **Current Cycle({cycle}) 최고 후보:** `{b_id}` (**{b_name}**) — Score **{b_score:.4f}**\n"
+                f"- **Current Cycle({cycle}) Top Candidate:** `{b_id}` (**{b_name}**) — Score **{b_score:.4f}**\n"
                 f"- Exploring asymmetric Janus architectures incorporating novel heterocycles (VMO, VIU, VSL) and taurine-derived (TauMA) monomers to optimize Zn2+ desolvation kinetics and Zn(0001) surface adsorption.\n"
             )
         send_milestone_notification(report_path)
@@ -202,13 +202,13 @@ def main():
         if user_slack_notes:
             slack_injection = (
                 f"\n\n[🚨 HIGH-PRIORITY PRINCIPAL INVESTIGATOR (USER) REAL-TIME DIRECTIVE - RECEIVED VIA SLACK]:\n{user_slack_notes}\n"
-                f"위 사용자의 피드백/질문에 대한 답변 및 현재 연구 진행 현황 브리핑을 Current Cycle에 반드시 "
+                f"Ensure the response to the user's feedback/questions above and the current research progress briefing are included in the Current Cycle "
                 f"`alerts/REPORT_cycle_{cycle}_user_reply.md` to reply immediately via Slack.\n"
             )
 
         prompt = (
             f"Current autonomous research iteration: **Cycle {cycle}**. Follow all protocols in 'PI_DIRECTOR.md'. "
-            "Never read large raw CSV files directly; read only `runs/compact_digest.md`와 `runs/pi_research_journal.md`. "
+            "Never read large raw CSV files directly; read only `runs/compact_digest.md` and `runs/pi_research_journal.md`. "
             f"Delegate candidate pool generation (~30 species) and chemical pre-screening to Worker (`--model {WORKER_MODEL}`), "
             "then complete local GPU screening (`run_overnight_batch.py`) and `python auto_analyze.py`, "
             f"`runs/pi_research_journal.md`under `## Cycle {cycle}`." + slack_injection

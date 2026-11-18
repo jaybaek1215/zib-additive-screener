@@ -29,3 +29,13 @@ runs/user_feedback.md
 runs/next_pool.json
 alerts/
 STOP_RESEARCH
+
+# Ignore Korean archives and runtime logs
+_archive_ko/
+alerts/
+runs/*.md
+
+# Ignore large model weights, logs, and Python cache
+*.pth
+logs/
+__pycache__/

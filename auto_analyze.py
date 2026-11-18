@@ -8,10 +8,10 @@ def check_chem_flags(smi: str) -> str:
     if not mol:
         return "INVALID_SMILES"
     flags = []
-    # 국소 알칼리(HER) 환경에서 가수분해되는 카르복실산 에스터 결합 검출 (카바메이트 N-COO는 가수분해 내성 우수로 통과)
+    # Detect carboxylic ester bonds prone to hydrolysis in locally alkaline (HER) environments (carbamate N-COO passes due to superior hydrolytic stability)
     if mol.HasSubstructMatch(Chem.MolFromSmarts("[#6][CX3](=[OX1])[OX2][#6]")):
         flags.append("Ester(HydrolysisRisk)")
-    # 포스포네이트 에스터 P(=O)(OR) 결합 검출
+    # Detect phosphonate ester P(=O)(OR) bonds
     if mol.HasSubstructMatch(Chem.MolFromSmarts("P(=O)(O[#6])")):
         flags.append("PhosphonateEster(HydrolysisRisk)")
     logp = Descriptors.MolLogP(mol)

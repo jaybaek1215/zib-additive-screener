@@ -5,13 +5,13 @@ import json
 import urllib.request
 
 def clean_markdown_for_slack(md_text: str) -> str:
-    # Slack mrkdwn 문법에 맞게 ### 헤더를 굵은 제목으로, **를 *로 변환
+    # Automated pipeline step
     lines = []
     for line in md_text.splitlines():
         if line.startswith("|") and "---" in line:
             continue
         if line.startswith("|"):
-            # 표 행은 모바일에서 깨지지 않도록 불릿 요약으로 변환
+            # Automated pipeline step
             cells = [c.strip() for c in line.strip("|").split("|")]
             if len(cells) >= 3 and cells[0].isdigit():
                 lines.append(f"• *Rank {cells[0]}* `{cells[1]}` — Score: *{cells[2]}*")
@@ -20,7 +20,7 @@ def clean_markdown_for_slack(md_text: str) -> str:
         line = line.replace("**", "*")
         lines.append(line)
     cleaned = "\n".join(lines).strip()
-    return cleaned[:2600] + ("\n\n..._(전체 상세 내용은 WSL `alerts/` 폴더 확인)_" if len(cleaned) > 2600 else "")
+    return cleaned[:2600] + ("\n\n..._(See WSL `alerts/` directory for full details)_" if len(cleaned) > 2600 else "")
 
 def send_milestone_notification(alert_path: str):
     if not os.path.exists(alert_path):
@@ -45,7 +45,7 @@ def send_milestone_notification(alert_path: str):
                     "type": "header",
                     "text": {
                         "type": "plain_text",
-                        "text": f"🔬 ZIB 자율 연구 PI 브리핑 | {title}",
+                        "text": f"🔬 ZIB Autonomous Research PI Briefing | {title}",
                         "emoji": True
                     }
                 },
@@ -60,7 +60,7 @@ def send_milestone_notification(alert_path: str):
             ]
         }
     else:
-        payload = {"content": f"🔬 **[ZIB 자율 연구 PI 브리핑]** `{title}`\n\n{formatted_body}"}
+        payload = {"content": f"🔬 **[ZIB Autonomous Research PI Briefing]** `{title}`\n\n{formatted_body}"}
 
     req = urllib.request.Request(
         webhook_url,
